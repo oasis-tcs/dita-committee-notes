@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="size-of-edition">
+ <title>Size of the base edition</title>
+ <shortdesc>You can consider several metrics concerning the size of the base edition.</shortdesc>
+ <conbody>
+  <simpletable frame="all" relcolwidth="1.0* 1.0*" keycol="1">
+   <strow>
+    <stentry>Number of document types</stentry>
+    <stentry>4</stentry>
+   </strow>
+   <strow>
+    <stentry>Number of <ph rev="review-1">element types</ph></stentry>
+    <stentry>189</stentry>
+   </strow>
+   <strow>
+    <stentry>Number of pages of PDF version of the specification</stentry>
+    <stentry>455:<ul>
+      <li>TOC and introduction: 20</li>
+      <li>Overview, features, and examples: 158</li>
+      <li>Element definitions: 197</li>
+      <li>Appendixes: 80</li>
+     </ul></stentry>
+   </strow>
+   <!--<strow>
+    <stentry>Size of the PDF version of the specification</stentry>
+    <stentry>4,294 KB</stentry>
+   </strow>-->
+  </simpletable>
+  <!--<p>The base edition contains 183 DITA elements. However, the number of elements that are used for basic map and topic authoring is even smaller. There are 18 core map elements and about 52 core topic elements.</p>-->
+  <!--<p>A 183 elements might seem like a lot, but once you break that number into its component pieces, it is clear that the number of basic authoring elements is even smaller. Let's look at what is included in those 183 elements. The following table uses the categories by which elements are grouped in the "Language Reference" section of the DITA 1.3 specification.</p><simpletable frame="all" relcolwidth="1.0* 1.0*" keycol="1"><strow><stentry>Domain elements</stentry><stentry>39</stentry></strow><strow><stentry>Indexing</stentry><stentry>2</stentry></strow><strow><stentry>Legacy conversion elements</stentry><stentry>1</stentry></strow><strow><stentry>Metadata elements</stentry><stentry>27</stentry></strow><strow><stentry>Related links elements</stentry><stentry>5</stentry></strow><strow><stentry>Specialization elements</stentry><stentry>9</stentry></strow><strow><stentry>Subject scheme elements</stentry><stentry>19</stentry></strow><strow><stentry>Table elements</stentry><stentry>11</stentry></strow><strow><stentry>TOTAL</stentry><stentry><b>113</b></stentry></strow></simpletable><p>If subtract 113 from 183, you are left with 70 elements. We can break that down even further:</p><simpletable frame="all" relcolwidth="1.0* 1.0*" keycol="1"><strow><stentry>Map elements</stentry><stentry>18</stentry></strow><strow><stentry>Topic elements</stentry><stentry>52</stentry></strow></simpletable>-->
+ </conbody>
+</concept>

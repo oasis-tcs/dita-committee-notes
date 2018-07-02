@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-is-in-it">
+ <title>What is in it?</title>
+ <shortdesc>The base edition contains the following document types:</shortdesc>
+ <conbody>
+  <dl>
+   <dlentry rev="review-1">
+    <dt>Base topic</dt>
+    <dd>The document type that is the basic unit of authoring and reuse.</dd>
+   </dlentry>
+   <!--<dlentry><dt>Topic</dt><dd>The base topic. This is the fundamental DITA unit and the basis from which other DITA topic types are specialized.</dd></dlentry>-->
+   <dlentry rev="review-1">
+    <dt>Base map</dt>
+    <dd>The document type that organizes topics and other resources into structured collections of
+     information. It specifies hierarchy and the relationships between the resources.</dd>
+   </dlentry>
+   <!--<dlentry><dt>Map</dt><dd>The base map. This is the basis from which all other DITA map types are specialized.</dd></dlentry>-->
+   <dlentry>
+    <dt>Subject scheme</dt>
+    <dd>A specialized map that can be used to define controlled values and taxonomic subjects.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>DITAVAL</dt>
+    <dd>A document type that can be used to define conditional-processing profiles.</dd>
+   </dlentry>
+  </dl>
+ </conbody>
+</concept>

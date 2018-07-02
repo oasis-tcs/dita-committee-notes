@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="audience">
+ <title>Audience</title>
+ <shortdesc>The all-inclusive edition is designed for authors and publishers who develop and deliver
+  well-structured, modular instructional materials. It provides a framework for using a learning
+  objects approach to organize and sequence content as a learning deliverable. </shortdesc>
+ <conbody>
+  <p>Users of the all-inclusive edition might include:</p>
+  <ul>
+   <li>Instructional designers and course developers for corporate or commercial training
+    materials</li>
+   <li>Teachers in K-12 schools who need easy templates for creating lesson plans and classroom
+    materials, including quizzes and other checkpoints</li>
+   <li>College instructors who organize lectures and require easy publishing to slides and Web
+    sites</li>
+   <li>Textbook publishers who collect contributions from diverse authors and merge them into new
+    deliverables</li>
+   <li>Online course contributors who need simple authoring templates that are tightly matched to
+    specific delivery formats</li>
+  </ul>
+ </conbody>
+</concept>

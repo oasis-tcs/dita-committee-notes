@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="size-of-edition">
+ <title>Size of the technical content edition</title>
+ <shortdesc>You can consider several metrics concerning the size of the technical content
+    edition.</shortdesc>
+ <conbody>
+  <simpletable frame="all" relcolwidth="1.0* 1.0*" keycol="1"> 
+   <strow>
+    <stentry>Number of document types</stentry>
+    <stentry>17:<ul>
+            <li>Base edition: 4</li>
+            <li>Technical content edition: 13</li>
+          </ul></stentry>
+   </strow>
+   <strow>
+    <stentry>Number of <ph rev="review-1">element types</ph></stentry>
+    <stentry>440:<ul>
+            <li>Base: 189</li>
+            <li>Technical content: 251</li>
+          </ul></stentry>
+   </strow>
+    <strow>
+      <stentry>Number of pages of PDF version of the specification</stentry>
+      <stentry>867:<ul>
+            <li>TOC and introduction: 26</li>
+            <li>Overview, features, and examples: 178</li>
+            <li>Element definitions: 340</li>
+            <li>Appendixes: 323</li>
+          </ul></stentry>
+    </strow>
+    <!--<strow>
+      <stentry>Size of the PDF version of the specification</stentry>
+      <stentry>14,343 KB</stentry>
+    </strow>-->
+  </simpletable>
+ </conbody>
+</concept>

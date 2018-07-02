@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="acknowledgments" xml:lang="en-us">
+ <title>Acknowledgments</title>
+ <shortdesc>The following individuals participated in the creation of this document and are
+  gratefully acknowledged.</shortdesc>
+ <refbody>
+  <section>
+   <sl>
+    <sli>Robert Anderson, IBM</sli>
+    <sli>Don Day, Individual member</sli>
+    <sli>Kristen James Eberlein, Eberlein Consulting LLC</sli>
+    <sli rev="review-1">JoAnn Hackos, Comtech Services, Inc.</sli>
+    <sli rev="review-1">Dick Hamilton, Individual member</sli>
+    <sli>Nancy Harrison, Individual member</sli>
+    <sli>John Hunt, IBM</sli>
+    <sli>Eliot Kimber, Individual member</sli>
+    <sli rev="review-1">Tom Magliery, JustSystems Canada, Inc.</sli>
+    <sli rev="review-1">Chris Nitchie, Oberon Technologies Inc.</sli>
+    <sli>Michael Priestley, IBM</sli>
+    <sli rev="review-2">Keith Schengli-Roberts, IXIASOFT</sli>
+    <sli rev="review-1">Eric Sirois, IXIASOFT</sli>
+    <sli>Amber Swope, Individual member</sli>
+    <sli>Bob Thomas, Individual member</sli>
+   </sl>
+   <!--<p>In addition, the OASIS DITA Technical Committee also would like to recognize the following people for their insights and support:</p><sl><sli>&lt;Participant name></sli><sli>&lt;Participant name></sli></sl>-->
+  </section>
+ </refbody>
+</reference>
+

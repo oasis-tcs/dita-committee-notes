@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-can-this-edition-be-used-for">
+ <title>What can this edition be used for?</title>
+ <shortdesc>This edition can be used for out-of-the-box authoring; it also can be used to develop
+  specializations for fields other than technical <ph rev="review-1">content</ph> or learning and
+  training.</shortdesc>
+ <conbody>
+  <p>Examples of such specializations might include the following:</p>
+  <ul>
+   <li>Recipe</li>
+   <li>Product data sheet</li>
+   <li>Media topic that contains a title, metadata, an image or video, and a caption</li>
+   <li>Information about when to call a doctor</li>
+   <li rev="review-1">A topic that is designed to hold cover-page information for a basic
+    publication</li>
+   <li>Event listing for an online calendar</li>
+  </ul>
+ </conbody>
+</concept>

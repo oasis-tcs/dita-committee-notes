@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="all-inclusive-edition">
+ <title>All-inclusive edition</title>
+ <shortdesc>The all-inclusive edition of the DITA specification is the largest edition. It is
+  designed for implementers who want all OASIS-<ph rev="review-1">defined</ph> specializations, as
+  well as users who develop learning and training materials. </shortdesc>
+ <conbody>
+  <fig>
+   <image keyref="all-inclusive-image">
+    <alt>Block diagram that illustrates the components of the three editions of the DITA
+     specification, and the subset relationships between the three editions. The base edition ('part
+     1') contains the base architecture, which includes map, topic, subject scheme, and DITAVAL. The
+     technical content edition ('part 2') contains the base architecture plus the technical content
+     specializations, which include concept, task, reference, book map, glossary, classification
+     map, machine industry, and troubleshooting. The all-inclusive edition ('Part 3') contains the
+     base architecture, the technical content specializations, and the learning and training
+     specializations. Portions of this diagram that are specific to the all-inclusive edition are
+     highlighted and bold, while others are dimmed, to signify that this is the all-inclusive
+     edition of the specification. </alt>
+   </image>
+  </fig>
+ </conbody>
+</concept>

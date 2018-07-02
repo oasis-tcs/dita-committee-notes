@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Why three editions?</title>
+ <topicref href="why-three-editions.dita">
+  <topicref href="dita-user-communities.dita"/>
+  <topicref href="focus-of-dita.dita"/>
+  <topicref href="growth-of-dita.dita"/>
+  <topicref href="future-of-dita.dita"/>
+ </topicref>
+</map>

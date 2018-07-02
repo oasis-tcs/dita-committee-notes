@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="why-three-editions">
+ <title>Why are there three editions of DITA 1.3?</title>
+ <abstract><shortdesc> DITA 1.3 is distributed in three editions to better serve the needs of
+   specific user communities.</shortdesc> The user communities are those <ph rev="review-2">that are
+   interested in:</ph><ul>
+   <li><ph rev="review-1">Core</ph> DITA</li>
+   <li>Technical <ph rev="review-1">content</ph><!-- and the semantics of information typing--></li>
+   <li>Learning, training, and instructional design</li>
+  </ul></abstract>
+ <conbody>
+  <!--<p rev="review-1">We expect DITA implementations to select and use a single DITA 1.3 edition.</p>-->
+  <p>The distribution of DITA 1.3 in three editions also reflects several interconnected factors,
+   including new audiences for DITA, a new focus on topic and map as the core document types, and
+   the growth of DITA over the decade that it has been an OASIS standard. The three-edition
+   distribution also heralds changes to come in the future.</p>
+  <!--<draft-comment author="Kristen Eberlein" time="21 September"><p>Brainstorm of points to make in this section</p><ul><li>DITA has gotten bigger and more unwieldy with each release. Users have complained about the size: Pages of specification; number of elements; number of XML grammar files.</li><li>DITA has changed focus since it was first released. For many, in DITA 1.0, topic existed only to produce concept, task, and reference. Now, the DITA TC focuses on topic as the true base of its topic-oriented architecture, and affirms that there are many uses for topic (and DITA) outside of the original audience of technical communicators.</li><li>DITA has multiple user communities, and their needs are different. By issuing three editions, the DITA Technical Committee attempts to provide users with what they need – no more and no less.</li><li>The introduction of the three editions heralds changes to come in the future: Lightweight DITA and DITA 2.0. For DITA 2.0 (for which we will no longer insist on full backwards compatibility with the 1.x releases of DITA) we anticipate some architectural redesigns; removal of little used features, document types, and elements; increased modularity.</li></ul></draft-comment>-->
+ </conbody>
+</concept>

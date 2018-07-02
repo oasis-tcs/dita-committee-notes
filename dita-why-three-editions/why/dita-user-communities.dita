@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="dita-user-communities">
+ <title>New audiences for DITA</title>
+ <shortdesc>DITA has spread well beyond its origins in technical communication.</shortdesc>
+ <conbody>
+  <p>DITA is now in use in the following <ph rev="review-1">fields</ph>, among others:</p>
+  <ul>
+   <li>Entertainment</li>
+   <li>Health and wellness</li>
+   <li>Instructional design</li>
+   <li>Marketing</li>
+   <li>Medical information</li>
+   <li>Pharmaceuticals</li>
+   <li>Publishing</li>
+  </ul>
+  <!--<p>For many new audiences, the base topic and map are the most useful starting points.</p>-->
+ </conbody>
+</concept>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="revision-history">
+ <title>Revision history</title>
+ <shortdesc>The following table contains information about revisions to this document.</shortdesc>
+ <conbody>
+  <simpletable frame="all" relcolwidth="1.0* 1.75* 2.0* 3.0*">
+   <sthead>
+    <stentry>Revision</stentry>
+    <stentry>Date</stentry>
+    <stentry>Editor</stentry>
+    <stentry>Description of changes</stentry>
+   </sthead>
+   <strow>
+    <stentry>01</stentry>
+    <stentry>23 August 2015</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Created stub files for working draft.</stentry>
+   </strow>  
+   <strow>
+        <stentry>02</stentry>
+        <stentry>6 October 2015</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Generated working draft 01.</stentry>
+      </strow>
+      <strow rev="review-1">
+        <stentry>03</stentry>
+        <stentry>8, 17,  18, and 20 October 2015</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Changes made to resolve DITAweb comments. Generated working draft 02.</stentry>
+      </strow>
+    <strow rev="review-1">
+      <stentry>04</stentry>
+      <stentry>21-28 October 2015</stentry>
+      <stentry>Kristen James Eberlein</stentry>
+      <stentry>Changes made to resolve DITAweb comments. Generated working draft 03.</stentry>
+    </strow>
+      <strow rev="review-2">
+        <stentry>05</stentry>
+        <stentry>29 October 2015</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Changes made to resolve review comments and standardize use of  terminology.
+          Generated working draft 04.</stentry>
+      </strow>
+      <strow rev="review-3">
+        <stentry>06</stentry>
+        <stentry>3 November 2015</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Generated working draft 05.</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>12 November 2015</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Generated working draft 06.</stentry>
+      </strow>
+      <strow>
+        <stentry>08</stentry>
+        <stentry>05 January 2016</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Generated committee note 01 for posting on OASIS Web site.</stentry>
+      </strow>
+  </simpletable>
+ </conbody>
+</concept>

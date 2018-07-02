@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="audience">
+ <title>Audience</title>
+ <shortdesc>The base edition is designed for application developers and people who need only the
+  most fundamental pieces of the DITA framework. </shortdesc>
+ <conbody>
+  <p>Such users might include:</p>
+  <ul>
+   <li>Authors who do not need detailed information typing</li>
+   <li>Developers building light-weight <ph rev="review-1">DITA-enabled</ph> applications</li>
+   <li>DITA practitioners developing specializations that use topic as the specialization base</li>
+   <!--<li>People who want the smallest set of DITA XML grammar files</li>-->
+  </ul>
+  <p rev="review-1">Users who create technical content should consider the technical content
+   edition. Users who create learning and training materials should consider the all-inclusive
+   edition.</p>
+ </conbody>
+</concept>

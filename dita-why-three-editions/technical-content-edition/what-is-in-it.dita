@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-is-in-it">
+ <title>What is in it?</title>
+ <shortdesc>The technical content edition contains the following document types, in addition to
+    those from the base edition.</shortdesc>
+ <conbody>
+    <section>
+      <title>Topics</title>
+      <p>The technical content edition includes these technical-content topic types:</p>
+      <dl>
+        <dlentry>
+          <dt>Composite</dt>
+          <dd>The composite topic (sometimes called ditabase) can contain other topic types. In the
+            out-of-the-box OASIS distribution, it can contain topic, task, concept, <ph
+              rev="review-1">reference, troubleshooting,</ph> glossentry, and glossgroup. These
+            topics can be in any sequence.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Concept</dt>
+          <dd>A specialized topic that provides conceptual information. Conceptual information
+            provides the background knowledge that enables readers to understand why they might need
+            to perform a particular task or use a particular product. It might include extended
+            definitions or explanations.</dd>
+        </dlentry>
+        <!--<dlentry><dt>General task</dt><dd>A specialized topic that provides instructions on how to perform an action. It has a looser content model than the task topic type, and it can be useful for migrating legacy content to DITA.</dd></dlentry>-->
+        <dlentry>
+          <dt>Glossary entry</dt>
+          <dd>A specialized topic that defines a term. It also can identify the part of speech and
+            provide information about usage, acronyms, abbreviations, variant terms, synonyms, and
+            associated symbols or graphics.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Glossary group</dt>
+          <dd>A specialized topic that can contain multiple glossary entry topics.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Machine industry task</dt>
+          <dd>A specialized topic that can be used to document tasks that involve machines or
+            hardware. It can contain additional information about required personnel, safety
+            conditions, support equipment, necessary supplies, and spare parts.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Reference</dt>
+          <dd>A specialized topic that provides facts that support a task, such as <ph
+              rev="review-1">hardware specifications, required equipment, </ph>programming syntax,
+            command-line interface parameters, or other information that might need to be accessed
+            infrequently as a person performs a
+            task.<!-- Such facts are organized for quick retrieval.--></dd>
+        </dlentry>
+        <dlentry>
+          <dt>Task <ph rev="review-1">and General task</ph></dt>
+          <dd><ph rev="review-1">The (strict) task</ph> is a specialized topic that provides
+            step-by-step instruction about how to perform an action, plus brief information about
+            when, where, why, <ph rev="review-1">and by whom</ph> the action is performed.</dd>
+          <dd rev="review-1">The general task has a looser content model than the task topic type,
+            and it can be useful for migrating legacy content to DITA.</dd>
+        </dlentry>
+        <dlentry rev="review-1">
+          <dt>Topic</dt>
+          <dd>The document type that is the basic unit of authoring and reuse. In addition to the
+            domains that are included in the base topic, this document type also includes domains
+            that are useful for technical content.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Troubleshooting</dt>
+          <dd>A specialized topic that provides <ph rev="review-1">corrective action information
+              such as troubleshooting and alarm clearing</ph>.</dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section>
+      <title>Maps</title>
+      <p>The technical content edition includes these technical-content map types:</p>
+      <dl>
+        <dlentry>
+          <dt>Book map</dt>
+          <dd>A specialized map that can be used to produce book-oriented publications. Book maps
+            enable authors to organize content into front matter, prefaces, chapters, parts, back
+            matter, and more. In addition, they also include a set of metadata elements that can
+            capture information about the book.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Classification map</dt>
+          <dd>A specialized map that can be used to associate subjects defined in a subject scheme
+            map with topics referenced in a DITA map.</dd>
+        </dlentry>
+        <dlentry rev="review-1">
+          <dt>Map</dt>
+          <dd>The document type that organizes topics and other resources into structured
+            collections of information. It specifies hierarchy and the relationships between the
+            resources. In addition to the domains that are included in the base map, this document
+            type also includes domains that are useful for technical content.</dd>
+        </dlentry>
+      </dl>
+    </section>
+ </conbody>
+</concept>

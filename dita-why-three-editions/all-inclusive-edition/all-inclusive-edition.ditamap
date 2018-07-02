@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>All-inclusive edition</title>
+ <topicref href="all-inclusive-edition.dita">
+  <topicref href="what-is-in-it.dita"/>
+  <topicref href="audience.dita"/>
+  <topicref href="what-can-this-edition-be-used-for.dita"/>
+  <topicref href="size-of-edition.dita"/>
+ </topicref>
+</map>

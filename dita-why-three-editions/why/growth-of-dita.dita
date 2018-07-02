@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="growth-of-dita"> 
+  <title>Growth of DITA</title> 
+  <shortdesc>Since its first release in 2005, each subsequent release of DITA has included new
+		document and <ph rev="review-1">element types</ph>. </shortdesc> 
+  <conbody> 
+	 <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0* 1.0*" keycol="1">
+			<sthead>
+				<stentry>Metric</stentry>
+				<stentry>DITA 1.0</stentry>
+				<stentry>DITA 1.1</stentry>
+				<stentry>DITA 1.2</stentry>
+			</sthead>
+			<strow>
+				<stentry>Number of document types</stentry>
+				<stentry>6</stentry>
+				<stentry>9</stentry>
+				<stentry>23</stentry>
+			</strow>
+			<strow>
+				<stentry>Number of<ph rev="review-1"> element types</ph></stentry>
+				<stentry>193</stentry>
+				<stentry>299</stentry>
+				<stentry>535</stentry>
+			</strow>
+			<strow>
+				<stentry>Number of pages of PDF version of the specification</stentry>
+				<stentry>292</stentry>
+				<stentry>593</stentry>
+				<stentry>1,236</stentry>
+			</strow>
+		</simpletable>
+		<p rev="review-2">The growth was natural and organic, as DITA evolved to better meet the needs of
+			its users. DITA 1.1 introduced DITAVAL (a standard mechanism for defining a
+			conditional-processing profile) and the book map (a specialized map for producing
+			book-oriented publications). DITA 1.2 introduced even more document and element types,
+			including the learning and training specializations, new variants of the task topic,
+			glossary specializations, and taxonomic specializations. Between DITA <ph rev="review-3"
+				>1.0</ph> and 1.2, the number of elements more than doubled.</p> 
+	 <p rev="review-2">This increase in the number of elements scared some users, despite the fact that
+			most users never used (or even saw) the majority of the new elements. As a result, the
+			DITA Technical Committee planned to release DITA 1.3 in three editions, each optimized
+			for specific users. This improves the chances of users getting only the pieces of DITA
+			that they need—no more, no less.</p>
+		<!--<draft-comment author="Kristen Eberlein" time="22 October 2015"><p>DITAweb review comment by Don Day, 20 October 2015; edited by Kris Eberlein</p><p id="w1aaa">I took a look at revising this paragraph. What resulted may be more appropriate for an article in the new dita.xml.org site. But this is still aimed at discovering what messages this paragraph needs to convey. So this is for consideration and possible later use. </p><p id="w1aab4">The numbers in each metric increased from version to version, but what does this mean? </p><ol><li>The page count for the PDF version grew. Reducing the PDF page count by implementing a smart information redesign was a documentation priority for DITA 1.3. </li><li>The growth of elements types occurred as new specializations were added to the specification. The DITA Technical Committee has always encouraged communities to use only specializations that they need. However, not all implementers have understood this approach. The three DITA 1.3 editions are intended not only to serve different communities out-of-the-box, but also to demonstrate how DITA document-type shells can be custom configured for targeted user groups.</li><li>Users see only elements that pertain to the particular topic or map type that they use. Content developers who do not use the learning and training specialization will never see any of the X element types contributed to DITA by that specialization.</li><li>Although not represented in these tables, "knowledge of new DITA features" is of course a reasonable concern for each new version of DITA. A good example is the conceptual leap in effort to make good use of keyref and branch filtering processing as represented by the DITA 1.3 processing model. DITA features are evenly available across all three editions of the DITA 1.3 packaging. But not every application needs to use every feature. For example, in a simple knowledge capture application using the base package, a subject matter expert may never need to be trained on how to use those features. Even the concept of conref-based reuse may be masked in a conventional "copy/paste" behavior, further lowering the cognitive overhead of DITA features. </li></ol><p id="w1aab8">So the overall message is simple: if you are responsible for technical documentation in your company, the Technical Content Edition is a great starting place for customizing to your company's needs, whether replacing the software domains with hardware domains or creating new information types to augment those provided in the package. If you are an instructional designer, you may be better served by the All-Inclusive Edition. And if you are providing walk-up-and-use workstations for writers who are expected only to be content contributors, the Base Editon may be a great starting point for the level of expected complexity for either authoring or processing. </p></draft-comment>--> 
+	 <p>The following table provides <ph rev="review-2">basic</ph> metrics about the sizes of the three
+			editions.</p> 
+	 <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0* 1.0*" keycol="1"
+	  id="simpletable_448CC4577AD246FAA0E82ABA1B8AEA10"> 
+		<sthead> 
+		  <stentry>Metric</stentry> 
+		  <stentry>Base edition</stentry> 
+		  <stentry>Technical content edition</stentry> 
+		  <stentry>All-inclusive edition</stentry> 
+		</sthead> 
+		<strow> 
+		  <stentry>Number of document types</stentry> 
+		  <stentry>4</stentry> 
+		  <stentry>17</stentry> 
+		  <stentry>26</stentry> 
+		</strow> 
+		<strow>
+				<stentry>Number of<ph rev="review-1"> element types</ph></stentry> 
+		  <stentry>189</stentry> 
+		  <stentry>440</stentry> 
+		  <stentry>621</stentry> 
+		</strow> 
+		<strow> 
+		  <stentry>Number of pages of PDF version of the specification</stentry> 
+		  <stentry>455</stentry> 
+		  <stentry>867</stentry> 
+		  <stentry>1,199</stentry> 
+		</strow> 
+	 </simpletable>
+		<p rev="review-2">The subsequent chapters in this committee note provide information about
+			each edition – what it contains and the intended audience – that is designed to help
+			readers determine which edition best fits their needs. </p> 
+	 <p><ph rev="review-2">Finally, note that even</ph> though DITA 1.3 includes new document <ph
+				rev="review-2">and element types</ph>, the number of pages in the PDF version of the
+			specification has decreased slightly. This is due to improvements in the information
+			design. In addition, the DITA 1.3 specification has been made more usable by the
+			addition of more examples and code samples that illustrate DITA features and
+			mechanisms.</p> 
+  </conbody>
+</concept>

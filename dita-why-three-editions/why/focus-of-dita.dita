@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="focus-of-dita">
+ <title>The core of DITA: Topic and map</title>
+ <shortdesc><!--The focus of DITA shifted between DITA 1.1 and DITA 1.2 in a way that was not recognized by many users. -->The
+  DITA Technical Committee wants to emphasize that topic and map are the base document types in the
+  architecture.</shortdesc>
+ <conbody>
+  <p>Because DITA was originally developed within IBM as a solution for technical documentation,
+   early information about DITA stressed the importance of the concept, task, and reference
+   topics.</p>
+  <p rev="review-1">Many regarded the topic document type as nothing more than a specialization base
+   for concept, task, and reference.</p>
+  <p>While this perspective might still be valid for technical <ph rev="review-1">content</ph>,
+   times have changed. DITA now is used in many other contexts<ph rev="review-1">, and people
+    developing content for these other contexts need new specializations. For example, nurses who
+    develop evidence-based care sheets might need a topic specialization that has sections for
+    evidence, impact on current practices, and bibliographic references.</ph></p>
+  <!--<p>The DITA Technical Committee recognized this during the development of DITA 1.2. The structure of the DITA 1.2 specification and the organization of the XML grammar files reflected a division of the specification into three groupings: Base, technical content, and learning and training. Unfortunately, time and resource limitations as well as OASIS requirements prevented the DITA Technical Committee from distributing the DITA 1.2 release in three editions.</p>-->
+  <p>The structure of the three editions makes it very clear that topic and map are the base
+   document types, and that the other document types are specializations designed for specific user
+   communities – <ph rev="review-1">currently</ph> technical <ph rev="review-1">content</ph> and
+   learning and training.</p>
+ </conbody>
+</concept>

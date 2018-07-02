@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="future-of-dita">
+ <title>Future of DITA</title>
+ <shortdesc>The three editions of DITA 1.3 set the stage for future developments: Lightweight DITA
+  and DITA 2.0.</shortdesc>
+ <conbody>
+  <section>
+   <title>Lightweight DITA</title>
+   <p>In July 2014, the OASIS DITA Technical Committee formed the Lightweight DITA subcommittee,
+    chaired by Michael Priestley of IBM.</p>
+   <p>The goal of the Lightweight DITA effort is to develop a specification for a lightweight
+    architecture that will ease implementation by vendors and adoption by users. The architecture
+    will provide:</p>
+   <ul>
+    <li>Easy out-of-the box authoring for common topic types</li>
+    <li>Out-of-the-box mappings and specifications for authoring the common topic types in other
+     formats, such as HTML5 and Markdown</li>
+    <li>Easy assembly of new specializations from existing section types</li>
+    <li>Easy creation of new specializations by generating them from a topic type designed for
+     specialization creation</li>
+   </ul>
+  </section>
+  <section>
+   <title>DITA 2.0</title>
+   <p rev="review-2">While work on DITA 2.0 is in the very early stages, there is general consensus
+    among the DITA Technical Committee on the following points:</p>
+   <dl rev="review-2">
+    <dlentry>
+     <dt>Architectural redesign</dt>
+     <dd>DITA 2.0 will provide an opportunity for the DITA Technical <ph rev="review-4"
+       >Committee</ph> to revisit and redesign aspects of the architecture that are less than
+      optimal, such as chunking.</dd>
+    </dlentry>
+    <dlentry>
+     <dt>Backwards compatibility</dt>
+     <dd>DITA 2.0 will not be backwards compatible. <ph rev="review-4">Throughout</ph> the DITA 1.x
+      releases, the DITA Technical Committee has gone to great pains to ensure that <ph
+       rev="review-3">it did not</ph> add designs or features that might break existing
+      implementations. For DITA 2.0, <ph rev="review-3">the DITA Technical Committee plans</ph> to
+      relax this restriction, so that <ph rev="review-3">it</ph> can revisit some early design
+      choices and remove deprecated elements. <ph rev="review-3">The DITA Technical Committee</ph>
+      <b>will</b> minimize disruption and provide clear<ph rev="review-4">, documented</ph>
+      migration paths to ease transition to DITA 2.0.</dd>
+    </dlentry>
+    <dlentry>
+     <dt>Modularity</dt>
+     <dd><ph rev="review-3">The DITA Technical Committee plans to continue the practice of designing
+       increasingly targeted releases and editions.</ph></dd>
+    </dlentry>
+   </dl>
+  </section>
+ </conbody>
+</concept>

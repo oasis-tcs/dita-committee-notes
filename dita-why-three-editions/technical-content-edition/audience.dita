@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="audience">
+ <title>Audience</title>
+ <shortdesc>The technical content edition is designed for authors who document complex applications
+  and devices, such as software, hardware, medical devices, machinery, and more.</shortdesc>
+ <conbody>
+  <p>Such users might include:</p>
+  <ul>
+   <li>Technical communicators who use information typing and author task-oriented content</li>
+   <li>Business analysts who document procedures and the processes that they support</li>
+   <li>Anyone who needs to create a glossary</li>
+   <li>Authors who need to create book-oriented publications that include front matter and back
+    matter, chapters and appendixes, or bibliographical metadata such as copyright dates or
+    copyright holders</li>
+   <li>Organizations that need to keep detailed records of how, when, and by whom their documents
+    have been modified in order to comply with government or industry regulations.</li>
+  </ul>
+ </conbody>
+</concept>

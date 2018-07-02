@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-can-this-edition-be-used-for">
+ <title>What can this edition be used for?</title>
+ <shortdesc>This edition can be used for out-of-the-box authoring; it also can be used by DITA
+  practitioners to develop specializations for industries <ph rev="review-1">such as software,
+   hardware, manufacturing, and publishing.</ph></shortdesc>
+ <conbody>
+  <p>Examples of such content and specializations might include the following:</p>
+  <ul>
+   <li>Printed hardware or software manuals</li>
+   <li>Online or mobile help systems for medical devices</li>
+   <li>Hover help for filling out fields in an online form</li>
+   <li>Repair or troubleshooting information for technicians</li>
+   <li>Online knowledge bases hosted at manufacturer Web sites</li>
+   <li>Data sheets for technical products such as microprocessors</li>
+   <li>Phone or Web directories that contain demographic and contact information</li>
+  </ul>
+ </conbody>
+</concept>

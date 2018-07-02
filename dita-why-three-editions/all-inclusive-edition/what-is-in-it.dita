@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-is-in-it">
+ <title>What is in it?</title>
+ <shortdesc>The all-inclusive edition contains the learning and training document types, in addition
+    to those from the technical content edition.</shortdesc>
+ <conbody>
+  <section>
+   <title>Topics</title>
+   <p>The all-inclusive edition includes these learning and training topic types:</p>
+   <dl>
+        <dlentry>
+          <dt>Learning assessment</dt>
+          <dd>A specialized topic that presents assessment items to measure progress, encourage
+            retrieval, and stimulate reinforcement of the learning content. Although it includes
+            structure for objectives, duration, interaction and summary, the primary use is to <ph
+              rev="review-1">contain</ph> interactions. The <ph rev="review-1">OASIS-defined</ph>
+            interaction types are: True/False, single select, multiple select, sequencing, matching,
+            hotspot and open question (essay). When sequenced in a learning map, such material can
+            be organized into quizzes, tests or exams and presented before the content as a
+            pre-assessment or after the content as a post-assessment checkpoint or test.<note
+              rev="review-1">Any DITA topic type can be configured to include assessment items. This
+              makes it possible to include quiz items directly in a learning content topic or in a
+              prerequisite section of a task topic, for example.</note></dd>
+        </dlentry>
+        <dlentry>
+          <dt>Learning base</dt>
+          <dd>A topic that provides the set of common elements that are used in the other learning
+            topic types. This topic also provides a base for creating additional specialized topics
+            for learning content. For example, a DITA practitioner can specialize learning base to
+            create a structure for exercises.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Learning content</dt>
+          <dd>A specialized topic that provides learning content and includes structure for
+            introduction, challenge, instruction, objectives, and duration. A learning content topic
+            also can directly reuse content from other <ph rev="review-1">content</ph> (including
+            task, concept, and reference topics) that supports the objectives declared in the
+            learning overview.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Learning overview</dt>
+          <dd>A specialized topic that introduces a set of learning content and identifies the
+            learning objectives and other information that might be helpful to the learner, such as
+            prerequisites, duration, intended audience, and useful resources.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Learning plan</dt>
+          <dd>A specialized topic that describes learning needs and goals, instructional design
+            models, task analyses, learning taxonomies, and other information that might be useful
+            in the lesson planning process.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Learning summary</dt>
+          <dd>A specialized topic that recaps content and provides context, guidance, and additional
+            resources to reinforce learning and long-term memory. Specifically, it includes
+            structure for summary, objectives, review, next steps, and useful resources.</dd>
+        </dlentry>
+   </dl>
+  </section>
+  <section>
+   <title>Maps</title>
+   <p>The all-inclusive edition includes these learning and training maps:</p>
+   <dl>
+        <dlentry>
+          <dt>Learning book map</dt>
+          <dd>A specialized book map that includes specialized topic references to organize and
+            sequence learning content for book-oriented publications. It extends the book structure
+            provided in the technical-content book map to include learning metadata in the book map
+            metadata, references to learning object and learning groups, and references to learning
+            object and learning group maps. </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Learning group map</dt>
+          <dd>A specialized map that stores a discrete set of related learning objects as a separate
+            object. You can reference learning group maps from other learning group maps, learning
+            maps, or learning book maps. </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Learning object map</dt>
+          <dd>A specialized map that stores a discrete set of learning content to support learning
+            objectives as separate objects. You can reference learning object maps from learning
+            group maps, learning maps, or learning book maps. </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Learning map</dt>
+          <dd>A specialized map that includes specialized topic references to organize and sequence
+            content as learning objects and learning groups for non-book-oriented learning delivery.
+            It extends the map structure provided in the technical-content map to include learning
+            metadata in the map metadata, references to learning object and learning groups, and
+            references to learning object and learning group maps. </dd>
+        </dlentry>
+   </dl>
+  </section>
+    <section>
+      <title>Learning metadata</title>
+      <p>The all-inclusive edition also includes specialized DITA metadata that can be used to
+        specify characteristics of the learning content. This learning metadata is modeled on
+        industry standards; it is available for use in both the learning topics and learning
+        maps.</p>
+    </section>
+ </conbody>
+</concept>

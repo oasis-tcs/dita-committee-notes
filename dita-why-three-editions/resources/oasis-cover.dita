@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+ "reference.dtd">
+<reference id="Cover" xml:lang="en-us" outputclass="cover">
+  <title>Specification URIs</title>
+  <refbody>
+    <section id="this-version">
+      <title>This version</title>
+      <sl outputclass="no-indent">
+        <sli><xref keyref="this-html" outputclass="no-italics"><keyword keyref="this-html"/></xref>
+          (Authoritative)</sli>
+        <sli><xref keyref="this-pdf" outputclass="no-italics"><keyword keyref="this-pdf"
+          /></xref></sli>
+      </sl>
+    </section>
+    <section id="previous-version">
+      <title>Previous version</title>
+      <p>Not applicable.</p>
+      <!--<sl outputclass="no-indent"><sli><xref keyref="previous-html"><keyword keyref="previous-html"/></xref> (Authoritative version) </sli><sli><xref keyref="previous-pdf"><keyword keyref="previous-pdf"/></xref></sli></sl>-->
+    </section>
+    <section id="latest-version">
+      <title>Latest version</title>
+      <sl outputclass="no-indent">
+        <sli>
+          <xref keyref="latest-html" outputclass="no-italics"><keyword keyref="latest-html"/></xref>
+          (Authoritative)</sli>
+        <sli><xref keyref="latest-pdf" outputclass="no-italics"><keyword keyref="latest-pdf"
+            /></xref></sli>
+      </sl>
+    </section>
+    <section id="technical-committee">
+      <title>Technical Committee</title>
+      <p><xref href="https://www.oasis-open.org/committees/dita/" format="html" scope="external"
+          outputclass="no-italics">OASIS Darwin Information Typing Architecture (DITA) TC</xref></p>
+    </section>
+    <section id="chair">
+      <title>Chair</title>
+      <p>Kristen James Eberlein (<xref format="mailto" href="mailto:kris@eberleinconsulting.com"
+          scope="external" outputclass="no-italics">kris@eberleinconsulting.com</xref>), <xref
+          href="http://eberleinconsulting.com/" format="html" scope="external"
+          outputclass="no-italics">Eberlein Consulting LLC</xref></p>
+    </section>
+    <section id="editors">
+      <title>Editors</title>
+      <sl outputclass="no-indent">
+        <sli>Kristen James Eberlein (<xref format="mailto" href="mailto:kris@eberleinconsulting.com"
+            scope="external" outputclass="no-italics">kris@eberleinconsulting.com</xref>), <xref
+            href="http://eberleinconsulting.com/" format="html" scope="external"
+            outputclass="no-italics">Eberlein Consulting LLC</xref></sli>
+        <sli>Nancy Harrison (<xref format="mailto" href="mailto:nharrison@infobridge-solutions.com" scope="external"
+            outputclass="no-italics">nharrison@infobridge-solutions.com</xref>), Individual
+          member</sli>
+        <sli>John Hunt (<xref format="mailto" href="mailto:john_hunt@us.ibm.com" scope="external"
+            outputclass="no-italics">john_hunt@us.ibm.com</xref>), <xref href="http://www.ibm.com"
+            format="html" scope="external" outputclass="no-italics">IBM</xref></sli>
+        <!--<sli>Tom Magliery (<xref format="mailto" href="mailto:tom.magliery@justsystems.com" scope="external" outputclass="no-italics">tom.magliery@justsystems.com</xref>), <xref href="http://xmetal.com/" format="html" scope="external" outputclass="no-italics">JustSystems Canada, Inc.</xref></sli>-->
+        <sli>Amber Swope (<xref format="mailto" href="mailto:amber@ditastrategies.com"
+            scope="external" outputclass="no-italics">amber@ditastrategies.com</xref>), Individual
+          member</sli>
+      </sl>
+    </section>
+    <section id="additional-artifacts">
+      <title>Additional artifacts</title>
+      <p>This document is part of a work product that also includes:</p>
+      <ul>
+        <li>ZIP file that contains the DITA source for this document. <xref keyref="this-dita"
+            outputclass="no-italics"><keyword keyref="this-dita"/></xref></li>
+      </ul>
+    </section>
+    <section id="related-work">
+      <title>Related work</title>
+      <p> This document is related to:</p>
+      <ul>
+        <li>Darwin Information Typing Architecture (DITA) Part 0: Overview. <xref
+            keyref="latest-part-0-html" outputclass="no-italics"><keyword
+              keyref="latest-part-0-html"/></xref>.</li>
+        <li>Darwin Information Typing Architecture (DITA) Part 1: Base Edition. <xref
+            keyref="latest-part-1-html" outputclass="no-italics"><keyword
+              keyref="latest-part-1-html"/></xref>. This edition contains topic and map; it is
+          designed for implementers and users who need only the most fundamental pieces of the DITA
+          framework.</li>
+        <li> Darwin Information Typing Architecture (DITA) Part 2: Technical Content Edition. <xref
+            keyref="latest-part-2-html" outputclass="no-italics"><keyword
+              keyref="latest-part-2-html"/></xref>. This edition contains the base architecture plus
+          the technical-content specializations; it is designed for authors who use information
+          typing and document complex applications and devices.</li>
+        <li>Darwin Information Typing Architecture (DITA) Part 3: All-Inclusive Edition. <xref
+            keyref="latest-part-3-html" outputclass="no-italics"><keyword
+              keyref="latest-part-3-html"/></xref>. This edition contains the base architecture,
+          technical content, and the learning and training specializations. It is designed for
+          implementers who want all OASIS-approved specializations, as well as users who develop
+          learning and training materials.</li>
+      </ul>
+    </section>
+    <section id="abstract">
+      <title>Abstract</title>
+      <p>DITA 1.3 is distributed in three editions to better serve the needs of specific user
+        communities. The specific user communities are those <ph rev="review-3">that are interested
+          in:</ph></p>
+      <ul>
+        <li><ph rev="review-3">Core</ph> DITA</li>
+        <li>Technical <ph rev="review-1">content</ph></li>
+        <li>Learning, training, and instructional design</li>
+      </ul>
+      <p rev="review-3">This committee note explains the rationale for the three editions; it also
+        provides an overview of what each edition contains, the intended audience of each edition,
+        and metrics about each edition.</p>
+    </section>
+    <section id="status">
+      <title>Status</title>
+      <p>This document was last revised or approved by the OASIS Darwin Information Typing
+        Architecture (DITA) TC on the above date. The level of approval is also listed above. Check
+        the “Latest version” location noted above for possible later revisions of this document.</p>
+      <p>TC members should send comments on this document to the TC’s email list. Others should send
+        comments to the TC’s public comment list, after subscribing to it by following the
+        instructions at the “Send A Comment” button on the TC’s web page at <xref
+          href="https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=dita"
+          format="html" scope="external" outputclass="no-italics"/>.</p>
+    </section>
+    <section id="citation-format">
+      <title>Citation format</title>
+      <p>When referencing this note, the following citation format should be used:</p>
+      <dl>
+        <dlentry>
+          <dt>[DITA-why-three-editions]</dt>
+          <dd><cite>DITA 1.3: Why Three Editions?</cite> Version 1.0. Edited by Kristen James
+            Eberlein, Nancy Harrison, John Hunt, <!--Tom Magliery, -->and Amber Swope. <keyword
+              keyref="approval-date"/>. <keyword keyref="publication-level"/>. <xref
+              keyref="this-html" outputclass="no-italics"><keyword keyref="this-html"/></xref>.
+            Latest version: <xref keyref="latest-html" outputclass="no-italics"><keyword
+                keyref="latest-html"/></xref>.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </refbody>
+</reference>

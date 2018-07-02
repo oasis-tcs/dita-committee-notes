@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="terminology">
+ <title>Terminology</title>
+ <shortdesc>This section provides information about terminology <ph rev="review-1">and how it</ph>
+    is used in this committee note.</shortdesc>
+ <conbody>
+    <!--<draft-comment author="Kristen Eberlein" time="30 September 2015"><p>Note to editors and reviewers:</p><p>We added this topic to provide more information about specific terms <b><i>that are used</i></b> in the body of the committee note. We need to ensure that the information in this topic is not technically wrong, but it needs to be as simply explained and accessible as possible. It cannot be the sort of content that we have in the specification. Here are the relevant entries from the spec:</p><dl><dlentry><dt>document type</dt><dd>A unique set of structural modules, domain modules, and constraint modules that taken together provide the XML element and attribute declarations that define the structure of DITA documents.</dd></dlentry><dlentry><dt>specialization</dt><dd>(1) The act of defining new element or attribute types as a semantic refinement of existing element or attribute types </dd><dd>(2) An element or attribute type that is a specialization of a base type </dd><dd>(3) A process by which a generalized element is transformed into one of its more specialized element types or a generalized attribute is transformed into a more specialized attribute. </dd></dlentry></dl><p>Here are entries from the DITA FAQ at <xref href="https://www.oasis-open.org/committees/dita/faq.php" format="html" scope="external"/></p><dl><dlentry><dt>specialization</dt><dd><p>Extensibility with inheritance, which allows the creation of new types that inherit processing rules from existing types. For example, API documentation is a particular kind of reference information and requires more specific rules and descriptive markup than a generic reference type. DITA lets you define a new type and reuse the processing of the base type (providing new processing only for different requirements of the new type). As a result, topics from different domains with different markup and markup rules can be built together into one help file, Web site, or book</p></dd></dlentry><dlentry><dt>information typing</dt><dd>Identifying the type of topic, such as task, concept, reference, example, and so on. The type of the topic may determine its structure, such as a task having steps. In DITA, an XML DTD or Schema guides the writer to author information with the correct structure for the topic type.</dd></dlentry></dl></draft-comment>-->
+  <dl>
+   <dlentry>
+    <dt>document type</dt>
+        <!--<dd>An object that defines the content model and metadata for a type of DITA topic or map. It defines the elements and attributes that are permitted in the document; for DITA topics, it also controls whether topics can nest.</dd>-->
+        <!--<dd>A type of DITA topic or map. It is instantiated by a document-type shell, which defines the elements and attributes that are permitted in the document. For DITA topics, the document-type shell also controls whether topics can nest.</dd>-->
+        <!--<dd>A type of DITA topic or map that is structured to allow a specific content model and set of metadata</dd>-->
+        <dd>A type of DITA topic or map that is designed for a specific purpose.</dd>
+   </dlentry>
+   <dlentry rev="review-1">
+    <dt>domain</dt>
+    <dd>A group of <ph rev="review-2">elements (or an attribute)</ph> that can be made available in
+          a DITA topic or map type.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>information typing</dt>
+    <!--<dd>A methodology in which information is structured into different types. This methodology is often used in technical communication, where concept, task, and reference topics are frequently used.</dd>-->
+    <dd>A methodology in which information is <ph rev="review-1">organized and classified according
+      to its purpose</ph>. This methodology is central to the practice of structured authoring; It
+     is based on extensive research and experience, including Robert Horn's Information Mapping and
+     Hughes Aircraft's STOP (Sequential Thematic Organization of Proposals) technique.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>specialization</dt>
+    <dd>The process of creating a new DITA element or attribute from an existing element or
+          attribute. The new element or attribute inherits characteristics from the element or
+          attribute from which it was specialized, which reduces design work and enables the reuse
+          of existing transformations.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>XML grammar files</dt>
+    <dd>The files that define the content model and attributes for a <ph rev="review-1">DITA</ph>
+     document type.</dd>
+   </dlentry>
+  </dl>
+ </conbody>
+</concept>
