@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="revision-history">
+ <title>Revision history</title>
+ <shortdesc>The following table contains information about revisions to this document.</shortdesc>
+ <conbody>
+  <simpletable frame="all" relcolwidth="1.0* 1.75* 2.0* 3.0*">
+   <sthead>
+    <stentry>Revision</stentry>
+    <stentry>Date</stentry>
+    <stentry>Editor</stentry>
+    <stentry>Description of changes</stentry>
+   </sthead>
+   <strow>
+    <stentry>01</stentry>
+    <stentry>21 June 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Created stub files for working draft.</stentry>
+   </strow> 
+  </simpletable>
+ </conbody>
+</concept>

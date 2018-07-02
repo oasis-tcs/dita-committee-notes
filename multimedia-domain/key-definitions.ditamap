@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Key definitions for "A Multimedia Domain for DITA 1.3"</title>
+
+ <topichead>
+  <topicmeta>
+   <navtitle>Cover text and footer variables</navtitle>
+  </topicmeta>
+  <keydef keys="approval-date">
+   <topicmeta>
+    <shortdesc>This is the "approval date". It is is printed on the cover page of the committee note
+     and in the footer.</shortdesc>
+    <keywords>
+     <keyword>01 September 2018</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="file-name-prefix">
+   <topicmeta>
+    <shortdesc>This is a variable that is used to construct the file name that is printed in the
+     footer.</shortdesc>
+    <keywords>
+     <keyword>cnprd</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="publication-level">
+   <topicmeta>
+    <shortdesc>This is the level of the committee note.</shortdesc>
+    <keywords>
+     <keyword>Working Draft 01</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topichead>
+ <topichead>
+  <topicmeta>
+   <navtitle>"This version" links</navtitle>
+   <shortdesc>These key definitions are used in the "This version" links on the cover page of the
+    committee note. They need to be edited at each stage of publication. The latest OASIS metadata
+    must be in both the <xmlatt>href</xmlatt> and the link text.</shortdesc>
+  </topicmeta>
+  <keydef keys="this-html"
+   href="http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01.html" 
+   format="html" scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01.html</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="this-pdf"  
+   href="http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01.pdf"
+   format="pdf" scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01.pdf</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="this-dita"  
+   href="http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01-DITA-source.zip"
+   format="zip" scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01-DITA-source.zip</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="this-grammars"  
+   href="http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01-grammars.zip"
+   format="zip" scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01-grammars.zip</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="this-samples"  
+   href="http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01-samples.zip"
+   format="zip" scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01-samples.zip</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topichead>
+ <topichead>
+  <topicmeta>
+   <navtitle>"Previous version" links</navtitle>
+   <shortdesc>These key definitions are used in the "Previous version" links on the cover page of
+    the committee note; only HTML and PDF are displayed. Note: This section of the cover page states "N/A" until the second time a
+    committee note has been through a formal OASIS stage. The stage here is set to
+    "cnprd01".</shortdesc>
+  </topicmeta>
+  <keydef keys="previous-html"
+   href="http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01.html" scope="external"
+   format="html">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01.html</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="previous-pdf" scope="external" format="pdf"
+   href="http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01.pdf">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/cnprd01/dita-1.3-multimedia-domain-v1.0-cnprd01.pdf</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topichead>
+ <topichead>
+  <topicmeta>
+   <navtitle>"Latest version" links</navtitle>
+   <shortdesc>These are stable links that are used throughout the publication process. OASIS
+    redirects these links to the most recently published content. They do not need to have OASIS
+    metadata in the @href or link text. Do not change these key definitions as the publication cycle
+    progresses.</shortdesc>
+  </topicmeta>
+  <keydef keys="latest-html" 
+   href="http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/dita-1.3-multimedia-domain-v1.0.html"
+   format="html" scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/dita-1.3-multimedia-domain-v1.0.html</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="latest-pdf"  
+   href="http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/dita-1.3-multimedia-domain-v1.0.pdf"
+   format="pdf" scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita-1.3-multimedia-domain/v1.0/dita-1.3-multimedia-domain-v1.0.pdf</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topichead>
+ <topichead>
+  <topicmeta>
+   <navtitle>"Related work" links</navtitle>
+   <shortdesc>These links are used in the "Related work" section of the cover page. They should
+    target the most recent versions of the DITA standard. They do not change as the publication
+    cycle progresses.</shortdesc>
+  </topicmeta>
+  <keydef keys="latest-part-0-html"
+   href="http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part0-overview.html" format="html"
+   scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part0-overview.html</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="latest-part-1-html"
+   href="http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part1-base.html" format="html"
+   scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part1-base.html</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="latest-part-2-html"
+   href="http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part2-tech-content.html" format="html"
+   scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part2-tech-content.html</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="latest-part-3-html"
+   href="http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part3-all-inclusive.html" format="html"
+   scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part3-all-inclusive.html</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topichead>
+ <topichead navtitle="URIs for status section">
+  <topicmeta>
+   <navtitle>URIs for the "Status" section</navtitle>
+   <shortdesc>These links are used in the "Status" of the cover pages. They are stable and do not
+    change throughout the OASIS process.</shortdesc>
+   <!-- [KJE 23 May 2018] They are defined as keys because of a style sheet glitch that was not rendering -->
+   <!-- cross references that used direct addressing in the cover page topics.-->
+  </topicmeta>
+  <keydef keys="dita-tc-homepage" format="html" scope="external"
+   href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita#technical"/>
+  <keydef keys="dita-comment" format="html" scope="external"
+   href="https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=dita"/>
+ </topichead>
+</map>

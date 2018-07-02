@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="acknowledgments" xml:lang="en-us">
+ <title>Acknowledgments</title>
+ <shortdesc>The following individuals participated in the creation of this document and are
+  gratefully acknowledged.</shortdesc>
+ <refbody>
+  <section>
+   <sl>
+    <sli>Kristen James Eberlein, Eberlein Consulting LLC</sli>
+    <sli>Carlos Evia, Virginia Tech</sli>
+    <sli>Eliot Kimber, Individual member</sli>
+    <sli>Chris Nitchie, Oberon Technologies</sli>
+   </sl>
+   <!--<p>In addition, the OASIS DITA Technical Committee also would like to recognize the following people for their insights and support:</p><sl><sli>&lt;Participant name></sli><sli>&lt;Participant name></sli></sl>-->
+  </section>
+ </refbody>
+</reference>
+

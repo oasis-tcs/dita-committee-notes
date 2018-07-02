@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="non-normative-references" xml:lang="en-us">
+    <title>References (non-normative)</title>
+    <shortdesc>The following are references to external documents or resources that readers of this
+        document might find useful.</shortdesc>
+    <conbody>
+        <draft-comment author="Kristen J Eberlein">
+            <p>Remove this topic if there are no non-normative references. The following citation is
+                to show markup and style for referencing an OASIS standard.</p>
+        </draft-comment>
+        <dl>
+            <dlentry>
+                <dt>[OpenDoc-1.2]</dt>
+                <dd><cite>Open Document Format for Office Applications (OpenDocument) Version
+                        1.2</cite>. Edited by Patrick Durusau and Michael Brauer. 19 January 2011.
+                    OASIS Committee Specification Draft 07. <xref
+                        href="http://docs.oasis-open.org/office/v1.2/csd07/OpenDocument-v1.2-csd07.html"
+                        format="html" scope="external"
+                        >http://docs.oasis-open.org/office/v1.2/csd07/OpenDocument-v1.2-csd07.html</xref>.
+                    Latest version: <xref
+                        href="http://docs.oasis-open.org/office/v1.2/OpenDocument-v1.2.html"
+                        format="html" scope="external"
+                        >http://docs.oasis-open.org/office/v1.2/OpenDocument-v1.2.html</xref>.</dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>
