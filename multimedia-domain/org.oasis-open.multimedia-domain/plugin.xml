@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="org.oasis-open.xdita.v0_2_2" version="1.0">
+<title>DITA 1.3 multimedia domain</title>
+
+<!-- Include support name and email -->
+<feature extension="package.support.name" value="OASIS DITA Technical Committee"/>
+<feature extension="package.support.email" value="dita-chair@lists.oasis-open.org"/>
+
+<!-- Provide a version (default is 1.0 if not specified) -->
+<feature extension="package.version" value="1.0"/>
+
+<!-- This references a catalog using the OASIS catalog format, to define
+public IDs and system IDs for any DTD modules included in this plugin. -->
+<feature extension="dita.specialization.catalog.relative" value="catalog.xml" type="file"/>
+
+</plugin>
