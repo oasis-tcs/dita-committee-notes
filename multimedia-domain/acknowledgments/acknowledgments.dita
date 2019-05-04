@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="acknowledgments">
+    <title>Acknowledgments</title>
+    <shortdesc>The following individuals participated in the creation of this document and are
+        gratefully acknowledged.</shortdesc>
+    <body>
+        <sl>
+            <sli>Robert Anderson, IBM</sli>
+            <sli>Kristen James Eberlein, Eberlein Consulting LLC</sli>
+            <sli>Chris Nitchie, Oberon Technologies</sli>
+        </sl>
+        <p>In addition, the &lt;name of OASIS TC> also would like to recognize the following people
+            for their insights and support:</p>
+        <sl>
+            <sli>&lt;Name></sli>
+            <sli>&lt;Name></sli>
+        </sl>
+    </body>
+</topic>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle outputclass="specificationTitle">DITA 1.3 Multimedia Domain</mainbooktitle>
+        <booktitlealt outputclass="specificationSubtitle1"><keyword keyref="stage"/></booktitlealt>
+        <booktitlealt outputclass="specificationApproved"><keyword keyref="stage-date"
+            /></booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <shortdesc>DITA 1.3 Multimedia Domain</shortdesc>
+        <author>OASIS DITA Technical Committee</author>
+        <keywords>
+            <keyword>DITA 1.3</keyword>
+            <keyword>multimedia domain</keyword>
+            <keyword/>
+        </keywords>
+        <bookrights>
+            <!--KJE: The year of publication is used in the copyright statement in the PDF footer.-->
+            <copyrfirst>
+                <year>2019</year>
+            </copyrfirst>
+            <bookowner>
+                <organization>OASIS</organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <mapref href="resources/key-definitions.ditamap" format="ditamap"
+            processing-role="resource-only"/>
+        <mapref href="resources/subjectScheme.ditamap" format="ditamap"
+            processing-role="resource-only"/>
+        <notices>
+            <topicref href="frontmatter/cover-page-information.dita" toc="no" linking="none"/>
+            <topicref href="frontmatter/notices.dita" toc="no" linking="none"/>
+        </notices>
+    </frontmatter>
+    <chapter href="introduction/introduction.ditamap" format="ditamap"/>
+    <appendix href="acknowledgments/acknowledgments.dita"/>
+    <appendix href="revision-history/revision-history.dita"/>
+</bookmap>
