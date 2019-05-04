@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================= -->
+<!--                    HEADER                                     -->
+<!-- ============================================================= -->
+<!--  MODULE:    DITA Multimedia Domain                            -->
+<!--  VERSION:   1.0                                               -->
+<!--  DATE:      August 2017                                       -->
+<!--                                                               -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                    TYPICAL INVOCATION                         -->
+<!--                                                               -->
+<!--  Refer to this file by the following public identifier or an 
+      appropriate system identifier 
+      PUBLIC "-//OASIS//ENTITIES DITA Media Domain//EN"
+      Delivered as file "mediaDomain.ent"                          -->
+
+<!-- ============================================================= -->
+<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
+<!--                                                               -->
+<!-- PURPOSE:    Declaring the substitution context and domain     -->
+<!--             entity declarations for the multimedia domain     -->
+<!--                                                               -->
+<!-- ORIGINAL CREATION DATE:                                       -->
+<!--             August 2017                                       -->
+<!--                                                               -->
+<!--             (C) Copyright OASIS Open 2017, 2019               -->
+<!--             All Rights Reserved.                              -->
+<!--                                                               -->
+<!--  UPDATES:                                                     -->
+<!--    17 Aug 2017  CN: Original creation                         -->
+<!--    04 May 2019 KJE: Updated headers                           -->
+<!--                                                               -->
+<!-- ============================================================= -->
+<!-- ============================================================= -->
+<!--                    ELEMENT EXTENSION ENTITY DECLARATIONS      -->
+<!-- ============================================================= -->
+
+<!ENTITY % media-d-object "audio | video">
+
+<!-- ============================================================= -->
+<!--                    DOMAIN ENTITY DECLARATION                  -->
+<!-- ============================================================= -->
+
+<!ENTITY media-d-att
+    "(topic media-d)"
+>
+<!-- ================= End Multimedia Domain Entities ============ -->
