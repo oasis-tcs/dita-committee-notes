@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="cover-page-information" outputclass="cover" xml:lang="en-us">
+    <title>Cover page information</title>
+    <body>
+        <section id="this-version">
+            <title>This version</title>
+            <sl>
+                <sli><xref keyref="this-html"/> (Authoritative)</sli>
+                <sli><xref keyref="this-pdf"/></sli>
+            </sl>
+        </section>
+        <section id="previous-version">
+            <title>Previous version</title>
+            <p>Not applicable.</p>
+            <!--Uncomment and use the following markup for subsequent stages of the committee note.-->
+            <!--<sl><sli><xref keyref="previous-html"/> (Authoritative version) </sli><sli><xref keyref="previous-pdf"/></sli></sl>-->
+        </section>
+        <section id="latest-version">
+            <title>Latest version</title>
+            <sl>
+                <sli>
+                    <xref keyref="latest-html"/> (Authoritative)</sli>
+                <sli><xref keyref="latest-pdf"/></sli>
+            </sl>
+        </section>
+        <section id="technical-committee">
+            <title>Technical Committee</title>
+            <p><xref href="https://www.oasis-open.org/committees/dita/" format="html"
+                    scope="external">OASIS Darwin Information Typing
+                    Architecture (DITA) TC</xref></p>
+        </section>
+        <section id="chair">
+            <title>Chair</title>
+            <p>Kristen James Eberlein (<xref format="mailto"
+                    href="mailto:kris@eberleinconsulting.com" scope="external"
+                   >kris@eberleinconsulting.com</xref>), <xref
+                    href="http://eberleinconsulting.com/" format="html" scope="external"
+                   >Eberlein Consulting LLC</xref></p>
+        </section>
+        <section id="editors">
+            <title>Editors</title>
+            <sl>
+                <sli/>
+                <!--<sli>Kristen James Eberlein (<xref format="mailto" href="mailto:kris@eberleinconsulting.com" scope="external">kris@eberleinconsulting.com</xref>), <xref href="http://eberleinconsulting.com/" format="html" scope="external">Eberlein Consulting LLC</xref></sli>-->
+            </sl>
+        </section>
+        <section id="additional-artifacts">
+            <title>Additional artifacts</title>
+            <p>This document is part of a work product that also includes:</p>
+            <ul>
+                <li>ZIP file that contains the DITA source for this document. <xref
+                        keyref="this-dita"/></li>
+                <li>ZIP file that contains the grammar files for the multimedia domain. <xref
+                        keyref="this-grammars"/></li>
+            </ul>
+        </section>
+        <section id="related-work">
+            <title>Related work</title>
+            <p> This document is related to:</p>
+            <ul>
+                <li><cite>Darwin Information Typing Architecture (DITA) Version 1.3 Errata
+                    02</cite>. OASIS Approved Errata.<xref keyref="latest-errata-html"/></li>
+                <li><cite>Darwin Information Typing Architecture (DITA) Version 1.3. Part 0:
+                        Overview Plus Errata 02</cite>. OASIS Standard incorporating Approved
+                    Errata. <xref keyref="latest-part-0-html"/>.</li>
+                <li><cite>Darwin Information Typing Architecture (DITA) Part 1: Base Edition Plus
+                        Errata 02</cite>. OASIS Standard incorporating Approved Errata. <xref
+                        keyref="latest-part-1-html"/>. This edition contains topic and map; it is
+                    designed for implementers and users who need only the most fundamental pieces of
+                    the DITA framework.</li>
+                <li><cite>Darwin Information Typing Architecture (DITA) Part 2: Technical Content
+                        Edition Plus Errata 02</cite>. OASIS Standard incorporating Approved Errata.
+                        <xref keyref="latest-part-2-html"/>. This edition contains the base
+                    architecture plus the technical-content specializations; it is designed for
+                    authors who use information typing and document complex applications and
+                    devices.</li>
+                <li><cite>Darwin Information Typing Architecture (DITA) Part 3: All-Inclusive
+                        Edition Plus Errata 02</cite>. OASIS Standard incorporating Approved Errata.
+                        <xref keyref="latest-part-3-html"/>. This edition contains the base
+                    architecture, technical content, and the learning and training specializations.
+                    It is designed for implementers who want all OASIS-approved specializations, as
+                    well as users who develop learning and training materials.</li>
+            </ul>
+        </section>
+        <section id="abstract">
+            <title>Abstract</title>
+            <p>This document outlines the design for a new multimedia domain. It provides the
+                necessary grammar files and instructions for integrating the domain into a DITA
+                implementation.</p>
+        </section>
+        <section id="status">
+            <title>Status</title>
+            <p>This document was last revised or approved by the OASIS Darwin Information Typing
+                Architecture (DITA) TC on the above date. The level of approval is also listed
+                above. Check the “Latest version” location noted above for possible later revisions
+                of this document.</p>
+            <p>TC members should send comments on this document to the TC’s email list. Others
+                should send comments to the TC’s public comment list, after subscribing to it by
+                following the instructions at the “Send A Comment” button on the TC’s web page at
+                    <xref keyref="tc-comment"/>.</p>
+        </section>
+        <section id="citation-format">
+            <title>Citation format</title>
+            <p>When referencing this note, the following citation format should be used:</p>
+            <dl>
+                <dlentry>
+                    <dt>[Multimedia-Domain-v1.0]</dt>
+                    <dd><cite>DITA 1.3 Multimedia Domain</cite> Version &lt;1.0>. Edited by &lt;list
+                        editors in alphabetical order>. <keyword keyref="stage-date"/>. <keyword
+                            keyref="stage"/>. <xref keyref="this-html"/>. Latest version: <xref
+                            keyref="latest-html"/>.</dd>
+                </dlentry>
+            </dl>
+        </section>
+    </body>
+</topic>
