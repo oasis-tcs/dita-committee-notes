@@ -4,13 +4,8 @@
  <booktitle outputclass="specificationTitles">
   <mainbooktitle outputclass="specificationTitle">DITA 1.3: Why Three Editions? Version
    1.0</mainbooktitle>
-  <booktitlealt outputclass="specificationSubtitle1"><keyword keyref="publication-level"
-   /></booktitlealt>
-  <booktitlealt outputclass="specificationLevel">1</booktitlealt>
-  <booktitlealt outputclass="specificationPrefix"><keyword keyref="file-name-prefix"
-   /></booktitlealt>
-  <booktitlealt outputclass="specificationApproved"><keyword keyref="approval-date"/></booktitlealt>
-  <booktitlealt outputclass="specificationScope">why-three-editions</booktitlealt>
+  <booktitlealt outputclass="documentStage"><keyword keyref="publication-level"/></booktitlealt>
+  <booktitlealt outputclass="stageDate"><keyword keyref="approval-date"/></booktitlealt>
  </booktitle>
  <bookmeta>
   <shortdesc>DITA 1.3: Why Three Editions?</shortdesc>
