@@ -2,7 +2,34 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="introduction">
     <title>Introduction</title>
+    <shortdesc>Overview of this guide.</shortdesc>
     <body>
-        <p></p>
+        <p>Welcome to the fun world of migrating to DITA 2.0!</p>
+        <p>Still the same DITA you know and love, but now new and improved! </p>
+        <p>You want to take advantage of all these great new features, however DITA 2.0 is the first
+            release that is not backwards compatible. You will need to migrate your existing source
+            to be valid with the DITA 2.0 schema.</p>
+        <draft-comment author="Zoe">Should this be divided by spec type? base vs technical content?
+            or do we have one pass for all the things, with stuff broken out by
+            spec?</draft-comment>
+        <p>This document is divided into sections:</p>
+        <dl>
+            <dlentry>
+                <dt>Migrating your DITA source</dt>
+                <dd/>
+            </dlentry>
+            <dlentry>
+                <dt>Migrating your DITA transforms</dt>
+                <dd/>
+            </dlentry>
+            <dlentry>
+                <dt>Migrating your DITA specializations and constraints</dt>
+                <dd/>
+            </dlentry>
+            <dlentry>
+                <dt>Migrating DITA tools</dt>
+                <dd/>
+            </dlentry>
+        </dl>
     </body>
 </topic>
