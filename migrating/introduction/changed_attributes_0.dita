@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="changed_attributes_0">
+    <title>Changed attributes</title>
+    <shortdesc></shortdesc>
+    <refbody>
+        <section>
+            <title><xmlatt>outputclass</xmlatt> is universal, including ditavals</title>
+            <p/>
+        </section>
+        <section>
+            <title><xmlatt>audience</xmlatt>, <xmlatt>platform</xmlatt>, <xmlatt>product</xmlatt>,
+                and <xmlatt>otherprops</xmlatt> are specialized from <xmlatt>props</xmlatt></title>
+            <p/>
+        </section>
+        <section>
+            <title><xmlatt>chunk</xmlatt></title>
+            <p/>
+        </section>
+    </refbody>
+</reference>

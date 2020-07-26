@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="features_removed_from_dita_2_0">
+    <title>Features removed from DITA 2.0</title>
+    <shortdesc></shortdesc>
+    <refbody>
+        <section>
+            <title><xmlelement>topicset</xmlelement> and <xmlelement>topicsetref</xmlelement> are
+                removed</title>
+            <p/>
+        </section>
+        <section>
+            <title>Removed deprecated features of previous versions of DITA</title>
+            <ul>
+                <li><xmlelement>boolean</xmlelement></li>
+                <li><xmlelement>indextermref</xmlelement></li>
+                <li><xmlatt>alt</xmlatt> and <xmlatt>longdescref</xmlatt> on
+                        <xmlelement>image</xmlelement></li>
+                <li><xmlatt>collection-type</xmlatt>="tree" from <xmlelement>linkpool</xmlelement>
+                    and <xmlelement>linklist</xmlelement></li>
+                <li><xmlatt>collection-type</xmlatt> from <xmlelement>reltable</xmlelement> and
+                        <xmlelement>relcolspec</xmlelement></li>
+                <li><xmlatt>keyref</xmlatt> on <xmlelement>navref</xmlelement></li>
+                <li><xmlatt>locktitle</xmlatt> on <xmlelement>topichead</xmlelement> and
+                        <xmlelement>topicgroup</xmlelement></li>
+                <li><xmlatt>navtitle</xmlatt></li>
+                <li><xmlatt>print</xmlatt></li>
+                <li><xmlatt>query</xmlatt></li>
+                <li><xmlatt>refcols</xmlatt></li>
+                <li><xmlatt>role</xmlatt>="sample" and <xmlatt>role</xmlatt>="external"</li>
+                <li><xmlatt>title</xmlatt> on <xmlelement>map</xmlelement></li>
+                <li><xmlatt>type</xmlatt>="internal" and <xmlatt>type</xmlatt>="external" on
+                        <xmlelement>lq</xmlelement></li>
+                <li><xmlatt>xtrf</xmlatt> and <xmlatt>xtrc</xmlatt></li>
+                <li>Delay conref domain</li>
+                <li><xmlatt>domains</xmlatt></li>
+                <li>indexing domain, <xmlelement>index-base</xmlelement>,
+                        <xmlelement>index-sort-as</xmlelement></li>
+                <li><xmlatt>lockmeta</xmlatt></li>
+                <li>Machinery task domain</li>
+                <li><xmlelement>substeps</xmlelement> and <xmlelement>substep</xmlelement></li>
+            </ul>
+        </section>
+    </refbody>
+</reference>

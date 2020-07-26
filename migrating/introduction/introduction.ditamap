@@ -3,7 +3,15 @@
 <map>
     <title>Introduction</title>
     <topicref href="introduction.dita">
-        <topicref href="what_s_new_in_dita_2_0.dita"/>
+        <topicref href="what_s_new_in_dita_2_0.dita">
+            <topicref href="new_domains.dita"/>
+            <topicref href="new_elements.dita"/>
+            <topicref href="new_attributes.dita"/>
+            <topicref href="changed_domains.dita"/>
+            <topicref href="changed_elements_0.dita"/>
+            <topicref href="changed_attributes_0.dita"/>
+            <topicref href="features_removed_from_dita_2_0.dita"/>
+        </topicref>
         <topicref href="how_to_use_this_guide.dita"/>
         <topicref href="planning_your_migration.dita"/>
     </topicref>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="changed_elements_0">
+    <title>Changed elements</title>
+    <shortdesc></shortdesc>
+    <refbody>
+        <section>
+            <title><xmlelement>shortdesc</xmlelement>, <xmlelement>linktext</xmlelement>, and
+                    <xmlelement>searchtitle</xmlelement> are now declared the same for maps and
+                topics</title>
+            <p/>
+        </section>
+        <section>
+            <title><xmlelement>hazardstatement</xmlelement> redesigned</title>
+            <p/>
+        </section>
+        <section>
+            <title>indexing</title>
+            <ul>
+                <li>Remove the indexing domain, and add &lt;index-see> and &lt;index-see-also> to
+                    the base</li>
+                <li>Remove &lt;index-base></li>
+                <li>Remove &lt;index-sort-as></li>
+            </ul>
+        </section>
+        <section>
+            <title><xmlelement>imagemap</xmlelement></title>
+            <p/>
+        </section>
+        <section>
+            <title><xmlelement>simpletable</xmlelement> updates</title>
+            <p>Add @colspan, @rowspan, @headers, @scope, and &lt;title></p>
+        </section>
+        <section>
+            <title><xmlelement>example</xmlelement> in more places</title>
+            <p/>
+        </section>
+        <section>
+            <title>changes to <xmlelement>bookmap</xmlelement></title>
+            <ul>
+                <li>Modify the content model of <xmlelement>bookmap</xmlelement> to allow zero or
+                    more <xmlelement>ditavalref</xmlelement> elements after
+                        <xmlelement>bookmeta</xmlelement></li>
+                <li>Add a <xmlelement>mapresources</xmlelement> element to the map group domain. The
+                        <xmlelement>mapresources</xmlelement> element will:<ul>
+                        <li>Be specialized from <xmlelement>topicref</xmlelement></li>
+                        <li>Have a content model of:<ul>
+                                <li>Zero or one <xmlelement>topicmeta</xmlelement> elements</li>
+                                <li>Zero or more
+                                        <parameterentity>data.elements.incl</parameterentity>
+                                    elements</li>
+                                <li>Zero or more <xmlelement>topicref</xmlelement> elements</li>
+                            </ul></li>
+                        <li>Have the following attributes: <xmlatt>href</xmlatt>,
+                                <xmlatt>keys</xmlatt>, <xmlatt>keyref</xmlatt>,
+                                <xmlatt>keyscope</xmlatt>, <xmlatt>processing-role</xmlatt>,
+                                <xmlatt>type</xmlatt>, <xmlatt>cascade</xmlatt>,
+                                <xmlatt>scope</xmlatt>, <xmlatt>format</xmlatt>,
+                                <xmlatt>linking</xmlatt>, <xmlatt>toc</xmlatt>,
+                                <xmlatt>search</xmlatt>, and
+                                <parameterentity>univ-atts</parameterentity> attributes</li>
+                        <li>The attributes should have the same values as the corresponding
+                            attributes in <xmlelement>keydef</xmlelement>, with the following
+                            exception: the <xmlatt>keys</xmlatt> attribute is not required.</li>
+                    </ul></li>
+                <li>Modify the content model of <xmlelement>bookmap</xmlelement> to allow zero or
+                    more <xmlelement>mapresources</xmlelement> elements after
+                        <xmlelement>ditavalref</xmlelement></li>
+                <li>Modify the content model of <xmlelement>booklists</xmlelement> to allow zero or
+                    more <xmlelement>amendments</xmlelement></li>
+            </ul>
+        </section>
+        <section>
+            <title>Add <xmlelement>sub</xmlelement> and <xmlelement>sup</xmlelement> to glossary
+                elements</title>
+            <p/>
+        </section>
+        <section>
+            <title>Ability to nest steps</title>
+            <p/>
+        </section>
+    </refbody>
+</reference>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="new_elements">
+    <title>New elements</title>
+    <shortdesc></shortdesc>
+    <refbody>
+        <section>
+            <title><xmlelement>include</xmlelement></title>
+            <p/>
+        </section>
+        <section>
+            <title><xmlelement>strong</xmlelement> and <xmlelement>em</xmlelement></title>
+            <p/>
+        </section>
+    </refbody>
+</reference>
