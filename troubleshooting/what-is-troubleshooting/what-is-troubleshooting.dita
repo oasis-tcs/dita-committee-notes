@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="what_is_troubleshooting">
+    <title>What is troubleshooting?</title>
+  <shortdesc>Troubleshooting information provides corrective actions for
+    changing the state of a product or a system to a state that is more
+    desirable.</shortdesc>
+    <body>
+        <p>Troubleshooting information can be brief, consisting of just a
+      few sentences. Brief troubleshooting information is embedded within
+      tasks or descriptions. Alternatively, troubleshooting information
+      might be extensive. In these cases, the information warrants an
+      entire topic.</p>
+    </body>
+</topic>

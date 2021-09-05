@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="dita-troubleshooting-features">
+    <title>DITA troubleshooting features</title>
+    <shortdesc>DITA includes support for a troubleshooting note, troubleshooting-specific elements
+        in the task topic, and a specialized troubleshooting topic.</shortdesc>
+</topic>

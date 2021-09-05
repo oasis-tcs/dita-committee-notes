@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="types_of_troubleshooting_information">
+    <title>Types of DITA  troubleshooting information</title>
+    <shortdesc>This committee note covers the following types of DITA
+    troubleshooting information.</shortdesc>
+    <body>
+        <dl>
+      <dlentry>
+        <dt>Embedded troubleshooting information</dt>
+        <dd>Embedded troubleshooting information appears within tasks or
+          descriptions. It is brief. Despite its reduced size, embedded
+          troubleshooting also follows the condition, cause, remedy
+          pattern. Often, the condition or cause is implied by the
+          information that surrounds it. Remedies are usually conveyed with
+          a single sentence.</dd>
+      </dlentry>
+            <dlentry>
+                <dt>Simple troubleshooting topic with a single cause</dt>
+                <dd>A simple troubleshooting topic typically includes a
+          condition or symptom, an optional cause, and a remedy.</dd>
+            </dlentry>
+      <dlentry>
+        <dt>Simple troubleshooting topic with multiple causes</dt>
+        <dd>In some cases, there might be more than one possible cause for
+          a condition or a symptom. When this happens, each cause can be
+          presented along with its associated remedy. These cause-remedy
+          pairs serve as successive fixes users can apply to eliminate an
+          undesirable condition.</dd>
+      </dlentry>
+            <dlentry>
+                <dt>Complex troubleshooting information</dt>
+                <dd>
+          <draft-comment author="Kristen J Eberlein"
+            time="02 September 2021">What do we want to say
+            here?</draft-comment>
+        </dd>
+            </dlentry>
+        </dl>
+    </body>
+</topic>

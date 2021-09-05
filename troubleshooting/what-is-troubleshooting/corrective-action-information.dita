@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="corrective_action_information">
+    <title>Corrective action information</title>
+    <shortdesc>Types of corrective action information that follow this
+    standard pattern are alarm clearing, error resolution, and event
+    response.</shortdesc>
+    <body>
+        <dl>
+            <dlentry>
+                <dt>Alarm clearing</dt>
+                <dd>
+                    <p>When something goes wrong, a system returns an alarm from a predefined set of
+                        alarms.</p>
+                </dd>
+            </dlentry>
+            <dlentry>
+                <dt>Error resolution</dt>
+                <dd>
+                    <p>When something goes wrong, a system returns an error code from a predefined
+                        set of error codes.</p>
+                </dd>
+            </dlentry>
+            <dlentry>
+                <dt>Event response</dt>
+                <dd>
+                    <p>When a significant event occurs, a system returns an event from a predefined
+                        set of events. Some of these events, while not errors, are nonetheless
+                        undesirable states that may warrant a response.</p>
+                </dd>
+            </dlentry>
+        </dl>
+    </body>
+</topic>

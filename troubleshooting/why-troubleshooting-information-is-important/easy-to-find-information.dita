@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="easy_to_find_information">
+    <title>Providing easy-to-find information to users experiencing problems</title>
+    <shortdesc>When troubleshooting information is developed in discrete units (topics, sections,
+        steps, or specific types of notes), it is easier for users to locate. It also can be marked
+        with specific cues (verbal or visual) to make it easily recognizable.</shortdesc>
+    <body>
+        <p>Research by Hans van der Meij, minimalism guru at the University of Twente in the
+            Netherlands, tells us that problem-solving information should be marked by a visual or
+            verbal cue to make it easily accessible to users. We recommend that you use images and
+            labels to make the troubleshooting elements in your content quickly recognizable and
+            easy-to-find.</p>
+    </body>
+</topic>

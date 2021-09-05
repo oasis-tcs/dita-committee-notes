@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="components_of_troubleshooting_information">
+    <title>Components of troubleshooting information</title>
+  <shortdesc>Troubleshooting information has a standard pattern that
+    includes sequential components: condition, cause, and
+    symptom.</shortdesc>
+    <body>
+        <p>Troubleshooting components are defined in the following way:</p>
+        <dl>
+            <dlentry>
+                <dt>Condition</dt>
+                <dd>A symptom, typically an undesirable state in a product,
+          system, or service that a user wants to correct</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Cause</dt>
+                <dd>The underlying cause for the undesirable state</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Remedy</dt>
+                <dd>The action that a user can perform to restore the
+          product, system, or service to its normal state</dd>
+            </dlentry>
+        </dl>
+    </body>
+</topic>

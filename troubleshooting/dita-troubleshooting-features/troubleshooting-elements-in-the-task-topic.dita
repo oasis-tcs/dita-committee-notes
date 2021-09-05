@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="troubleshooting_elements_in_the_task_topic">
+    <title>Troubleshooting elements in the task topic</title>
+  <shortdesc>The troubleshooting elements available in the task topic
+    enable authors to provide error recovery information directly at the
+    point of need.</shortdesc>
+    <body>
+    <dl>
+      <dlentry>
+        <dt>Step troubleshooting</dt>
+        <dd>The <xmlelement>steptroubleshooting</xmlelement> element
+          contains information that specifies corrective action to take
+          when the result of a step is not as expected.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Task troubleshooting</dt>
+        <dd>The <xmlelement>tasktroubleshooting</xmlelement> element
+          contains information that specifies corrective action to take
+          when the result of a task is not as expected.</dd>
+      </dlentry>
+    </dl>
+  </body>
+</topic>
