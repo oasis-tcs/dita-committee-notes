@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="cover-page-information" outputclass="cover" xml:lang="en-us">
+    <title>Cover page information</title>
+    <body>
+        <section id="this-version">
+            <title>This version</title>
+            <sl>
+                <sli><xref keyref="this-html"/> (Authoritative)</sli>
+                <sli><xref keyref="this-pdf"/></sli>
+            </sl>
+        </section>
+        <section id="previous-version">
+            <title>Previous version</title>
+            <p>Not applicable.</p>
+            <!--Uncomment and use the following markup for subsequent stages of the committee note.-->
+            <!--<sl><sli><xref keyref="previous-html"/> (Authoritative version) </sli><sli><xref keyref="previous-pdf"/></sli></sl>-->
+        </section>
+        <section id="latest-version">
+            <title>Latest version</title>
+            <sl>
+                <sli>
+                    <xref keyref="latest-html"/> (Authoritative)</sli>
+                <sli><xref keyref="latest-pdf"/></sli>
+            </sl>
+        </section>
+        <section id="technical-committee">
+            <title>Technical Committee</title>
+            <p><xref href="https://www.oasis-open.org/committees/dita/" format="html"
+                    scope="external">OASIS Darwin Information Typing Architecture (DITA)
+                TC</xref></p>
+        </section>
+        <section id="chair">
+            <title>Chair</title>
+            <p>Kristen James Eberlein (<xref format="mailto"
+                    href="mailto:kris@eberleinconsulting.com" scope="external"
+                    >kris@eberleinconsulting.com</xref>), <xref
+                    href="http://eberleinconsulting.com/" format="html" scope="external">Eberlein
+                    Consulting LLC</xref></p>
+        </section>
+        <section id="editors">
+            <title>Editors</title>
+            <sl>
+                <sli>Kristen James Eberlein (<xref format="mailto"
+                        href="mailto:kris@eberleinconsulting.com" scope="external"
+                        >kris@eberleinconsulting.com</xref>), <xref
+                        href="http://eberleinconsulting.com/" format="html" scope="external"
+                        >Eberlein Consulting LLC</xref></sli>
+                <sli>Nancy Harrison (<xref href="mailto:nharrison@infobridge-solutions.com"
+                        format="mailto" scope="external">nharrison@infobridge-solutions.com</xref>), Individual member</sli>
+                <sli>Dawn Stevens (<xref href="mailto:dawn.stevens@comtech-serv.com" format="mailto"
+                        scope="external">dawn.stevens@comtech-serv.com</xref>), <xref href="https://comtech-serv.com/" format="html"
+                        scope="external">Comtech Services, Inc.</xref></sli>
+            </sl>
+        </section>
+        <section id="additional-artifacts">
+            <title>Additional artifacts</title>
+            <p>This document is one component of a Work Product that also includes:</p>
+            <ul>
+                <li>ZIP file that contains the DITA source for this document. <xref
+                        keyref="this-dita"/></li>
+                <li>ZIP file that contains sample DITA troubleshooting topics (?)</li>
+            </ul>
+        </section>
+        <section id="related-work">
+            <title>Related work</title>
+            <p> This document is related to:</p>
+            <ul>
+                <li><cite>Darwin Information Typing Architecture Version 2.0.</cite></li>
+                <li><cite>Darwin Information Typing Architecture for Technical Content Version
+                        2.0.</cite></li>
+            </ul>
+        </section>
+        <section id="abstract">
+            <title>Abstract</title>
+            <p>This committee note provides information about using DITA 2.0 to document
+                troubleshooting information.</p>
+        </section>
+        <section id="status">
+            <title>Status</title>
+            <p>This is a Non-Standards Track Work Product. The patent provisions of the OASIS IPR
+                Policy do not apply.</p>
+            <p>This document was last revised or approved by the OASIS Darwin Information Typing
+                Architecture (DITA) TC on the above date. The level of approval is also listed
+                above. Check the “Latest version” location noted above for possible later revisions
+                of this document. Any other numbered versions and other technical work produced by
+                the Technical Committee (TC) are listed at <xref keyref="dita-tc"/>.</p>
+            <p>TC members should send comments on this document to the TC’s email list. Others
+                should send comments to the TC’s public comment list, after subscribing to it by
+                following the instructions at the “Send A Comment” button on the TC’s web page at
+                    <xref keyref="tc-comment"/>.</p>
+        </section>
+        <section id="citation-format">
+            <title>Citation format</title>
+            <p>When referencing this note, the following citation format should be used:</p>
+            <dl>
+                <dlentry>
+                    <dt>[dita-tbs]</dt>
+                    <dd><cite>Using DITA 2.0 Troubleshooting</cite> Version 1.0. Edited by Kristen
+                        James Eberlein, Nancy Harrison, and Dawn Stevens. <keyword
+                            keyref="stage-date"/>. <keyword keyref="stage"/>. <xref
+                            keyref="this-html"/>. Latest version: <xref keyref="latest-html"/>.</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section id="notices">
+            <title>Notices</title>
+            <p>Copyright © OASIS Open 2021. All Rights Reserved.</p>
+            <p>Distributed under the terms of the OASIS IPR Policy, <xref keyref="oasis-ipr"/>. For
+                complete copyright information, please see the <xref href="../appendices/notices.dita"
+                /> section in the Appendix.</p>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="terminology">
+    <title>Terminology</title>
+    <body>
+    <draft-comment author="Kristen J Eberlein" time="02 September 2021">Do
+      we have terms that we want to define? If not, remove this
+      topic.</draft-comment>
+        <p>This topic provides information about terminology and how it is used in this committee
+            note.</p>
+        <dl>
+            <dlentry>
+                <dt>term</dt>
+                <dd>definition</dd>
+            </dlentry>
+        </dl>
+    </body>
+</topic>

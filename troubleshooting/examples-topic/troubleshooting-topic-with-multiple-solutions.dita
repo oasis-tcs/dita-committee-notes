@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="troubleshooting_topic_with_multiple_solutions">
+  <title>Troubleshooting topic with multiple solutions</title>
+  <shortdesc>This example covers a troubleshooting scenario that can be
+    covered in a single troubleshooting topic, although it includes
+    multiple solutions for a problem.</shortdesc>
+  <body>
+    <section>
+      <title>Scenario</title>
+      <p>In this example, we cover a scenario in which a user cannot log
+        into the system.</p>
+      <p>The following list summarizes the causes for the user problem:</p>
+      <ul>
+        <li>No user account exists</li>
+        <li>The user has forgotten their user ID or password</li>
+        <li>An unidentified problem</li>
+      </ul>
+      <p>Each cause has an associated remedy.</p>
+    </section>
+    <section>
+      <title>Assumptions and topic design</title>
+      <p>The assumption is that the user will try each cause and remedy
+        pair in a sequential order until the problem is resolved. This
+        design has implications for which elements are used and where
+        titles are located.</p>
+      <p>The first <xmlelement>troubleSolution</xmlelement> contains the
+          <q>no account exists</q> cause and remedy. This
+          <xmlelement>troubleSolution</xmlelement> must be first because
+        there is no point in a user trying to reset account credentials for
+        a non-existing account. The second
+          <xmlelement>troubleSolution</xmlelement> contains the "forgotten
+        user ID or password" cause and remedy. The third
+          <xmlelement>troubleSolution</xmlelement> contains the final
+        fallback: calling customer
+        support<!--. In practical applications, this third <xmlelement>troubleSolution</xmlelement> would be reused through conref.--></p>
+      <p>The first title in each <xmlelement>troubleSolution</xmlelement>
+        is in the <xmlelement>cause</xmlelement> element, and it briefly
+        describes the cause instead of using a consistent title such as
+          <q>Cause.</q> In multiple
+          <xmlelement>troubleSolution</xmlelement> scenarios, descriptive
+        labeling helps users diagnose problems quicker. Therefore, a title
+        that connotes the cause is more important than using a uniform
+        title such as <q>Cause.</q></p>
+      <p>No <xmlelement>condition</xmlelement> element is used here. That
+        is because all pertinent information about the condition has
+        already been given in the topic title and in the short
+        description.</p>
+    </section>
+    <section>
+      <title>Rendered output</title>
+      <p>The following screen capture shows the rendered output for the
+        troubleshooting topic that contains multiple solutions:</p>
+      <image placement="break"
+        href="../images/multiple-solutions-output.png"/>
+    </section>
+    <section>
+      <title>XML source</title>
+      <p>The following code block shows the markup for this troubleshooting
+        topic with multiple solutions:</p>
+      <codeblock><coderef href="../code-samples/cannot-log-into-the-system.dita"/></codeblock>
+    </section>
+    <section>
+      <title>Writing best practices</title>
+      <p>The following table provides best practice information for the
+        elements that are used in the troubleshooting topic with multiple
+        solutions.</p>
+      <simpletable frame="topbot" relcolwidth="1* 1* 1*">
+        <sthead>
+          <stentry>Element</stentry>
+          <stentry>Best practices</stentry>
+          <stentry>Example</stentry>
+        </sthead>
+        <strow>
+          <stentry><xmlelement>title</xmlelement></stentry>
+          <stentry>Describe the problem from the user's point of view.
+            Describe the symptoms rather than the cause.</stentry>
+          <stentry>Cannot log into the system</stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>shortdesc</xmlelement></stentry>
+          <stentry>Provide additional information or context.</stentry>
+          <stentry>The user cannot log into the system. Multiple solutions
+            exist for the problem, which the user should try in
+            sequence.</stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>condition</xmlelement></stentry>
+          <stentry>Do not use. All pertinent information about the
+            condition is provided in the topic title and short
+              description.<draft-comment author="Kristen J Eberlein"
+              time="02 September 2021">Do we want instead to say "Only use
+              if all pertinent information about the condition cannot be
+              provided in the topic title and short description? If we do
+              make that recommemdation, how would it affect
+              stylesheets?</draft-comment></stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>cause</xmlelement>/<xmlelement>title</xmlelement></stentry>
+          <stentry>Briefly describe the cause.</stentry>
+          <stentry><b>Forgotten user ID or password</b></stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>cause</xmlelement></stentry>
+          <stentry>Describe only the origin of the problem that is resolved
+            by the remedy.</stentry>
+          <stentry>Forgotten user IDs or passwords can be reset.</stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>remedy</xmlelement></stentry>
+          <stentry>Use <xmlelement>steps</xmlelement>,
+              <xmlelement>steps-informal</xmlelement>, or
+              <xmlelement>steps-unordered</xmlelement> to provide a
+            solution.</stentry>
+          <stentry>Go to &lt;xref keyref="fix-credentials"/> to retrieve
+            your user ID or reset your password.</stentry>
+        </strow>
+      </simpletable>
+    </section>
+  </body>
+</topic>

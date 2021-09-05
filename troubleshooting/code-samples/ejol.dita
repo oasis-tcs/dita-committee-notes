@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA 2.0 Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="ejol">
+  <title>EJOL: excessive jitter on line</title>
+  <shortdesc>The system experienced an <q>excessive jitter on line</q>
+    alarm. Although the category is minor, the alarm should be cleared
+    within 24 hours.</shortdesc>
+  <troublebody>
+    <diagnostics>
+      <diagnostics-general>
+        <title>Determine the cause</title>
+        <p>The EJOL alarm occurs due to the following issues:</p>
+        <ul>
+          <li>Trouble on the far-end system</li>
+          <li>Excessive line noise</li>
+          <li>Faulty LN243 circuit pack</li>
+        </ul>
+        <p>Below is a flow chart that shows the process for diagnosing the
+          cause:</p>
+        <image href="images/ejol-diagnostics-flowchart.png"/>
+      </diagnostics-general>
+      <diagnostics-steps>
+        <steps>
+          <step>
+            <cmd>Query the state of health of the far-end system.</cmd>
+            <info>If the far-end system is not healthy, go to <xref
+                href="#ejol/far-end-not-healthy"/>.</info>
+          </step>
+          <step>
+            <cmd>To retrieve the line-fault count, click <menucascade>
+                <uicontrol>Operations</uicontrol>
+                <uicontrol>Performance</uicontrol>
+                <uicontrol>line</uicontrol>
+              </menucascade>.</cmd>
+          </step>
+          <step>
+            <cmd>To retrieve the line-fault-max value, click <menucascade>
+                <uicontrol>Administration</uicontrol>
+                <uicontrol>Transmission</uicontrol>
+                <uicontrol>Settings</uicontrol>
+              </menucascade>.</cmd>
+          </step>
+          <step>
+            <cmd>Compare the line-fault count to the line-fault-max
+              value:</cmd>
+            <choices>
+              <choice>If the line-fault count is greater than or equal to
+                the line-fault-max value, go to <xref
+                  href="#ejol/excessive-line-noise"/>.</choice>
+              <choice>If the line-fault count is less than the
+                line-fault-max value, go to <xref
+                  href="#ejol/faulty-LN243-line-pack"/>.</choice>
+            </choices>
+          </step>
+        </steps>
+      </diagnostics-steps>
+    </diagnostics>
+    <troubleSolution id="far-end-not-healthy">
+      <cause>
+        <title>Far-end not healthy</title>
+        <p>...</p>
+      </cause>
+      <remedy>
+        <steps>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <step>
+            <cmd>...</cmd>
+          </step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution id="excessive-line-noise">
+      <cause>
+        <title>Excessive line noise</title>
+        <p>...</p>
+      </cause>
+      <remedy>
+        <steps>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <step>
+            <cmd>...</cmd>
+          </step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution id="faulty-LN243-line-pack">
+      <cause>
+        <title>Faulty LN243 circuit pack</title>
+        <p>...</p>
+      </cause>
+      <remedy>
+        <steps>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <step>
+            <cmd>...</cmd>
+          </step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+  </troublebody>
+</troubleshooting>

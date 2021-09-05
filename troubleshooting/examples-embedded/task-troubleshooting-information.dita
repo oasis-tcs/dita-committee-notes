@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="task_troubleshooting_information">
+    <title>Task troubleshooting information</title>
+    <shortdesc>Task troubleshooting information is contained in the
+            <xmlelement>tasktroubleshooting</xmlelement> element. The element is located after the
+        optional <xmlelement>results</xmlelement> element in a task topic.</shortdesc>
+    <body>
+        <section>
+            <title>Scenario</title>
+            <p>In this scenario, a user follows the steps in a task for updating Web site content,
+                but the new content is not displayed. This might be due to a stale cache on the Web
+                server. The solution is for the user to restart the Web server.</p>
+        </section>
+        <section>
+            <title>Rendered output</title>
+            <p>The following screen capture shows the output of the task troubleshooting
+                information:</p>
+            <image placement="break" href="../images/task-troubleshooting-output.png"/>
+        </section>
+        <section>
+            <title>XML source</title>
+            <p>The following code block shows the markup for the task troubleshooting
+                information:</p>
+            <codeblock>&lt;tasktroubleshooting>If the new content is not displayed on the Web site, the Web server
+            might have a stale cache. To fix this, follow the steps in &lt;xref keyref="restarting-web-server"/>.&lt;/tasktroubleshooting></codeblock>
+        </section>
+        <section>
+            <title>Writing best practices</title>
+            <p>The following table shows how the information follows the sequential pattern of
+                condition, cause, and remedy:</p>
+            <simpletable frame="topbot" relcolwidth="1* 1*">
+                <sthead>
+                    <stentry>Type of information</stentry>
+                    <stentry>Content</stentry>
+                </sthead>
+                <strow>
+                    <stentry>Condition</stentry>
+                    <stentry>If the new content is not displayed on the Web site ...</stentry>
+                </strow>
+                <strow>
+                    <stentry>Cause</stentry>
+                    <stentry>… the Web server might have a stale cache.</stentry>
+                </strow>
+                <strow>
+                    <stentry>Solution</stentry>
+                    <stentry>To fix this, follow the steps in "Restarting the Web server."</stentry>
+                </strow>
+            </simpletable>
+            <p>Writers should limit the content of the <xmlelement>tasktroubleshooting</xmlelement>
+                element to discussing the condition, cause, and a solution expressed in a single
+                step. If the content requires a list, then the writer should redesign the content so
+                that the instructions are in a separate troubleshooting topic.</p>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="troubleshooting-topic-with-diagnostic-information">
+    <title>Troubleshooting topic with diagnostic information</title>
+  <shortdesc>This example covers a complex troubleshooting scenario that
+    contains diagnostic information.</shortdesc>
+    <body>
+    <section>
+      <title>Scenario</title>
+      <p>In this example, we cover a complex scenario in which a
+        fiber-optic switching system issues an alarm. The impact is that
+        service is degraded, and the alarm should be retired within 24
+        hours. Unfortunately, the alarm does not provide users with any
+        information that they could use to troubleshoot the
+        information.</p>
+      <p>To provide more background: The fiber-optic switching system can
+        issue any of 49 alarms. 42 of these alarms are likely to happen
+        during normal operation. Consequently, the software architecture
+        contains logic to evaluate several system state variables, and so
+        it can report a specific cause to the user along with the alarm
+        code. But, the likelihood of the remaining seven alarms occurring
+        is small enough that the software architecture does little more
+        than issue an alarm. Consequently, the product documentation must
+        incorporate diagnostic steps into the troubleshooting topics for
+        each of those seven alarms.</p>
+      <p>This scenario is about documenting one of the seven rare alarms:
+        the EJOL (Excessive Jitter On Line) alarm. The EJOL alarm can occur
+        due to any of the following causes: trouble on the far-end system,
+        excessive line noise, or a faulty LN243 circuit pack.</p>
+    </section>
+    <section>
+      <title>Assumptions and topic design</title>
+      <p>This scenario could be covered in a single troubleshooting topic,
+        or it could be represented by a DITA map that referenced individual
+        troubleshooting topics for each cause and remedy pair. In this
+        example, we use a single troubleshooting topic.</p>
+    </section>
+    <section>
+      <title>Rendered output</title><p>The following screen captures show
+        the rendered output for the troubleshooting topic that contains
+        diagnostic information:</p><image
+        href="../images/diagnostics-output-1.png"/>
+      <image href="../images/diagnostics-output-2.png"/>
+      <image href="../images/diagnostics-output-3.png"/>
+      <image href="../images/diagnostics-output-4.png"/>
+      <image href="../images/diagnostics-output-5.png"/>
+      <image href="../images/diagnostics-output-6.png"/>
+      <image href="../images/diagnostics-output-7.png"/>
+      <image href="../images/diagnostics-output-8.png"/>
+      <image href="../images/diagnostics-output-9.png"
+        placement="break"/>
+    </section>
+    <section>
+      <title>XML source</title>
+      <p>The following code block shows the markup for the troubleshooting
+        topic with diagnostic information:</p>
+      <codeblock><coderef href="../code-samples/ejol.dita"/></codeblock>
+    </section>
+    <section>
+      <title>Writing best practices</title>
+      <p>The following table provides best practice information for the
+        elements that are used in the troubleshooting topic with multiple
+        solutions.</p>
+      <simpletable frame="topbot" relcolwidth="1* 1* 1*">
+        <sthead>
+          <stentry>Element</stentry>
+          <stentry>Best practices</stentry>
+          <stentry>Example</stentry>
+        </sthead>
+        <strow>
+          <stentry><xmlelement>title</xmlelement></stentry>
+          <stentry>Describe the problem from the user's point of view.
+            Describe the symptoms rather than the cause.</stentry>
+          <stentry>EJOL: excessive jitter online</stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>shortdesc</xmlelement></stentry>
+          <stentry>Provide additional information or context.</stentry>
+          <stentry>The system experienced an "excessive jitter on line"
+            alarm. Although the category is minor, the alarm should be
+            cleared within 24 hours.</stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>diagnostics-general</xmlelement>/<xmlelement>title</xmlelement></stentry>
+          <stentry/>
+          <stentry><b>Determine the cause</b></stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>diagnostics-general</xmlelement></stentry>
+          <stentry>Provide information that explains X</stentry>
+          <stentry>
+            <p>The EJOL alarm occurs due to the following issues:</p>
+            <ul>
+              <li>Trouble on the far-end system</li>
+              <li>Excessive line noise</li>
+              <li>Faulty LN243 circuit pack</li>
+            </ul>
+            <p>Below is a flow chart that shows the process for diagnosing
+              the cause:</p>
+            <p>...</p>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>diagnostics-steps</xmlelement></stentry>
+          <stentry>Provide the process for diagnosing the problem. Use
+            stylesheets to insert a title.</stentry>
+          <stentry>
+            <ol>
+              <li>Query the state of health of the far-end system ...</li>
+              <li>...</li>
+              <li>...</li>
+              <li>...</li>
+            </ol>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>condition</xmlelement></stentry>
+          <stentry>Do not use. All pertinent information about the
+            condition is provided in the topic title, short description,
+            and diagnostics information.</stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xmlelement>cause</xmlelement>/<xmlelement>title</xmlelement></stentry>
+          <stentry>Briefly describe the cause.</stentry>
+          <stentry><b>Far-end not healthy</b></stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>cause</xmlelement></stentry>
+          <stentry>Describe only the origin of the problem that is resolved
+            by the remedy.</stentry>
+          <stentry>...</stentry>
+        </strow>
+        <strow>
+          <stentry><xmlelement>remedy</xmlelement></stentry>
+          <stentry>Use <xmlelement>steps</xmlelement>,
+              <xmlelement>steps-informal</xmlelement>, or
+              <xmlelement>steps-unordered</xmlelement> to provide a
+            solution.</stentry>
+          <stentry>
+            <ol>
+              <li>...</li>
+              <li>...</li>
+              <li>...</li>
+            </ol>
+          </stentry>
+        </strow>
+      </simpletable>
+    </section>
+  </body>
+</topic>

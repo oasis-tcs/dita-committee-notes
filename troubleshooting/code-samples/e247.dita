@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+
+<troubleshooting id="resolve" xml:lang="en-us">
+  <title>E247 - Memory fault has occured</title>
+  <shortdesc>The system has detected a problem in memory.
+  </shortdesc>
+  <troublebody>
+    <condition>
+      <p>The fault indicator flashes on the front panel, and
+        the error log contains the following message:
+        <msgph>E247 - Memory fault has occured</msgph></p>
+    </condition>
+    <troubleSolution>
+      <cause>
+        <p>Transient memory fault.</p>
+      </cause>
+      <remedy>
+        <responsibleParty>System administrator</responsibleParty>
+        <steps>
+          <step>
+            <cmd>Reset the alarm</cmd>
+          </step>
+          <step>
+            <cmd>Monitor the system periodically to see whether
+               the alarm recurs</cmd>
+          </step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <cause>
+        <p>Recurring memory fault indicates possible problem
+          with the system memory board. Reseating the board
+          may fix the problem.</p>
+      </cause>
+      <remedy>
+        <responsibleParty>Maintenance technician</responsibleParty>
+        <steps conref="BoardReseat.dita#BoardReseatg/steps">
+          <step><cmd/></step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <cause>
+        <p>Reseating the system memory board did not fix
+          the problem. Replacing the board may fix the problem.</p>
+      </cause>
+      <remedy>
+        <responsibleParty>Maintenance technician</responsibleParty>
+        <steps conref="BoardReplace.dita#BoardReplac/steps">
+          <step><cmd/></step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+  </troublebody>
+</troubleshooting>

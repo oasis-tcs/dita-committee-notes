@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Examples of troubleshooting topics</title>
+    <topicref href="examples-of-troubleshooting-topics.dita">
+        <topicref href="simple-troubleshooting-topic.dita"/>
+        <topicref href="troubleshooting-topic-with-multiple-solutions.dita"/>
+        <!--<topicref href="complex-troubleshooting-topic.dita"><topicref href="complex-troubelshooting-scenario.dita"/><topicref href="complex-troubleshooting-topic-rendered.dita"/><topicref href="xml-source-for-complex-troubleshooting-topic.dita"/></topicref>-->
+    <topicref href="troubleshooting-topic-with-diagnostic-information.dita"/>
+    </topicref>
+</map>
