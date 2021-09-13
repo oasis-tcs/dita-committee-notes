@@ -4,7 +4,7 @@
     <title>Components of troubleshooting information</title>
   <shortdesc>Troubleshooting information has a standard pattern that
     includes sequential components: condition, cause, and
-    symptom.</shortdesc>
+    remedy.</shortdesc>
     <body>
         <p>Troubleshooting components are defined in the following way:</p>
         <dl>
