@@ -5,10 +5,8 @@
     <body>
         <section id="this-version">
             <title>This version</title>
-            <sl>
-                <sli><xref keyref="this-html"/> (Authoritative)</sli>
-                <sli><xref keyref="this-pdf"/></sli>
-            </sl>
+      <p>Not yet applicable.</p>
+      <!--<sl><sli><xref keyref="this-html"/> (Authoritative)</sli><sli><xref keyref="this-pdf"/></sli></sl>-->
         </section>
         <section id="previous-version">
             <title>Previous version</title>
@@ -18,11 +16,8 @@
         </section>
         <section id="latest-version">
             <title>Latest version</title>
-            <sl>
-                <sli>
-                    <xref keyref="latest-html"/> (Authoritative)</sli>
-                <sli><xref keyref="latest-pdf"/></sli>
-            </sl>
+      <p>Not yet applicable.</p>
+      <!--<sl><sli> <xref keyref="latest-html"/> (Authoritative)</sli><sli><xref keyref="latest-pdf"/></sli></sl>-->
         </section>
         <section id="technical-committee">
             <title>Technical Committee</title>
@@ -59,8 +54,8 @@
             <title>Additional artifacts</title>
             <p>This document is one component of a Work Product that also includes:</p>
             <ul>
-                <li>ZIP file that contains the DITA source for this document. <xref
-                        keyref="this-dita"/></li>
+                <li>ZIP file that contains the DITA source for this
+          document. <!--<xref keyref="this-dita"/>--></li>
                 <li>ZIP file that contains sample DITA troubleshooting topics (?)</li>
             </ul>
         </section>
@@ -98,10 +93,11 @@
             <dl>
                 <dlentry>
                     <dt>[dita-tbs]</dt>
-                    <dd><cite>Using DITA 2.0 Troubleshooting</cite> Version 1.0. Edited by Kristen
-                        James Eberlein, Nancy Harrison, and Dawn Stevens. <keyword
-                            keyref="stage-date"/>. <keyword keyref="stage"/>. <xref
-                            keyref="this-html"/>. Latest version: <xref keyref="latest-html"/>.</dd>
+                    <dd><cite>Using DITA 2.0 Troubleshooting</cite> Version
+            1.0. Edited by Kristen James Eberlein, Nancy Harrison, and Dawn
+            Stevens. <keyword keyref="stage-date"/>. <keyword
+              keyref="stage"/>.
+            <!--<xref keyref="this-html"/>. Latest version: <xref keyref="latest-html"/>.--></dd>
                 </dlentry>
             </dl>
         </section>

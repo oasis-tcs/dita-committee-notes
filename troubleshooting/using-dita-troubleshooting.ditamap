@@ -2,7 +2,8 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
     <booktitle>
-        <mainbooktitle>Using DITA Troubleshooting Version 1.0</mainbooktitle>
+        <mainbooktitle>Using DITA 2.0 Troubleshooting Version
+      1.0</mainbooktitle>
         <booktitlealt outputclass="documentStage"><keyword keyref="stage"/></booktitlealt>
         <booktitlealt outputclass="stageDate"><keyword keyref="stage-date"/></booktitlealt>
     </booktitle>
