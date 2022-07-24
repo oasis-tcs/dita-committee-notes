@@ -2,18 +2,64 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="features_removed_from_dita_2_0">
     <title>Features removed from DITA 2.0</title>
-    <shortdesc></shortdesc>
+    <shortdesc>DITA 2.0 is as much about removing cruft and little-used features as it is about
+    adding new things and it is these removals that require the most attention when migrating
+    content from DITA 1.x to 2.0.</shortdesc>
     <refbody>
+    <section id="section_vc3_mcn_h5b">
+      <title>Overview of removed features</title>
+      <p>DITA 2.0 removes all elements and attributes that were marked as deprecated in DITA
+        1.x.</p>
+      <p>DITA 2.0 removes elements and attributes that had little or no adoption.</p>
+      <p>If you use any removed element or attribute and you have content and processing that
+        depends on it you can develop your own specializations to make that  markup available in
+        your environment.</p>
+    </section>
         <section>
-            <title><xmlelement>topicset</xmlelement> and <xmlelement>topicsetref</xmlelement> are
-                removed</title>
-            <p/>
+            <title>Removed elements</title>
+            <p>The following elements have been removed:<ul id="ul_gl5_wcn_h5b">
+        <li><xmlelement>topicset</xmlelement> and <xmlelement>topicsetref</xmlelement></li>
+        <li><xmlelement>anchor</xmlelement> and <xmlelement>anchorref</xmlelement></li>
+        <li><xmlelement>longquoteref</xmlelement></li>
+        </ul></p>
         </section>
+    <section id="section_wh2_hdn_h5b">
+      <title>Changed markup reflecting removed features</title>
+      <p>The following elements and attributes were changed from DITA 1.x.<ul id="ul_ohb_jdn_h5b">
+        <li>The <xmlelement>substeps</xmlelement> and <xmlelement>substep</xmlelement> are removed.
+          The <xmlelement>steps</xmlelement> element may now nest within
+          <xmlelement>step</xmlelement>.</li>
+        <li>The <xmlatt>copy-to</xmlatt> attribute is removed and replaced by new features of the
+          <xmlelement>resourceid</xmlelement> element.</li>
+        <li>The classification domain is removed. The new attribute <xmlatt>subjectrefs</xmlatt> for
+          <xmlelement>topicref</xmlelement> and <xmlelement>map</xmlelement> provides for
+          associating maps and map branches with subject scheme subjects.</li>
+        <li>The indexing domain elements are promoted to base elements, with
+          <xmlelement>index-base</xmlelement> and <xmlelement>index-sort-as</xmlelement> removed.
+          The <xmlelement>sort-as</xmlelement> element from the utilities domain can now be used
+          within <xmlelement>indexterm</xmlelement> (because <xmlelement>sort-as</xmlelement> is a
+          speciallization of <xmlelement>data</xmlelement> and <xmlelement>data</xmlelement> is
+          allowed within <xmlelement>indexterm</xmlelement>).</li>
+        <li><xmlelement>linktext</xmlelement> is replaced by the new
+          <xmlelement>keytext</xmlelement> base element.</li>
+        <li>The <xmlatt>domains</xmlatt> attribute is replaced by the
+          <xmlatt>specializations</xmlatt> attribute. The <xmlatt>specializations</xmlatt> attribute
+          declares attribute specializations. Element specializations are no longer declared within
+          document instance markup.</li>
+        <li>The <xmlatt>outputclass</xmlatt> attribute is now a "universal" attribute, making it
+          available on almost every element.</li>
+        </ul></p>
+    </section>
         <section>
-            <title>Removed deprecated features of previous versions of DITA</title>
+            <title>Removed deprecated features</title>
+      <p>The following elements and attributes were marked as deprecated in DITA 1.x and have been
+        removed from DITA 2.0. Most of these changes reflect the removal of attributes that held
+        text that should be in subelements to better support localization.</p>
             <ul>
                 <li><xmlelement>boolean</xmlelement></li>
+        <li><xmlelement>data-about</xmlelement></li>
                 <li><xmlelement>indextermref</xmlelement></li>
+        <li><xmlelement>itemgroup</xmlelement></li>
                 <li><xmlatt>alt</xmlatt> and <xmlatt>longdescref</xmlatt> on
                         <xmlelement>image</xmlelement></li>
                 <li><xmlatt>collection-type</xmlatt>="tree" from <xmlelement>linkpool</xmlelement>
@@ -23,6 +69,7 @@
                 <li><xmlatt>keyref</xmlatt> on <xmlelement>navref</xmlelement></li>
                 <li><xmlatt>locktitle</xmlatt> on <xmlelement>topichead</xmlelement> and
                         <xmlelement>topicgroup</xmlelement></li>
+        <li><xmlatt>mapkeyref</xmlatt> on <xmlelement>metadata</xmlelement></li>
                 <li><xmlatt>navtitle</xmlatt></li>
                 <li><xmlatt>print</xmlatt></li>
                 <li><xmlatt>query</xmlatt></li>
@@ -34,11 +81,8 @@
                 <li><xmlatt>xtrf</xmlatt> and <xmlatt>xtrc</xmlatt></li>
                 <li>Delay conref domain</li>
                 <li><xmlatt>domains</xmlatt></li>
-                <li>indexing domain, <xmlelement>index-base</xmlelement>,
-                        <xmlelement>index-sort-as</xmlelement></li>
                 <li><xmlatt>lockmeta</xmlatt></li>
                 <li>Machinery task domain</li>
-                <li><xmlelement>substeps</xmlelement> and <xmlelement>substep</xmlelement></li>
             </ul>
         </section>
     </refbody>

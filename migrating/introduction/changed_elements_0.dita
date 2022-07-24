@@ -2,41 +2,103 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="changed_elements_0">
     <title>Changed elements</title>
-    <shortdesc></shortdesc>
+    <shortdesc>A number of elements from DITA 1.x are changed in some way.</shortdesc>
     <refbody>
+    <section id="section_iwd_b4n_h5b">
+      <title>Topic <xmlelement>prolog</xmlelement> and map <xmlelement>topicmeta</xmlelement> use
+        <xmlelement>titlealt</xmlelement></title>
+      <p>The <xmlelement>prolog</xmlelement> element now allows zero or more
+        <xmlelement>titlealt</xmlelement> elements, the new specialization base for
+        <xmlelement>navtitle</xmlelement>, <xmlelement>searchtitle</xmlelement>, and
+        <xmlelement>subtitle</xmlelement>. You can use <xmlelement>titlealt</xmlelement> as the
+        specialization base for additional alternative titles.</p>
+      <p>The <xmlelement>topicmeta</xmlelement> element now also allows zero or more
+        <xmlelement>titlealt</xmlelement> elements in place of the removed
+        <xmlelement>titlealts</xmlelement> element. The new <xmlelement>keytext</xmlelement> element
+        may occur before <xmlelement>titlealt</xmlelement> in
+        <xmlelement>topicmeta</xmlelement>.</p>
+    </section>
         <section>
             <title><xmlelement>shortdesc</xmlelement>, <xmlelement>linktext</xmlelement>, and
-                    <xmlelement>searchtitle</xmlelement> are now declared the same for maps and
-                topics</title>
-            <p/>
+        <xmlelement>searchtitle</xmlelement></title>
+            <p>These elements now have the same declarations for use in maps and topics.</p>
         </section>
         <section>
             <title><xmlelement>hazardstatement</xmlelement> redesigned</title>
-            <p/>
+      <ul id="ul_l1z_csn_h5b">
+        <li>The <xmlatt>type</xmlatt> attribute values now limited to "caution", "danger", "notice",
+          and "warning" per ANSI Z535.</li>
+        <li>The <xmlelement>hazardsymbol</xmlelement> element is now a subelement of
+          <xmlelement>messagepanel</xmlelement></li>
+        <li>Within <xmlelement>messagepanel</xmlelement> the <xmlelement>howtoavoid</xmlelement> and
+          <xmlelement>consequence</xmlelement> elements may be paired in either order.</li>
+        <li>The <xmlelement>typeofhazard</xmlelement> element can include
+          <xmlelement>hazardsymbol</xmlelement>.</li>
+        <li>The <xmlelement>messagepanel</xmlelement>, <xmlelement>typeofhazard</xmlelement>,
+          <xmlelement>consequence</xmlelement>, and <xmlelement>howtoavoid</xmlelement> elements
+          specialize from <xmlelement>div</xmlelement> instead of <xmlelement>ul</xmlelement> and
+          <xmlelement>li</xmlelement>.</li>
+      </ul>
         </section>
+    <section id="section_rn5_vrn_h5b">
+      <title>Highlight domain elements allow <xmlatt>keyref</xmlatt></title>
+      <p>The highlight domain elements, which all specialize from <xmlelement>ph</xmlelement> now
+        allow <xmlatt>keyref</xmlatt>.</p>
+    </section>
+    <section id="section_o1c_nln_h5b">
+      <title><xmlelement>longquote</xmlelement> only allows <xmlatt>keyref</xmlatt></title>
+      <p>The <xmlelement>longquote</xmlelement> element now only allows <xmlatt>keyref</xmlatt>,
+        removing the other linking-related attributes, making <xmlelement>longquote</xmlelement>
+        consistent with <xmlelement>keyword</xmlelement> and other elements that are links only when
+        they specify <xmlatt>keyref</xmlatt>.</p>
+    </section>
         <section>
             <title>indexing</title>
             <ul>
-                <li>Remove the indexing domain, and add &lt;index-see> and &lt;index-see-also> to
-                    the base</li>
+                <li>The elements <xmlelement>add index-see</xmlelement> and
+          <xmlelement>index-see-also</xmlelement> from the DITA 1.x indexing domain are now base
+          elements.</li>
                 <li>Remove &lt;index-base></li>
                 <li>Remove &lt;index-sort-as></li>
             </ul>
         </section>
         <section>
             <title><xmlelement>imagemap</xmlelement></title>
-            <p/>
+            <p>The <xmlelement>imagemap</xmlelement> element is specialized from
+        <xmlelement>div</xmlelement> rather than <xmlelement>fig</xmlelement>, allowing it to be
+        included within <xmlelement>fig</xmlelement>. The <xmlelement>area</xmlelement> element is
+        also specialized from <xmlelement>div</xmlelement> rather than
+        <xmlelement>figgroup</xmlelement>.</p>
         </section>
         <section>
             <title><xmlelement>simpletable</xmlelement> updates</title>
-            <p>Add @colspan, @rowspan, @headers, @scope, and &lt;title></p>
+      <ul id="ul_f31_5vn_h5b">
+        <li>
+          <p>The <xmlatt>colspan</xmlatt>, <xmlatt>rowspan</xmlatt>, <xmlatt>headers</xmlatt>,
+            <xmlatt>scope</xmlatt> attributes are added.</p>
+        </li>
+        <li>
+          <p>The <xmlelement>simpletable</xmlelement> element now allows
+            <xmlelement>title</xmlelement>.</p>
+        </li>
+        <li>
+          <p>The <xmlatt>specentry</xmlatt> attribute is removed from
+            <xmlelement>stentry</xmlelement>.</p>
+        </li>
+      </ul>
         </section>
         <section>
             <title><xmlelement>example</xmlelement> in more places</title>
-            <p/>
+            <p>Example may occur most places where block elements (i.e., <xmlelement>p</xmlelement>)
+        may occur. Because <xmlelement>example</xmlelement> can also occur wherever
+        <xmlelement>section</xmlelement> can occur, it may be necessary to put
+        <xmlelement>example</xmlelement> within <xmlelement>p</xmlelement> or
+        <xmlelement>fig</xmlelement> within <xmlelement>conbody</xmlelement>, which only allows
+        <xmlelement>section</xmlelement> and <xmlelement>example</xmlelement> after the first
+        <xmlelement>section</xmlelement> or <xmlelement>example</xmlelement>.</p>
         </section>
         <section>
-            <title>changes to <xmlelement>bookmap</xmlelement></title>
+            <title><xmlelement>bookmap</xmlelement> updates</title>
             <ul>
                 <li>Modify the content model of <xmlelement>bookmap</xmlelement> to allow zero or
                     more <xmlelement>ditavalref</xmlelement> elements after
@@ -77,7 +139,39 @@
         </section>
         <section>
             <title>Ability to nest steps</title>
-            <p/>
+            <p>The <xmlelement>steps</xmlelement> element is now allowed within
+        <xmlelement>step</xmlelement>, allowing nested steps without the need for a separate
+        <xmlelement>substeps</xmlelement> element. The <xmlelement>substeps</xmlelement> and
+        <xmlelement>substep</xmlelement> elements have been removed.</p>
         </section>
+    <section id="section_h4g_xqn_h5b">
+      <title><xmlelement>resourceid</xmlelement> takes over for <xmlatt>copy-to</xmlatt></title>
+      <p>The <xmlatt>copy-to</xmlatt> attribute is removed. To get the effect of
+        <xmlatt>copy-to</xmlatt> as a way to influence the deliverable anchors associated with a
+        topic in a given use context, use the new <xmlatt>appid-role</xmlatt> attribute on
+        <xmlelement>resourceid</xmlelement> with the value of "deliverable-anchor" to create an
+        application-specific resource ID that contributes to the deliverable anchor constructed by
+        the associated processor. See [xref to topic on migrating <xmlatt>copy-to</xmlatt> to
+        <xmlelement>resourceid</xmlelement>].</p>
+    </section>
+    <section id="section_nkm_k5n_h5b">
+      <title><xmlatt>spectitle</xmlatt> removed from <xmlelement>dl</xmlelement>,
+        <xmlelement>fig</xmlelement>, <xmlelement>lines</xmlelement>, <xmlelement>note</xmlelement>,
+        <xmlelement>pre</xmlelement>, <xmlelement>sl</xmlelement>, <xmlelement>ul</xmlelement>,
+        <xmlelement>ol</xmlelement></title>
+      <p>The <xmlatt>spectitle</xmlatt> attribute has been removed. To generate titles for these
+        elements, use <xmlatt>outputclass</xmlatt> or declare specializations that get generated
+        titles based on their specialized element types.</p>
+    </section>
+    <section id="section_wvb_cvn_h5b">
+      <title>Attributes removed from <xmlelement>object</xmlelement> and
+        <xmlelement>param</xmlelement></title>
+      <p>The following attributes are removed from <xmlelement>object</xmlelement>:
+        <xmlatt>declare</xmlatt>, <xmlatt>classid</xmlatt>, <xmlatt>classidkeyref</xmlatt>,
+        <xmlatt>codebase</xmlatt>, <xmlatt>codebasekeyref</xmlatt>, <xmlatt>archive</xmlatt>,
+        <xmlatt>archivekeyrefs</xmlatt>, <xmlatt>standby</xmlatt>.</p>
+      <p>The <xmlatt>type</xmlatt> and <xmlatt>valuetype</xmlatt> attributes are removed from
+        <xmlelement>param</xmlelement>.</p>
+    </section>
     </refbody>
 </reference>

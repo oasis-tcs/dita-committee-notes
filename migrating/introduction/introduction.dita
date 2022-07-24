@@ -10,25 +10,30 @@
             release that is not backwards compatible. You will need to migrate your existing source
             to be valid with the DITA 2.0 schema.</p>
         <draft-comment author="Zoe">Should this be divided by spec type? base vs technical content?
-            or do we have one pass for all the things, with stuff broken out by
-            spec?</draft-comment>
+      or do we have one pass for all the things, with stuff broken out by spec?<p>WEK: I think
+      covering everything as one unit is appropriate because that's the way DITA 1.x is
+      organized.</p></draft-comment>
         <p>This document is divided into sections:</p>
         <dl>
             <dlentry>
                 <dt>Migrating your DITA source</dt>
-                <dd/>
+                <dd>What you need to do to make your DITA 1.x documents into conforming DITA 2.0
+          documents.</dd>
             </dlentry>
             <dlentry>
                 <dt>Migrating your DITA transforms</dt>
-                <dd/>
+                <dd>What you need to do to make your DITA 1.x-handling transformations also handle
+          DITA 2.0 documents.</dd>
             </dlentry>
             <dlentry>
                 <dt>Migrating your DITA specializations and constraints</dt>
-                <dd/>
+                <dd>What you need to do to make your DITA 1.x specializations and constraints into
+          DITA 2.0 specializations and constraints.</dd>
             </dlentry>
             <dlentry>
                 <dt>Migrating DITA tools</dt>
-                <dd/>
+                <dd>Migration considerations for other DITA-aware tools, such as editors and
+          component content management systems.</dd>
             </dlentry>
         </dl>
     </body>

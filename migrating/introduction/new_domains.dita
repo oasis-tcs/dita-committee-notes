@@ -2,11 +2,25 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="new_domains">
     <title>New domains</title>
-    <shortdesc></shortdesc>
+    <shortdesc>DITA 2.0 adds domains for alternative titles and emphasis elements
+    (<xmlelement>em</xmlelement> and <xmlelement>strong</xmlelement>)</shortdesc>
     <refbody>
         <section>
-            <title>Multimedia domain</title>
-            <p/>
+            <title>Alternative titles domain</title>
+            <p>DITA 2.0 generalizes the concept of alternative titles as represented the 1.x base
+        element types <xmlelement>navtitle</xmlelement> and <xmlelement>searchtitle</xmlelement>
+        into the new base element type <xmlelement>titlealt</xmlelement>. The alternative titles
+        domain uses the new <xmlelement>titlealt</xmlelement> element to define
+        <xmlelement>navtitle</xmlelement> and <xmlelement>searchtitle</xmlelement> as
+        specializations. It also adds the new specializations <xmlelement>linktitle</xmlelement> and
+        <xmlelement>subtitle</xmlelement>.</p>
         </section>
+    <section id="section_f4k_bbn_h5b">
+      <title>Emphasis domain</title>
+      <p>The emphasis domain defines DITA versions of the HTML <xmlelement>em</xmlelement>
+        (emphasis) and <xmlelement>strong</xmlelement> elements. Both elements are specializations
+        of <xmlelement>ph</xmlelement>. These elements have the same semantics as the HTML elements.
+        They serve as an alternative to the elements in the highlight domain.</p>
+    </section>
     </refbody>
 </reference>

@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="new_elements">
-    <title>New elements</title>
-    <shortdesc></shortdesc>
+    <title>New elements and attributes</title>
+    <shortdesc>DITA 2.0 adds a few new base element types and attributes</shortdesc>
     <refbody>
         <section>
             <title><xmlelement>include</xmlelement></title>
-            <p/>
+            <p>Points to non-DITA resources that should be directly included in rendered results.
+        Intended for use with things like code samples that are not opaque binaries or objects used
+        by referenced.</p>
         </section>
         <section>
-            <title><xmlelement>strong</xmlelement> and <xmlelement>em</xmlelement></title>
-            <p/>
-        </section>
+      <title><xmlelement>mapresources</xmlelement></title>
+      <p>New map group domain element that sets <xmlatt>processing-role</xmlatt> to "resource-only"
+        by default. Intended as a general container for resource-only topic references, such as key
+        definitions and topics that contain content used only by content reference. Used in the DITA
+        2.0 Bookmap specialization.</p>
+    </section>
+    <section id="section_ydg_p3n_h5b">
+      <title><xmlelement>audio</xmlelement> and <xmlelement>video</xmlelement></title>
+      <p>New elements for including audio and video, modeled on the HTML
+        <xmlelement>audio</xmlelement> and <xmlelement>video</xmlelement> elements. The new base
+        elements <xmlelement>fallback</xmlelement>, <xmlelement>media-source</xmlelement>, and
+        <xmlelement>media-track</xmlelement> are used within <xmlelement>audio</xmlelement> and
+        <xmlelement>video</xmlelement>.</p>
+    </section>
+    <section id="section_ycb_rtn_h5b">
+      <title><xmlatt>subjectrefs</xmlatt></title>
+      <p>The <xmlatt>subjectrefs</xmlatt> attribute associates <xmlelement>map</xmlelement> and
+        <xmlelement>topicref</xmlelement> elements with subjects defined in subject scheme maps. The
+        <xmlatt>subjectrefs</xmlatt> attribute replaces the classification domain.</p>
+    </section>
     </refbody>
 </reference>
