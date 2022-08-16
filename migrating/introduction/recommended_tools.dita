@@ -2,8 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="recommended_tools">
     <title>Recommended Tools</title>
-    <shortdesc>Applications you should have, plus a few migration tools made by the TC (I
-        hope...).</shortdesc>
+    <shortdesc>The easiest way to determine what must change is to validate your DITA documents
+    against the DITA 2.0 document types. </shortdesc>
     <conbody>
         <p></p>
     </conbody>

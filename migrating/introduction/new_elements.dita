@@ -8,7 +8,7 @@
             <title><xmlelement>include</xmlelement></title>
             <p>Points to non-DITA resources that should be directly included in rendered results.
         Intended for use with things like code samples that are not opaque binaries or objects used
-        by referenced.</p>
+        by reference.</p>
         </section>
         <section>
       <title><xmlelement>mapresources</xmlelement></title>

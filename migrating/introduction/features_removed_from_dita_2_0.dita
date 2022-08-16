@@ -8,8 +8,9 @@
     <refbody>
     <section id="section_vc3_mcn_h5b">
       <title>Overview of removed features</title>
-      <p>DITA 2.0 removes all elements and attributes that were marked as deprecated in DITA
-        1.x.</p>
+      <p>DITA 2.0 removes all elements and attributes that were marked as deprecated in DITA 1.x.
+        This includes the <xmlatt>alt</xmlatt>, <xmlatt>navtitle</xmlatt>, <xmlatt>title</xmlatt>,
+        and <xmlatt>spectitle</xmlatt> attributes as well as <xmlatt>copy-to</xmlatt>.</p>
       <p>DITA 2.0 removes elements and attributes that had little or no adoption.</p>
       <p>If you use any removed element or attribute and you have content and processing that
         depends on it you can develop your own specializations to make that  markup available in
@@ -21,6 +22,8 @@
         <li><xmlelement>topicset</xmlelement> and <xmlelement>topicsetref</xmlelement></li>
         <li><xmlelement>anchor</xmlelement> and <xmlelement>anchorref</xmlelement></li>
         <li><xmlelement>longquoteref</xmlelement></li>
+        <li><xmlelement>sectiondiv</xmlelement> (can be replaced by
+          <xmlelement>div</xmlelement>)</li>
         </ul></p>
         </section>
     <section id="section_wh2_hdn_h5b">
@@ -46,8 +49,6 @@
           <xmlatt>specializations</xmlatt> attribute. The <xmlatt>specializations</xmlatt> attribute
           declares attribute specializations. Element specializations are no longer declared within
           document instance markup.</li>
-        <li>The <xmlatt>outputclass</xmlatt> attribute is now a "universal" attribute, making it
-          available on almost every element.</li>
         </ul></p>
     </section>
         <section>
@@ -71,6 +72,8 @@
                         <xmlelement>topicgroup</xmlelement></li>
         <li><xmlatt>mapkeyref</xmlatt> on <xmlelement>metadata</xmlelement></li>
                 <li><xmlatt>navtitle</xmlatt></li>
+        <li><xmlatt>othertype</xmlatt> and <xmlatt>otherjob</xmlatt> on
+          <xmlelement>audience</xmlelement></li>
                 <li><xmlatt>print</xmlatt></li>
                 <li><xmlatt>query</xmlatt></li>
                 <li><xmlatt>refcols</xmlatt></li>

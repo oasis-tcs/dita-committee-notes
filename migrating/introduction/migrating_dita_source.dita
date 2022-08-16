@@ -1,9 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="migrating_dita_source">
-    <title>Migrating DITA source</title>
+    <title>Migrating DITA content</title>
     <shortdesc>These are the changes you need to make to existing content.</shortdesc>
     <conbody>
-        <p></p>
+        <p>Migrating your maps and topics involves the following activities:<ol id="ol_yzg_hyn_h5b">
+      <li>Determining what removed or changed DITA markup your content uses.</li>
+      <li>For each removed or changed feature, determining how to react: simply remove it or change
+        it?</li>
+      <li>Implementing or provisioning tools and documentation to make the changes.</li>
+      <li>Performing the changes.</li>
+      </ol></p>
+    <p>Most, if not all, DITA tools that support DITA 1.x and 2.0 will support the use of both 1.x
+      and 2.0 content in the same environment. For example, you may decide that it makes the most
+      sense to migrate your DITA maps to use 2.0 markup (for example, to take advantage of the new
+      <xmlatt>chunk</xmlatt> and <xmlelement>resourceid</xmlelement> features), leave your existing
+      topics as DITA 1.x, and only create new topics as DITA 2.0 topics. In any case, you should not
+      be forced to do an all-or-nothing migration to DITA 2.0.</p>
+    <p>If you are using local document type shells you may need to create new DITA 2.0-specific
+      versions of your shells in order to continue using the DITA 1.x versions along with DITA
+      2.0.</p>
+    <p>If you are not using local shells this is a good opportunity to start doing so, creating DITA
+      2.0 shells to use with your new and migrated maps and topics, leaving your 1.x content to use
+      the Technical Committee-defined document type shells.</p>
+    <p>For the vast majority of DITA content the migration from 1.x to 2.0 will likely involve the
+      following changes:<ul id="ul_jbx_mzn_h5b">
+      <li>Converting <xmlelement>linktext</xmlelement> to <xmlelement>keytext</xmlelement> for
+        string key definitions.</li>
+      <li>Converting <xmlelement>substeps</xmlelement> and <xmlelement>substep</xmlelement> to
+        <xmlelement>steps</xmlelement> and <xmlelement>step</xmlelement>.</li>
+      <li>Removing <xmlatt>navtitle</xmlatt> from topic references or converting
+        <xmlatt>navtitle</xmlatt> to <xmlelement>navtitle</xmlelement> within
+        <xmlelement>topicmeta</xmlelement>. <p>For most maps, the use of <xmlatt>navtitle</xmlatt>
+        or <xmlelement>navtitle</xmlelement> on non-topic-head topicrefs is something to be avoided
+        as it can lead to unexpected behavior when the navigation titles authors see in their map
+        editor do not match the published titles, which will come from the referenced topics. In the
+        early days of DITA the use of navigation titles made it easier to edit maps where the
+        editing tool could not practically reflect topic titles in the map editor. But modern DITA
+        editors all provide visual map editors that can reflect topic titles with appropriate
+        performance. In that environment, specifying navigation titles on topic references simply
+        adds complexity and opportunities for error or confusion to maps.</p></li>
+      <li>Converting <xmlatt>alt</xmlatt> on <xmlelement>image</xmlelement> and its specializations
+        to <xmlelement>alt</xmlelement>. As a matter of best accessibility practice, all images
+        should have associated alternative text. The <xmlatt>alt</xmlatt> attribute has been
+        deprecated in favor of the <xmlatt>alt</xmlatt> element since DITA 1.2. Note that
+        <xmlelement>image</xmlelement> elements that use <xmlatt>keyref</xmlatt> to refer to images
+        can get the image alternative text from the key definition.</li>
+      <li>Replacing <xmlatt>copy-to</xmlatt> with the equivalent <xmlelement>resourceid</xmlelement>
+        elements in topic references or with some other processor-defined way to determine the
+        deliverable anchors for specific uses of topics. The <xmlatt>copy-to</xmlatt> feature was
+        always a bad idea, however well intentioned, but it was simply too specific to a particular
+        way of generating HTML-based outputs. The DITA 2.0 <xmlelement>resourceid</xmlelement>
+        enhancements for influencing deliverable anchors address the shortcomings of
+        <xmlatt>copy-to</xmlatt> but they do require both updating your content and configuring or
+        enhancing your processors to use them.<draft-comment author="eliot.kimber">It occurs to me
+        that a cheap and easy implementation of resourceid in OT would be to simply extend the map
+        preprocessing to generate @copy-to for appropriate &lt;resourceid> elements. Looking at the
+        3.7.2 release notes I don't see any indication that anyone is pursuing
+        that.</draft-comment></li>
+      </ul></p>
+    <p>Depending on the specific changes you need to make, the migration can be performed using
+      global search and replace, XQuery updates (for example, using OxygenXML's refactoring feature
+      or an XQuery database such as BaseX or MarkLogic), or XSLT transforms, or even manual changes
+      made by authors as they update maps and topics in the normal course of their work.</p>
+    <p>For example, it took about four hours of effort to migrate the ServiceNow Platform Tokyo
+      release documentation to DITA 2.0, about 40,000 topics. This time included the time required
+      to implement an OxygenXML refactor for migrating <xmlatt>copy-to</xmlatt> to
+      <xmlelement>resourceid</xmlelement>. Except for <xmlatt>copy-to</xmlatt>, all the migration
+      was done using regular expression search and replace. This four hours of effort was the first
+      attempt to migrate the ServiceNow Platform content and does not reflect the time needed to
+      verify the migrated content. The work was done in OxygenXML.</p>
+    <p>Unless you are already using local document type shells and simply update those shells to use
+      the DITA 2.0 versions of the modules they use, you will need to update the DOCTYPE
+      declarations or grammar references in all documents to be migrated to DITA 2.0.</p>
+    <p>For many documents, the easiest way to determine what changes you need to make is to update
+      the DOCTYPE declarations or grammar references to DITA 2.0 document type shells and then
+      validate the documents.</p>
     </conbody>
 </concept>

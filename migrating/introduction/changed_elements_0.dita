@@ -7,6 +7,8 @@
     <section id="section_iwd_b4n_h5b">
       <title>Topic <xmlelement>prolog</xmlelement> and map <xmlelement>topicmeta</xmlelement> use
         <xmlelement>titlealt</xmlelement></title>
+      <p>The <xmlelement>titlealts</xmlelement> element is removed. Alternative titles now go in
+        <xmlelement>prolog</xmlelement> (topics) or <xmlelement>topicmeta</xmlelement> (maps).</p>
       <p>The <xmlelement>prolog</xmlelement> element now allows zero or more
         <xmlelement>titlealt</xmlelement> elements, the new specialization base for
         <xmlelement>navtitle</xmlelement>, <xmlelement>searchtitle</xmlelement>, and
@@ -42,7 +44,7 @@
         </section>
     <section id="section_rn5_vrn_h5b">
       <title>Highlight domain elements allow <xmlatt>keyref</xmlatt></title>
-      <p>The highlight domain elements, which all specialize from <xmlelement>ph</xmlelement> now
+      <p>The highlight domain elements, which all specialize from <xmlelement>ph</xmlelement>, now
         allow <xmlatt>keyref</xmlatt>.</p>
     </section>
     <section id="section_o1c_nln_h5b">
@@ -55,11 +57,11 @@
         <section>
             <title>indexing</title>
             <ul>
-                <li>The elements <xmlelement>add index-see</xmlelement> and
+                <li>The elements <xmlelement>index-see</xmlelement> and
           <xmlelement>index-see-also</xmlelement> from the DITA 1.x indexing domain are now base
           elements.</li>
-                <li>Remove &lt;index-base></li>
-                <li>Remove &lt;index-sort-as></li>
+                <li>Removed &lt;index-base>.</li>
+                <li>Removed &lt;index-sort-as>.</li>
             </ul>
         </section>
         <section>
@@ -104,38 +106,33 @@
                     more <xmlelement>ditavalref</xmlelement> elements after
                         <xmlelement>bookmeta</xmlelement></li>
                 <li>Add a <xmlelement>mapresources</xmlelement> element to the map group domain. The
-                        <xmlelement>mapresources</xmlelement> element will:<ul>
-                        <li>Be specialized from <xmlelement>topicref</xmlelement></li>
-                        <li>Have a content model of:<ul>
-                                <li>Zero or one <xmlelement>topicmeta</xmlelement> elements</li>
-                                <li>Zero or more
-                                        <parameterentity>data.elements.incl</parameterentity>
-                                    elements</li>
-                                <li>Zero or more <xmlelement>topicref</xmlelement> elements</li>
-                            </ul></li>
-                        <li>Have the following attributes: <xmlatt>href</xmlatt>,
-                                <xmlatt>keys</xmlatt>, <xmlatt>keyref</xmlatt>,
-                                <xmlatt>keyscope</xmlatt>, <xmlatt>processing-role</xmlatt>,
-                                <xmlatt>type</xmlatt>, <xmlatt>cascade</xmlatt>,
-                                <xmlatt>scope</xmlatt>, <xmlatt>format</xmlatt>,
-                                <xmlatt>linking</xmlatt>, <xmlatt>toc</xmlatt>,
-                                <xmlatt>search</xmlatt>, and
-                                <parameterentity>univ-atts</parameterentity> attributes</li>
-                        <li>The attributes should have the same values as the corresponding
-                            attributes in <xmlelement>keydef</xmlelement>, with the following
-                            exception: the <xmlatt>keys</xmlatt> attribute is not required.</li>
-                    </ul></li>
-                <li>Modify the content model of <xmlelement>bookmap</xmlelement> to allow zero or
-                    more <xmlelement>mapresources</xmlelement> elements after
-                        <xmlelement>ditavalref</xmlelement></li>
-                <li>Modify the content model of <xmlelement>booklists</xmlelement> to allow zero or
-                    more <xmlelement>amendments</xmlelement></li>
+          <xmlelement>mapresources</xmlelement> element is:<ul>
+          <li>Specialized from <xmlelement>topicref</xmlelement></li>
+          <li>Has a content model of:<ul>
+            <li>Zero or one <xmlelement>topicmeta</xmlelement> elements</li>
+            <li>Zero or more <parameterentity>data.elements.incl</parameterentity> elements</li>
+            <li>Zero or more <xmlelement>topicref</xmlelement> elements</li>
+            </ul></li>
+          <li>Has the following attributes: <xmlatt>href</xmlatt>, <xmlatt>keys</xmlatt>,
+            <xmlatt>keyref</xmlatt>, <xmlatt>keyscope</xmlatt>, <xmlatt>processing-role</xmlatt>,
+            <xmlatt>type</xmlatt>, <xmlatt>cascade</xmlatt>, <xmlatt>scope</xmlatt>,
+            <xmlatt>format</xmlatt>, <xmlatt>linking</xmlatt>, <xmlatt>toc</xmlatt>,
+            <xmlatt>search</xmlatt>, and <parameterentity>univ-atts</parameterentity> attributes
+            with the same defaults as for <xmlelement>keydef</xmlelement> except that
+            <xmlatt>keys</xmlatt> is not required.</li>
+          </ul></li>
+                <li>The <xmlelement>bookmap</xmlelement> element now allows zero or more
+          <xmlelement>mapresources</xmlelement> elements after
+          <xmlelement>ditavalref</xmlelement></li>
+                <li>The <xmlelement>booklists</xmlelement> element allows zero or more
+          <xmlelement>amendments</xmlelement></li>
             </ul>
         </section>
         <section>
             <title>Add <xmlelement>sub</xmlelement> and <xmlelement>sup</xmlelement> to glossary
                 elements</title>
-            <p/>
+            <p>Elements in <xmlelement>glossentry</xmlelement> that allow other inline elements now
+        allow <xmlelement>sub</xmlelement> and <xmlelement>sup</xmlelement>.</p>
         </section>
         <section>
             <title>Ability to nest steps</title>
@@ -146,13 +143,13 @@
         </section>
     <section id="section_h4g_xqn_h5b">
       <title><xmlelement>resourceid</xmlelement> takes over for <xmlatt>copy-to</xmlatt></title>
-      <p>The <xmlatt>copy-to</xmlatt> attribute is removed. To get the effect of
-        <xmlatt>copy-to</xmlatt> as a way to influence the deliverable anchors associated with a
-        topic in a given use context, use the new <xmlatt>appid-role</xmlatt> attribute on
-        <xmlelement>resourceid</xmlelement> with the value of "deliverable-anchor" to create an
-        application-specific resource ID that contributes to the deliverable anchor constructed by
-        the associated processor. See [xref to topic on migrating <xmlatt>copy-to</xmlatt> to
-        <xmlelement>resourceid</xmlelement>].</p>
+      <p>The <xmlatt>copy-to</xmlatt> attribute is removed.</p>
+      <p>To get the effect of <xmlatt>copy-to</xmlatt> as a way to influence the deliverable anchors
+        associated with a topic in a given use context, use the new <xmlatt>appid-role</xmlatt>
+        attribute on <xmlelement>resourceid</xmlelement> with the value of "deliverable-anchor" to
+        create an application-specific resource ID that contributes to the deliverable anchor
+        constructed by the associated processor. See [xref to topic on migrating
+        <xmlatt>copy-to</xmlatt> to <xmlelement>resourceid</xmlelement>].</p>
     </section>
     <section id="section_nkm_k5n_h5b">
       <title><xmlatt>spectitle</xmlatt> removed from <xmlelement>dl</xmlelement>,

@@ -7,7 +7,7 @@
     <refbody>
         <section>
             <title>Alternative titles domain</title>
-            <p>DITA 2.0 generalizes the concept of alternative titles as represented the 1.x base
+            <p>DITA 2.0 generalizes the concept of alternative titles as represented by the 1.x base
         element types <xmlelement>navtitle</xmlelement> and <xmlelement>searchtitle</xmlelement>
         into the new base element type <xmlelement>titlealt</xmlelement>. The alternative titles
         domain uses the new <xmlelement>titlealt</xmlelement> element to define
