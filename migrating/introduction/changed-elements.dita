@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="changed_elements">
+    <title>Changed elements</title>
+    <shortdesc>New elements to support, and existing elements that have been deprecated. Focusing on
+        the easy changes.</shortdesc>
+    <conbody>
+        <p></p>
+        <ul>
+            <li>include</li>
+        </ul>
+    </conbody>
+</concept>
