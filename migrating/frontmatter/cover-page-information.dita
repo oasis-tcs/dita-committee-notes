@@ -45,6 +45,9 @@
                         scope="external">mailto:zoelawson17@hotmail.com</xref>), <xref
                         href="https://www.casenetllc.com/" format="html" scope="external">Casenet
                         LLC</xref></sli>
+        <sli>Eliot Kimber (<xref href="mailto:eliot.kimber@servicenow.com" format="html"
+          scope="external"/>, <xref href="https://www.servicenow.com" format="html" scope="external"
+          >ServiceNow, Inc.</xref></sli>
             </sl>
         </section>
         <section id="additional-artifacts">
@@ -85,7 +88,8 @@
         </section>
         <section id="abstract">
             <title>Abstract</title>
-            <p>&lt;Add an abstract for the committee note here></p>
+            <p>Describes the considerations and processes for migrating DITA 1.x documents, tools,
+        and processes to use DITA 2.0.</p>
         </section>
         <section id="status">
             <title>Status</title>
@@ -104,9 +108,9 @@
             <dl>
                 <dlentry>
                     <dt>[Migrating-DITA2.0-v1.0]</dt>
-                    <dd><cite>Migrating to DITA 2.0</cite> Version 1.0. Edited by Zoe Lawson.
-                            <keyword keyref="stage-date"/>. <keyword keyref="stage"/>. <xref
-                            keyref="this-html"/>. Latest version: <xref keyref="latest-html"/>.</dd>
+                    <dd><cite>Migrating to DITA 2.0</cite> Version 1.0. Edited by Zoe Lawson and
+            Eliot Kimber. <keyword keyref="stage-date"/>. <keyword keyref="stage"/>. <xref
+            keyref="this-html"/>. Latest version: <xref keyref="latest-html"/>.</dd>
                 </dlentry>
             </dl>
         </section>

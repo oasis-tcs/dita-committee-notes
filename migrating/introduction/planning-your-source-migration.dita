@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="planning_your_source_migration">
+    <title>Planning your source migration</title>
+    <shortdesc>To plan your source migration you first need to determine what needs to change and
+    determine what it will take to do the changing.</shortdesc>
+    <conbody>
+        <p>To plan your migration you must answer the following questions:<ul id="ul_sbf_pnd_n5b">
+      <li>Is all the content being migrated?<p>If your DITA environment allows DITA 1.x and 2.0
+        content to be processed together it may not be necessary to migrate all your content in
+        order to start using some DITA 2.0 features. For example, it might make sense to only
+        migrate maps so that you can take advantage of the new <xmlatt>chunk</xmlatt> and
+        <xmlelement>resourceid</xmlelement> features while leaving topics unmodified.</p><p>On the
+        other hand, migration to DITA 2.0 is usually easy enough that there's little reason not to
+        migrate everything in one go.</p></li>
+      <li>How consistent is your content?<p>The more consistent your content is the easier it will
+        be to migrate it cleanly and reliably. You can use tools like the open-source BaseX XQuery
+        database or OxygenXML's global search to inspect your content for elements and attributes
+        that require migration.</p></li>
+      <li>How much content do you have?<p>The sheer volume of content shouldn't affect the time
+        required to perform the migration because modern tools can make changes to even tens of
+        thousands of topics quite quickly.</p><p>A more important consideration is the time required
+        to verify that the result of the migration is correct. This verification can be automated in
+        several ways, including using differencing tools to inspect the changes made but for
+        production content almost certainly human inspection of both the source and key deliverables
+        generated from it will be required. Human inspection is always time consuming, so plan for
+        this effort.</p></li>
+      <li>How is your content managed?<p>If you are managing your content in a source control system
+        like git you can use normal source control features to manage the migrated content separate
+        from your production content, for example by creating a git branch to hold migrated content
+        while you implement and verify you migration process and results.</p><p>If you are managing
+        your content in a CCMS it may be necessary to export your DITA 1.x content in order to
+        implement and test your migration before committing the result back to the CCMS. Or your
+        CCMS may offer content migration features.</p></li>
+      <li>Is tool migration required?<p>If you are using the latest versions of Open Toolkit and
+        your DITA-aware editor then it is likely that no additional effort is required but if you
+        are currently using older versions of tools that predate DITA 2.0 you may need to migrate
+        those tools before your DITA 2.0 content can be edited, managed, or published.</p></li>
+      <li>What DITA 2.0 training do authors require?<p>While DITA 2.0 is not too different from DITA
+        1.x there are differences that will affect authors. You should plan for developing and
+        delivering any new or changed author training required by the migration to DITA
+        2.0.</p></li>
+      </ul></p>
+    <p>For many organizations migrating from DITA 1.x to 2.0 the migration of the content itself
+      will often be the easiest part. Coordinating the migration in the context of ongoing
+      development and publishing processes, as well as providing appropriate author support will
+      often be the greatest challenge in a migration effort.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="changed_attributes_0">
+    <title>Changed attributes</title>
+    <shortdesc></shortdesc>
+    <refbody>
+        <section>
+            <title><xmlatt>outputclass</xmlatt> is universal</title>
+            <p>The <xmlatt>outputclass</xmlatt> attribute can occur on any element, including
+        elements in DITAVAL documents.</p>
+        </section>
+        <section>
+            <title><xmlatt>audience</xmlatt>, <xmlatt>platform</xmlatt>, <xmlatt>product</xmlatt>,
+                and <xmlatt>otherprops</xmlatt> are specialized from <xmlatt>props</xmlatt></title>
+            <p>The conditional attributes <xmlatt>audience</xmlatt>, <xmlatt>otherprops</xmlatt>,
+        <xmlatt>platform</xmlatt>, and <xmlatt>product</xmlatt> are now formally specialized from
+        <xmlatt>props</xmlatt>.</p>
+        </section>
+        <section>
+            <title><xmlatt>chunk</xmlatt></title>
+            <p>The values and processing expectations for <xmlatt>chunk</xmlatt> are simplified,
+        reflecting the way most DITA users actually used chunking and simplifying the processing
+        required by the chunking feature.</p>
+        </section>
+    <section id="section_udw_c5n_h5b">
+      <title><xmlatt>scale</xmlatt></title>
+      <p>The <xmlatt>scale</xmlatt> attribute has been adjusted to make it more consistent on the
+        various elements that allow it.</p>
+    </section>
+    </refbody>
+</reference>

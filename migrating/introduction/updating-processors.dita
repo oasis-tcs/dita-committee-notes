@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="updating_processors">
+    <title>Migrating DITA Tools</title>
+    <shortdesc>If you develop tools to store, publish, or work with DITA, use this section to help
+        plan updates to your tools to make them compliant with DITA 2.0 </shortdesc>
+    <conbody>
+        <p></p>
+    </conbody>
+</concept>
