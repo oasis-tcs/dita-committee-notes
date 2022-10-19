@@ -91,7 +91,13 @@
   </topicmeta>
   <keydef keys="tc-comment" format="html" scope="external"
    href="https://www.oasis-open.org/committees/comments/index.php?wg_abbrev=dita"/>
+    <keydef keys="oasis-dita-tc-homepage" format="html" scope="external"
+      href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita#technical"/>
   <keydef keys="oasis-ipr" format="html" scope="external"
    href="https://www.oasis-open.org/policies-guidelines/ipr"/>
+    <keydef keys="oasis-open" format="html" scope="external"
+      href="https://www.oasis-open.org/"/>
+    <keydef keys="oasis-trademark-policy" format="html" scope="external"
+      href="https://www.oasis-open.org/policies-guidelines/trademark"/>
  </topichead>
 </map>

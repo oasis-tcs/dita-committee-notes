@@ -41,13 +41,14 @@
         <section id="editors">
             <title>Editors</title>
             <sl>
-                <sli>Zoe Lawson (<xref href="mailto:zoelawson17@hotmail.com" format="com"
-                        scope="external">mailto:zoelawson17@hotmail.com</xref>), <xref
+                <sli>Zöe Lawson (<xref href="mailto:zoelawson17@hotmail.com" format="com"
+                        scope="external">zoelawson17@hotmail.com</xref>), <xref
                         href="https://www.casenetllc.com/" format="html" scope="external">Casenet
                         LLC</xref></sli>
-        <sli>Eliot Kimber (<xref href="mailto:eliot.kimber@servicenow.com" format="html"
-          scope="external"/>, <xref href="https://www.servicenow.com" format="html" scope="external"
-          >ServiceNow, Inc.</xref></sli>
+        <sli>Eliot Kimber (<xref href="mailto:eliot.kimber@servicenow.com"
+            format="html" scope="external">eliot.kimber@servicenow.com</xref>), <xref
+            href="https://www.servicenow.com" format="html"
+            scope="external">ServiceNow, Inc.</xref></sli>
             </sl>
         </section>
         <section id="additional-artifacts">
@@ -93,10 +94,16 @@
         </section>
         <section id="status">
             <title>Status</title>
-            <p>This document was last revised or approved by the OASIS Darwin Information Typing
-                Architecture (DITA) TC on the above date. The level of approval is also listed
-                above. Check the “Latest version” location noted above for possible later revisions
-                of this document.</p>
+      <p>This is a Non-Standards Track Work Product. The patent provisions
+        of the OASIS IPR Policy do not apply.</p>
+      <p>This document was last revised or approved by the OASIS Darwin
+        Information Typing Architecture (DITA) TC on the above date. The
+        level of approval is also listed above. Check the "Latest stage"
+        location noted above for possible later revisions of this document.
+        Any other numbered versions and other technical work produced by
+        the Technical Committee (TC) are listed at <xref
+          keyref="oasis-dita-tc-homepage"
+          >https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita#technical</xref></p>
             <p>TC members should send comments on this document to the TC’s email list. Others
                 should send comments to the TC’s public comment list, after subscribing to it by
                 following the instructions at the “Send A Comment” button on the TC’s web page at
@@ -114,5 +121,14 @@
                 </dlentry>
             </dl>
         </section>
+    <section id="notices">
+      <title>Notices</title>
+      <p>Copyright © OASIS Open 2022. All Rights Reserved.</p>
+      <p>Distributed under the terms of the OASIS IPR Policy, [<xref
+          keyref="oasis-ipr"
+          >https://www.oasis-open.org/policies-guidelines/ipr</xref>]. For
+        complete copyright information, please see the Notices
+        appendix.</p>
+    </section>
     </body>
 </topic>
