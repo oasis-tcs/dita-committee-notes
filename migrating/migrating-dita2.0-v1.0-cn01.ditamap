@@ -30,13 +30,15 @@
             processing-role="resource-only"/>
         <notices>
             <topicref href="frontmatter/cover-page-information.dita" toc="no" linking="none"/>
-            <topicref href="frontmatter/notices.dita" toc="no" linking="none"/>
+      <!--<topicref href="frontmatter/notices.dita" toc="no" linking="none"/>-->
         </notices>
     <booklists>
       <toc/>
     </booklists>
     </frontmatter>
     <chapter href="introduction/introduction.ditamap" format="ditamap"/>
+  <appendix href="appendices/informative-references.dita"/>
     <appendix href="acknowledgments/acknowledgments.dita"/>
     <appendix href="revision-history/revision-history.dita"/>
+  <appendix href="frontmatter/notices.dita"/>
 </bookmap>
