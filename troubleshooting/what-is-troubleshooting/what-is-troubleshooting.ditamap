@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>What is troubleshooting?</title>
+    <topicref href="what-is-troubleshooting.dita">
+        <topicref href="components-of-troubleshooting-information.dita"/>
+    <topicref href="corrective-action-information.dita"/>
+        <topicref href="types-of-troubleshooting-information.dita"/>
+    </topicref>
+</map>

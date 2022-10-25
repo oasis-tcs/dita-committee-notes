@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Examples of embedded troubleshooting</title>
+    <topicref href="examples-of-embedded-troubleshooting-information.dita">
+    <topicref href="the-troubleshooting-note.dita"/>
+    <topicref href="step-troubleshooting-information.dita"/>
+        <topicref href="task-troubleshooting-information.dita"/>
+    </topicref>
+</map>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Introduction</title>
+  <topicref href="introduction.dita">
+    <topicref href="what-s-new-in-dita-2-0.dita">
+      <topicref href="new-domains.dita"/>
+      <topicref href="new-elements.dita"/>
+      <topicref href="changed-elements-0.dita"/>
+      <topicref href="changed-attributes-0.dita"/>
+      <topicref href="features-removed-from-dita-2-0.dita"/>
+    </topicref>
+    <topicref href="how-to-use-this-guide.dita"/>
+    <topicref href="planning-your-migration.dita"/>
+  </topicref>
+  <topicref href="migrating-dita-source.dita">
+    <topicref href="planning-your-source-migration.dita"/>
+    <topicref href="before-you-migrate-your-source.dita">
+      <topicref href="recommended-tools.dita"/>
+      <topicref href="analyze-your-source.dita"/>
+    </topicref>
+    <topicref href="migrating-to-dita-2-0.dita">
+      <topicref href="required-deprecate-elements.dita"/>
+      <topicref href="optional-update-to-new-elements.dita"/>
+    </topicref>
+  </topicref>
+  <topicref href="migrating-dita-specializations-and-constraints.dita">
+    <topicref href="planning-your-specialization-and-constraint-migration.dita"/>
+    <topicref href="before-you-migrate-your-specializations-and-constraints.dita"/>
+    <topicref href="changes-to-specializations.dita"/>
+    <topicref href="changes-to-constraints.dita"/>
+    <topicref href="new-items-you-may-want-to-consider-using.dita"/>
+  </topicref>
+  <topicref href="migrating-dita-transforms.dita">
+    <topicref href="planning-our-transform-migration.dita"/>
+    <topicref href="before-you-migrate-your-transforms.dita"/>
+    <topicref href="migrate-your-transforms.dita"/>
+  </topicref>
+  <topicref href="updating-processors.dita">
+    <topicref href="changed-elements.dita"/>
+    <topicref href="changed-attributes.dita"/>
+    <topicref href="changes-to-chunking.dita"/>
+    <topicref href="changes-to-indexing.dita"/>
+  </topicref>
+</map>

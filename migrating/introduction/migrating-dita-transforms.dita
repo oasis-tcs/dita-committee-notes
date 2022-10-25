@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="migrating_dita_transforms">
+    <title>Migrating DITA transforms</title>
+    <shortdesc>You will also need to make changes to your DITA transforms.</shortdesc>
+    <conbody>
+        <p></p>
+    </conbody>
+</concept>

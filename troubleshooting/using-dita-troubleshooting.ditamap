@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Using DITA 2.0 Troubleshooting Version
+      1.0</mainbooktitle>
+        <booktitlealt outputclass="documentStage"><keyword keyref="stage"/></booktitlealt>
+        <booktitlealt outputclass="stageDate"><keyword keyref="stage-date"/></booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <!--KJE: This optional metadata is surfaced ...-->
+        <shortdesc>Using DITA Troubleshooting</shortdesc>
+        <author>OASIS DITA Technical Committee</author>
+        <keywords>
+            <!--KJE: Add optional keywords. These are used to ...-->
+            <keyword>DITA 2.0</keyword>
+            <keyword>troubleshooting</keyword>
+        </keywords>
+        <bookrights>
+            <!--KJE: The year of publication is used in the copyright statement in the PDF footer.-->
+            <copyrfirst>
+                <year>2021</year>
+            </copyrfirst>
+            <bookowner>
+                <organization>OASIS</organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <mapref href="frontmatter/key-definitions.ditamap" format="ditamap"
+            processing-role="resource-only"/>
+        <mapref href="frontmatter/subjectScheme.ditamap" format="ditamap"
+      processing-role="resource-only"/>
+        <notices>
+            <topicref href="frontmatter/cover-page-information.dita" toc="no" linking="none"/>
+            <!--<topicref href="frontmatter/notices.dita" toc="no" linking="none"/>-->
+        </notices>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="introduction/introduction.ditamap" format="ditamap"/>
+    <chapter href="what-is-troubleshooting/what-is-troubleshooting.ditamap" format="ditamap"/>
+    <chapter
+        href="why-troubleshooting-information-is-important/why-troubleshooting-information-is-important.ditamap"
+        format="ditamap"/>
+    <chapter
+    href="dita-troubleshooting-features/dita-troubleshooting-features.ditamap"
+    format="ditamap"/>
+    <chapter href="examples-embedded/examples-of-embedded-troubleshooting.ditamap" format="ditamap"/>
+    <chapter href="examples-topic/examples-of-troubleshooting-topics.ditamap" format="ditamap"/>
+    <appendix href="appendices/references.dita"/>
+    <appendix href="appendices/acknowledgments.dita"/>
+    <appendix href="appendices/revision-history.dita"/> 
+    <appendix href="appendices/notices.dita"/>
+
+</bookmap>

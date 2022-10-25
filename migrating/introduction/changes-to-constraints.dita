@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="changes_to_constraints">
+    <title>Changes to constraints</title>
+    <shortdesc>Some aspects of DITA have been refactored. To most writers there is no change, but
+        how they're referenced has changed. </shortdesc>
+    <conbody>
+        <p></p>
+    </conbody>
+</concept>

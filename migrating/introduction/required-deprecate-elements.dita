@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="required__deprecate_elements">
+    <title>Deprecate elements and attributes</title>
+    <shortdesc>Some elements have been removed. You need to make sure your source no longer contains
+        them.</shortdesc>
+    <conbody>
+        <p></p>
+    </conbody>
+</concept>

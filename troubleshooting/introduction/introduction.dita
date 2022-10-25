@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="introduction">
+    <title>Introduction</title>
+    <body>
+    <draft-comment author="Kristen J Eberlein" time="02 September 2021">
+      <p>At a minimum, I think that this topic should contain the following
+        information:</p>
+      <ul>
+        <li>Information that troubleshooting features were introduced in
+          DITA 1.3 and enhanced in DITA 2.0</li>
+        <li>Fact that this is an update of a white paper produced by the
+          Adoption TC in 2014</li>
+        <li>Thanks to Bob Thomas, for championing the DITA 1.3 features and
+          authoring the white paper</li>
+        <li>Acknowledgement of Dawn Steven's effort in picking up on work
+          that Bob Thomas was unable to complete and championing the DITA
+          2.0 feature of a <xmlelement>diagnostics</xmlelement>
+          element</li>
+      </ul>
+    </draft-comment>
+    <p> </p>
+  </body>
+</topic>

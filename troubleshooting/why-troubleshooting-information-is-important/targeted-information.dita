@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="targeted-information">
+    <title>Providing targeted information for readers experiencing a problem</title>
+    <shortdesc>Robust troubleshooting information is targeted to users experiencing
+        problems.</shortdesc>
+    <body>
+        <p>Information developers recognize that many users seek information only when they
+            experience a problem. First, users become aware of the problem, often because they
+            receive an error message or an outcome that they expected fails to occur (for example,
+                <q>the machine should turn on but does not</q>). Second, users articulate or define
+            the problem, putting it into words (for example, <q>I cannot get this font to change
+                size</q>). At this point, the users begin to search for content that might help them
+            solve the problem.</p>
+        <p>At this stage, the users might be reading the manual, searching for relevant information.
+            However, most manuals <q>pose formidable obstacles to finding problem-solving
+                information.</q><fn><q>Does the Manual Help? An Examination of the Problem-Solving
+                    Support Offered by Manuals,</q>
+                <cite>IEEE Transactions on Professional Communication,</cite> Vol. 39, No. 3,
+                September 1996.</fn>
+        </p>
+        <p>Troubleshooting information that is minimalistic, well-structured, and explicitly
+            targeted to the users experiencing problems can overcome the obstacles posed by
+            traditional manuals.</p>
+    </body>
+</topic>

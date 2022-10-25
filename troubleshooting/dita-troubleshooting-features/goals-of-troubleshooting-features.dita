@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="goals-of-troubleshooting-features">
+    <title>Goals of troubleshooting features</title>
+  <shortdesc>The troubleshooting components of the DITA architecture are
+    designed to provide a structure for troubleshooting information that
+    supports both authors and readers.</shortdesc>
+    <body>
+    <dl>
+      <dlentry>
+        <dt>Ease of authoring</dt>
+        <dd>The DITA troubleshooting components make it easier for writers
+          to author well-structured, minimalistic information that supports
+          error recognition and recovery. The components enables writers to
+          easily follow consistent patterns for troubleshooting information
+          and so create tightly-focused information that helps readers
+          solve specific patterns.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Ease of reading</dt>
+        <dd>Consistent patterns of troubleshooting information enable
+          predictable organization. In combination with robust stylesheets,
+          these patterns can produce titles, icons, and labels that enable
+          readers to quickly locate troubleshooting information.</dd>
+      </dlentry>
+    </dl>
+  </body>
+</topic>

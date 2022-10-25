@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="troubleshooting_topic">
+    <title>Troubleshooting topic</title>
+  <shortdesc>The troubleshooting topic provides strategies for isolating and solving potential problems end users might encounter when using a product. A troubleshooting topic typically answers a "How Do I Identify and Resolve..." question.</shortdesc>
+    <body>
+    <p>In contrast to the embedded troubleshooting elements within task, the troubleshooting topic provides a place for authors to provide robust error diagnostic and recovery information. The troubleshooting topic models the specific structure of typical troubleshooting information, providing semantic elements to contain a description of the problem (<xmlelement>condition</xmlelement>), the reason the problem has occurred (<xmlelement>cause</xmlelement>), and how to fix the problem (<xmlelement>remedy</xmlelement>). Recognizing that some problems may have many causes and therefore many solutions, a single troubleshooting topic may include any number of <xmlelement>cause</xmlelement> and <xmlelement>remedy</xmlelement> elements grouped together within <xmlelement>troubleSolution</xmlelement> elements designed to associate causes with their related solutions. In such situations, users may not readily know which cause applies to their situation, so the troubleshooting topic also allows for a <xmlelement>diagnostics</xmlelement> section that assists users in determining the cause associated with their specific situations.</p>
+    <p>The troubleshooting topic enhances reusability of content across an organization:<ul>
+        <li>Many problems are common across different products. By isolating troubleshooting information into individual topics, authors can more easily select the specific problems for their product they are documenting. Further, the exact mixture of causes may vary across those products. By associating causes and remedies into <xmlelement>troubleSolution</xmlelement> elements, authors can easily reuse only those cause/remedy associations that apply.</li>
+        <li>Many solutions often repeat the steps for performing the task – the problem occurred, perhaps, because the end user didn't follow the written instructions in the first place. However, users in this situation don't necessarily realize they should try again by referencing the task topic, but are looking for troubleshooting information, often found in another portion of a manual or even another document all together. Because <xmlelement>remedy</xmlelement> contains the same <xmlelement>steps</xmlelement>, <xmlelement>steps-unordered</xmlelement>, or <xmlelement>steps-informal</xmlelement> elements used in task topics, authors can easily reuse the same instructions in both places.</li>
+      </ul>
+    </p>
+    <section>
+      <title>Troubleshooting elements</title>
+      <p>All elements within the troubleshooting topic are optional. However, if a <xmlelement>troubleSolution</xmlelement> is provided at least one of <xmlelement>cause</xmlelement> or <xmlelement>remedy</xmlelement> must be included within it. Similarly, if <xmlelement>diagnostics</xmlelement> is included, it must contain at least one of <xmlelement>diagnostics-general</xmlelement> or <xmlelement>diagnostics-steps</xmlelement></p>
+      <dl>
+        <dlentry>
+          <dt><xmlelement>condition</xmlelement>
+          </dt>
+          <dd>Describes the problem. The condition should expand on the title and short description (if included) and provide information such as the observable symptoms of the problem and where and when the problem might occur. </dd>
+        </dlentry>
+        <dlentry>
+          <dt><xmlelement>diagnostics</xmlelement></dt>
+          <dd>Container for related <xmlelement>diagnostics-general</xmlelement> and <xmlelement>diagnostics-steps</xmlelement> elements.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><xmlelement>diagnostics-general</xmlelement>
+          </dt>
+          <dd>Includes non-procedural information (such as a diagnostic table or flowchart) that can help determine which of multiple causes apply to a specific situation. Results of the diagnosis may link to the specific cause-remedy section or stand-alone topic that applies to each result. </dd>
+        </dlentry>
+        <dlentry>
+          <dt><xmlelement>diagnostics-steps</xmlelement>
+          </dt>
+          <dd>Includes step-by-step information that can help determine which of multiple causes apply to a specific situation. Results of each diagnostic step may link to the specific cause-remedy section or stand-alone topic that applies to each result. </dd>
+        </dlentry>
+        <dlentry>
+          <dt><xmlelement>troubleSolution</xmlelement>
+          </dt>
+          <dd>Container for related <xmlelement>cause</xmlelement> and <xmlelement>remedy</xmlelement> elements. </dd>
+        </dlentry>
+        <dlentry>
+          <dt><xmlelement>cause</xmlelement></dt>
+          <dd>Explains the reason that a problem might occur. </dd>
+        </dlentry>
+        <dlentry>
+          <dt><xmlelement>remedy</xmlelement>
+          </dt>
+          <dd>Container for the steps required to resolve the problem. Nest a <xmlelement>steps</xmlelement>, <xmlelement>steps-unordered</xmlelement>, or <xmlelement>steps-informal</xmlelement> element within the <xmlelement>remedy</xmlelement> element to provide step-by-step instructions and descriptions for diagnosing and solving the problem. </dd>
+        </dlentry>
+        <dlentry>
+          <dt><xmlelement>responsibleParty</xmlelement>
+          </dt>
+          <dd>Indicates that the instructions within the <xmlelement>remedy</xmlelement> should be completed by a specific person. </dd>
+        </dlentry>
+      </dl>
+    </section>
+    </body>
+</topic>

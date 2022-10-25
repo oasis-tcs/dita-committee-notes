@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="acknowledgments">
+    <title>Acknowledgments</title>
+    <body>
+        <p>The following individuals were members of the technical committee during the creation of
+            this document, and their contributions are gratefully acknowledged.</p>
+        <sl>
+            <sli>Kristen James Eberlein, Eberlein Consulting LLC</sli>
+            <sli>Nancy Harrison, Individual member</sli>
+            <sli>Dawn Stevens, Comtech Services, Inc.</sli>
+        </sl>
+    <draft-comment author="Kristen J Eberlein" time="02 September 2021">We
+      will add the names of additional TC members who provide feedback,
+      participate in a review, etc.</draft-comment>
+        <p>In addition, the OASIS DITA Technical Committee also would like to recognize the
+            following people for their expertise, insights, and assistance:</p>
+        <sl>
+            <sli>&lt;Name></sli>
+            <sli>&lt;Name></sli>
+        </sl>
+    </body>
+</topic>

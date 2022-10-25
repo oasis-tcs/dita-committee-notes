@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="references">
+    <title>Informative references</title>
+    <body>
+        <!--<p>The following are references to external documents or resources that readers of this document might find useful. </p>-->
+        <p>This appendix contains the references that are used in this document.</p>
+        <p>While any hyperlinks included in this appendix were valid at the time of publication,
+            OASIS cannot guarantee their long-term validity.</p>
+        <dl>
+            <dlentry>
+                <dt>[dita-1.3-troubleshooting]</dt>
+                <dd><cite>DITA 1.3 Feature Article: Using DITA 1.3 Troubleshooting</cite>. Authored
+                    by Bob Thomas on behalf of the OASIS DITA Adoption Committee. Published 03 July
+                    2014. Principal URL: <xref
+                        href="https://www.oasis-open.org/committees/download.php/53516/DITA13TroubleshootingArticle_FINAL_03jul14.pdf"
+                        format="pdf" scope="external"/>.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>[van-der-Meij-1996]</dt>
+                <dd>Hans van der Meij. <q>Does the Manual Help? An Examination of the
+                        Problem-Solving Support Offered by Manuals</q>. <cite>IEEE Transactions on
+                        Professional Communication</cite>. Volume 39, number 3: September 1996.</dd>
+            </dlentry>
+        </dl>
+    </body>
+</topic>

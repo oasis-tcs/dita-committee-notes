@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_s_new_in_dita_2_0">
+    <title>What's new in DITA 2.0</title>
+    <shortdesc>The changes in DITA 2.0 focus on removing deprecated and unused features, reducing
+    complexity, and relaxing some constraints.</shortdesc>
+</concept>

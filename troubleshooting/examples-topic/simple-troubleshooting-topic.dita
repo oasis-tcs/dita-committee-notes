@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="simple_troubleshooting_topic">
+    <title>Simple troubleshooting topic</title>
+    <shortdesc>We cover a simple scenario that can be handled in a
+    troubleshooting topic with a single cause and remedy pair. We will show
+    both the rendered output, XML source, and writing best
+    practices.</shortdesc>
+    <body>
+        <section>
+            <title>Scenario</title>
+            <p>In this example, we cover simple troubleshooting for a tripped circuit breaker. A
+                single <xmlelement>troubleSolution</xmlelement> can be used to document the
+                corrective action.</p>
+            <p>The following information summarizes the problems that the user encounters:</p>
+            <ul>
+                <li>The system is plugged in, the power switch is on, but the system will not
+                    start.</li>
+                <li>This problem is external to the system, and it is almost always due to a tripped
+                    circuit breaker.</li>
+                <li>The system is a low-power consumer product that runs on household
+                    electricity.</li>
+            </ul>
+        </section>
+        <section>
+            <title>Rendered output</title>
+            <p>The following screen capture shows rendered output for the simple troubleshooting
+                topic:</p>
+            <image placement="break" href="../images/simple-tbs-ouput.png"/>
+        </section>
+        <section>
+            <title>XML source</title>
+            <p>The following code block shows the markup for the simple troubleshooting topic.</p>
+            <codeblock><coderef href="../code-samples/system-will-not-turn-on.dita"/></codeblock>
+        </section>
+        <section>
+            <title>Writing best practices</title>
+            <p>The following table provides best practice information for the elements used in the
+                simple troubleshooting topic:</p>
+            <simpletable frame="topbot" relcolwidth="1* 1* 1*">
+                <sthead>
+                    <stentry>Element</stentry>
+                    <stentry>Best practices</stentry>
+                    <stentry>Example</stentry>
+                </sthead>
+                <strow>
+                    <stentry><xmlelement>title</xmlelement></stentry>
+                    <stentry>Describe the problem from the user's point of view. Describe the
+                        symptoms rather than the cause.</stentry>
+                    <stentry>System will not turn on</stentry>
+                </strow>
+                <strow>
+                    <stentry><xmlelement>shortdesc</xmlelement></stentry>
+                    <stentry>Provide additional information or context.</stentry>
+                    <stentry>Everything looks right, but the system still does not start.</stentry>
+                </strow>
+                <strow>
+                    <stentry><xmlelement>condition</xmlelement>/<xmlelement>title</xmlelement></stentry>
+                    <stentry>Use "Condition" for the title unless you have good reason to do
+                        something else. Be consistent from one troubleshooting topic to the next.
+                        Considering having your stylesheets add the title for the
+                            <xmlelement>condition</xmlelement> element.</stentry>
+                    <stentry><b>Condition</b></stentry>
+                </strow>
+                <strow>
+                    <stentry><xmlelement>condition</xmlelement></stentry>
+                    <stentry>Provide simple elaboration on what has already appeared in the topic
+                        title and short description. Only include information that is directly
+                        related to the condition or the symptom that the topic resolves.</stentry>
+                    <stentry>The system is plugged in, the power switch is on, but the system will
+                        not start</stentry>
+                </strow>
+                <strow>
+                    <stentry><xmlelement>cause</xmlelement>/<xmlelement>title</xmlelement></stentry>
+                    <stentry>Use "Cause" for the title unless you have good reason to do
+                        otherwise.</stentry>
+                    <stentry><b>Cause</b></stentry>
+                </strow>
+                <strow>
+                    <stentry><xmlelement>cause</xmlelement></stentry>
+                    <stentry>Describe only the origin of the problem that is resolved by the
+                        remedy.</stentry>
+                    <stentry>The problem is usually due to the power not being supplied to the
+                        system through the electrical outlet. Often, a circuit breaker has been
+                        tripped so that no power is available at the outlet.</stentry>
+                </strow>
+            </simpletable>
+        </section>
+    </body>
+</topic>

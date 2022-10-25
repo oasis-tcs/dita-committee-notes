@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Why troubleshooting information is important</title>
+    <topicref href="why-troubleshooting-information-is-important.dita">
+        <topicref href="targeted-information.dita"/>
+        <topicref href="easy-to-find-information.dita"/>
+    </topicref>
+</map>
