@@ -15,20 +15,21 @@
             <title>Rendered output</title>
             <p>The following screen capture shows the rendered output for the troubleshooting
                 note:</p>
-            <image placement="break" href="../images/troubleshooting-note-output.png"/>
+            <image placement="break"
+        href="../images/troubleshooting-note-output.png" scale="80"/>
         </section>
         <section>
             <title>XML source</title>
             <p>The following code block shows the markup for the troubleshooting note:</p>
-            <codeblock>&lt;note type="trouble">
+            <codeblock><b>&lt;note type="trouble"></b>
   If certain items are missing from the menus, your installation might be
   configured to hide them. To change this, click 
     &lt;menucascade>
       &lt;uicontrol>Tools&lt;/uicontrol>
       &lt;uicontrol>Preferences&lt;/uicontrol>
       &lt;uicontrol>Full Menus&lt;/uicontrol>
-    &lt;/menucascade>.
-&lt;/note></codeblock>
+    &lt;/menucascade>.<b>
+&lt;/note></b></codeblock>
         </section>
         <section>
             <title>Writing best practices</title>

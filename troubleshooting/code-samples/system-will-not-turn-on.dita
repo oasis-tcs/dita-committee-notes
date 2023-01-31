@@ -1,39 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
-<troubleshooting id="code_simple_tbs_topic">
-    <title>System will not turn on</title>
-    <shortdesc>Everything looks right, but the system still does not start.</shortdesc>
-    <troublebody>
-        <condition>
-            <title>Condition</title>
-            <p>The system is plugged in, the power switch is on, but the system will not start.</p>
-        </condition>
-        <troubleSolution>
-            <cause>
-                <title>Cause</title>
-                <p>The problem is usually due to the power not being supplied to the system through
-                    the electrical outlet. Often, a circuit breaker has been tripped so that no
-                    power is available at the outlet.</p>
-            </cause>
-            <remedy>
-                <title>Remedy</title>
-                <steps>
-                    <stepsection>
-                        <note type="warning">If you do not know how to reset circuit breakers, do
-                            not attempt to fix this problem. Find someone qualified to perform the
-                            task.</note>
-                    </stepsection>
-                    <step>
-                        <cmd>Turn the system power switch in <uicontrol>OFF</uicontrol>.</cmd>
-                    </step>
-                    <step>
-                        <cmd>Reset the breaker.</cmd>
-                    </step>
-                    <step>
-                        <cmd>Turn the system power switch to <uicontrol>ON</uicontrol>.</cmd>
-                    </step>
-                </steps>
-            </remedy>
-        </troubleSolution>
-    </troublebody>
+<troubleshooting id="system-will-not-turn-on">
+  <title>System will not turn on</title>
+  <shortdesc>Everything looks right, but the system still does not start.</shortdesc>
+  <troublebody>
+    <condition>
+      <title>Condition</title>
+      <p>The system is plugged in, the power switch is on, but the system does not start.</p>
+    </condition>
+    <troubleSolution>
+      <cause>
+        <title>Cause</title>
+        <p>The problem is usually caused due to power not being supplied through the 
+           electrical outlet. Often, a circuit breaker has been tripped.</p>
+      </cause>
+      <remedy>
+        <title>Remedy</title>
+        <responsibleParty>IT technical support</responsibleParty>
+        <steps>
+          <step><cmd>Turn the system power switch to <uicontrol>Off</uicontrol>.</cmd></step>
+          <step><cmd>Reset the circuit breaker.</cmd></step>
+          <step><cmd>Turn the system power switch to <uicontrol>On</uicontrol>.</cmd></step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+  </troublebody>
 </troubleshooting>

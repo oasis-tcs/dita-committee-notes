@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA 2.0 Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="car-makes-funny-noises">
+  <title>Car is making funny noises.</title>
+  <shortdesc>You probably know how your vehicle sounds when it’s running
+    properly. Listening to your car can help you troubleshoot problems. If
+    you hear a strange sound, pay attention and react
+    accordingly.</shortdesc>
+  <troublebody>
+    <diagnostics>
+      <diagnostics-general>
+        <simpletable frame="all" relcolwidth="1* 1*">
+          <sthead>
+            <stentry>Symptom</stentry>
+            <stentry>Probable Cause</stentry>
+          </sthead>
+          <strow>
+            <stentry>Clunking noise on bumps only</stentry>
+            <stentry><xref href="#./checkstruts"/></stentry>
+          </strow>
+          <strow>
+            <stentry>Continuous clunking noise</stentry>
+            <stentry><xref href="#./checkballjoints"/></stentry>
+          </strow>
+          <strow>
+            <stentry>Ticks when in neutral</stentry>
+            <stentry><xref href="#./checkexhaust"/></stentry>
+          </strow>
+          <strow>
+            <stentry>Ticks only in reverse</stentry>
+            <stentry><xref href="#./checkbrakes"/></stentry>
+          </strow>
+          <strow>
+            <stentry>Ticks in turns and curves</stentry>
+            <stentry><xref href="#./checkcvjoint"/></stentry>
+          </strow>
+          <strow>
+            <stentry>Only ticks when cold</stentry>
+            <stentry><xref href="#./checkcatalyticconverter"/></stentry>
+          </strow>
+          <strow>
+            <stentry>Ticks only at slow speed</stentry>
+            <stentry><xref href="#./checkwheels"/></stentry>
+          </strow>
+        </simpletable>
+      </diagnostics-general>
+    </diagnostics>
+    <troubleSolution>
+      <remedy id="checkstruts">
+        <title>Checking the struts</title>
+        <steps>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <!-- ... -->
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <remedy id="checkballjoints">
+        <title>Checking the ball joints</title>
+        <steps>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <!-- ... -->
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <remedy id="checkexhaust">
+        <title>Checking the exhaust</title>
+        <steps>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <!-- ... -->
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <remedy id="checkbrakes">
+        <title>Checking the brakes</title>
+        <steps>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <!-- ... -->
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <remedy id="checkcvjoint">
+        <title>Checking the CV joints</title>
+        <steps>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <!-- ... -->
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <remedy id="checkcatalyticconverter">
+        <title>Checking the catalytic converter</title>
+        <steps>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <!-- ... -->
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <remedy id="checkwheels">
+        <title>Checking the wheels</title>
+        <steps>
+          <step>
+            <cmd>...</cmd>
+          </step>
+          <!-- ... -->
+        </steps>
+      </remedy>
+    </troubleSolution>
+  </troublebody>
+</troubleshooting>

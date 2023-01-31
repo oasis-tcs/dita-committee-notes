@@ -9,24 +9,24 @@
     <body>
         <section>
             <title>Scenario</title>
-            <p>In this example, we cover simple troubleshooting for a tripped circuit breaker. A
-                single <xmlelement>troubleSolution</xmlelement> can be used to document the
-                corrective action.</p>
+            <p>In this example, we cover simple troubleshooting for a
+        low-power consumer product that runs on household electricity. A
+        single <xmlelement>troubleSolution</xmlelement> element can be used
+        to document the corrective action.</p>
             <p>The following information summarizes the problems that the user encounters:</p>
             <ul>
                 <li>The system is plugged in, the power switch is on, but the system will not
                     start.</li>
                 <li>This problem is external to the system, and it is almost always due to a tripped
                     circuit breaker.</li>
-                <li>The system is a low-power consumer product that runs on household
-                    electricity.</li>
             </ul>
         </section>
         <section>
             <title>Rendered output</title>
             <p>The following screen capture shows rendered output for the simple troubleshooting
                 topic:</p>
-            <image placement="break" href="../images/simple-tbs-ouput.png"/>
+            <image placement="break" href="../images/simple-tbs-ouput.png"
+        scale="80"/>
         </section>
         <section>
             <title>XML source</title>

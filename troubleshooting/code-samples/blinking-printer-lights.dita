@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA 2.0 Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="blinking-lights">
+    <title>Blinking printer lights</title>
+    <shortdesc>The printer indicator lights are blinking, and you are
+    unable to print.</shortdesc>
+    <troublebody>
+        <condition>
+      <p>The printer indicator lights are blinking and you are unable to
+        print.</p>
+    </condition>
+        <diagnostics>
+            <diagnostics-general><p>Use the following table to diagnose the problem.</p><simpletable frame="all" id="light-diagnostics" relcolwidth="1* 2*">
+          <sthead>
+            <stentry>Lights</stentry>
+            <stentry>Issue</stentry>
+          </sthead>
+          <strow>
+            <stentry>
+              <ul>
+                <li>Power light: Flashing</li>
+                <li>Resume light: Off</li>
+              </ul>
+            </stentry>
+            <stentry>The printer is preparing to print. No action is
+              required. The light will stop flashing when the printer has
+              received all data.</stentry>
+          </strow>
+          <strow>
+            <stentry>
+              <ul>
+                <li>Power light: On</li>
+                <li>Resume light: Flashing</li>
+              </ul>
+            </stentry>
+            <stentry>Printer jam. See <xref
+                href="blinking-printer-lights.dita#blinking-lights/jam"
+              />.</stentry>
+          </strow>
+          <strow>
+            <stentry>
+              <ul>
+                <li>Power light: Flashing</li>
+                <li>Resume light: Flashing</li>
+              </ul>
+            </stentry>
+            <stentry>Printer is stalled and needs to be restarted. See
+                <xref href="#./restart"/>.</stentry>
+          </strow>
+          <strow>
+            <stentry>
+              <ul>
+                <li>Left cartridge light: On</li>
+                <li>Right cartridge light: Off</li>
+              </ul>
+            </stentry>
+            <stentry>Low ink. See <xref href="#trouble_olv_gvg_wmb/ink"
+                format="dita"/>.</stentry>
+          </strow>
+          <strow>
+            <stentry>
+              <ul>
+                <li>Left cartridge light: On</li>
+                <li>Right cartridge light: Flashing</li>
+              </ul>
+            </stentry>
+            <stentry>Dirty ink cartridge. See <xref
+                href="blinking-printer-lights.dita#blinking-lights/clean"
+              />.</stentry>
+          </strow>
+          <strow>
+            <stentry>
+              <ul>
+                <li>Connection light: Flashes for five seconds</li>
+                <li>Error light: Flashes for five seconds</li>
+              </ul>
+            </stentry>
+            <stentry>The printer has lost connection with the camera while
+              printing. Unplug and replug the camera.</stentry>
+          </strow>
+          <strow>
+            <stentry>
+              <ul>
+                <li>Connection light: On</li>
+                <li>Error light: Flashing</li>
+              </ul>
+            </stentry>
+            <stentry>The camera is not set to the correct mode for
+              transferring photos. Change the camera mode.</stentry>
+          </strow>
+          <strow>
+            <stentry>
+              <ul>
+                <li>Connection light: Off</li>
+                <li>Error light: On</li>
+              </ul>
+            </stentry>
+            <stentry>An unsupported device, such as a mouse, has been
+              connected to the front USB port. Disconnect the unsupported
+              device.</stentry>
+          </strow>
+        </simpletable>
+            </diagnostics-general>
+        </diagnostics>
+        <troubleSolution>
+            <remedy id="jam">
+                <title>Clearing a paper jam </title>
+                <steps>
+                    <step>
+                        <cmd>Turn off the printer.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Remove the rear access door by pressing the handle to the right and
+                            pulling out the door.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Remove any paper that is inside the printer by pulling the paper out
+                            from the back of the printer.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Replace the rear access door.</cmd>
+                    </step>
+                    <step>
+                        <cmd>If the paper jam cannot be removed from the back of the printer, raise
+                            the printer cover, remove the paper jam from the front of the printer,
+                            and then lower the cover.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Turn on the printer and print the document again. </cmd>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+        <troubleSolution>
+            <remedy id="restart">
+                <title>Restarting the printer</title>
+                <steps>
+                    <step>
+                        <cmd>Press the Power button to turn off the printer, and then press the
+                            Power button to restart the printer. </cmd>
+                        <info>Proceed to step 2 if the lights continue to flash.</info>
+                    </step>
+                    <step>
+                        <cmd>Press the Power button to turn off the printer.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Disconnect the printer power cord from the electrical outlet.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Reconnect the printer power cord to the electrical outlet.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Press the Power button to turn on the printer.</cmd>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+        <troubleSolution>
+            <remedy id="clean">
+                <title>Cleaning ink cartridge</title>
+                <steps>
+                    <step>
+                        <cmd>Raise the printer cover, remove the print cartridge on the right, and
+                            then lower the cover.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Follow one of these steps.</cmd>
+                        <choices id="choices_kql_wgh_wmb">
+                            <choice>If the light is flashing: Open the printer cover, replace the
+                                print cartridge that you removed, and then remove the other print
+                                cartridge. Proceed to step 3.</choice>
+                            <choice>If the light is off: There is a problem with the print cartridge
+                                that you removed. Proceed to step 3.</choice>
+                        </choices>
+                    </step>
+                    <step>
+                        <cmd>Manually clean the print cartridge.</cmd>
+                    </step>
+                    <step>
+                        <cmd>After cleaning the print cartridge, reinsert it into the printer. If
+                            the light continues to flash, replace the print cartridge.</cmd>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+        <troubleSolution>
+            <remedy id="ink">
+                <title>Replacing ink cartridge</title>
+                <steps>
+                    <step>
+                        <cmd>Turn on the printer.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Make sure to load the printer with plain, white paper.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Gently grasp the handles on either side of the printer and raise the
+                            ink cartridge access door until it locks in place.</cmd>
+                        <stepresult>The carriage moves to the center of the printer.</stepresult>
+                    </step>
+                    <step>
+                        <cmd>Wait until the carriage is idle and silent before you proceed.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Lift the lid on the ink cartridge slot, then gently push the lid back
+                            until it stops.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Pull up on the ink cartridge to remove it from the slot.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Remove one of the new ink cartridges from its package, being careful to
+                            touch only the black plastic on the cartridge.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Remove the plastic tape from the ink cartridge.</cmd>
+                        <info>
+                            <note type="caution">Do not touch the copper-colored contacts or the ink
+                                nozzles. Do not replace the protective tape on the contacts.
+                                Handling these parts can result in clogs, ink failure, and bad
+                                electrical connections.</note>
+                        </info>
+                    </step>
+                    <step>
+                        <cmd>Hold the ink cartridge by its sides with the nozzles toward the
+                            printer, then slide the ink cartridge forward into the slot.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Close the lid on the ink cartridge slot to secure the ink cartridge in
+                            place.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Repeat the previous steps to install the other ink cartridge if
+                            necessary.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Close the ink cartridge access door.</cmd>
+                        <stepresult>The printer automatically prints an alignment page.</stepresult>
+                    </step>
+                    <step>
+                        <cmd>Wait for the alignment page to fully eject from the printer.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Lift the scanner lid.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Place the alignment page with the print side down on the scanner glass
+                            according to the engraved guides around the glass.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Close the scanner lid and touch OK.</cmd>
+                        <stepresult>The printer aligns the ink cartridges.</stepresult>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+    </troublebody>
+</troubleshooting>

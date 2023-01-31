@@ -2,38 +2,33 @@
 <!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
 <troubleshooting id="code-cannot-log-into-the-system">
   <title>Cannot log into the system</title>
-    <shortdesc>The user cannot log into the system. Multiple solutions
-        exist for the problem, which the user should try in
-        sequence.</shortdesc>
-    <troublebody>
+  <shortdesc>You cannot log into the system. Multiple solutions exist for the problem, 
+             which you should try in sequence.</shortdesc>
+  <troublebody>
+    <troubleSolution>
+      <cause>
+        <title>No user account exists</title>
+        <p>You must have a user account to access the system.</p>
+      </cause>
+      <remedy>
+        <title>Remedy</title>
+          <steps>
+            <step><cmd>Have your customer account number available.</cmd></step>
+            <step><cmd>Go to <xref keyref="new-account"/> to set up a new account.</cmd>
+            </step>
+          </steps>
+        </remedy>
+      </troubleSolution>
       <troubleSolution>
         <cause>
-          <title>No user account exists</title>
-          <p>The system requires that each user have an account to access the system.</p>
+          <title>Forgotten user ID or password</title>
+          <p>You have forgotten your user ID or password.</p>
         </cause>
         <remedy>
           <title>Remedy</title>
             <steps>
-              <step>
-                <cmd>Have your customer account number available.</cmd>
-              </step>
-              <step>
-                <cmd>Go to <xref keyref="create-new-account"/> to set up a new account.</cmd>
-              </step>
-            </steps>
-          </remedy>
-        </troubleSolution>
-        <troubleSolution>
-          <cause>
-            <title>Forgotten user ID or password</title>
-            <p>Forgotten user IDs and passwords can be reset.</p>
-          </cause>
-          <remedy>
-            <title>Remedy</title>
-            <steps>
-              <step>
-                <cmd>Go to <xref keyref="fix-credentials"/> to retrieve your user ID or reset your
-                     password.</cmd>
+              <step><cmd>Go to <xref keyref="fix-credentials"/> to retrieve your user ID
+                         or reset your password.</cmd>
               </step>
             </steps>
           </remedy>
@@ -46,11 +41,8 @@
           <remedy>
             <title>Remedy</title>
             <steps>
-              <step>
-                <cmd>Have your customer order number available.</cmd>
-              </step>
-              <step>
-                <cmd>Contact customer support at <keyword keyref="customer-support-phone-number"/>.</cmd>
+              <step><cmd>Have your customer order number available.</cmd></step>
+              <step><cmd>Contact customer support at <keyword keyref="support"/>.</cmd>
               </step>
             </steps>
           </remedy>
