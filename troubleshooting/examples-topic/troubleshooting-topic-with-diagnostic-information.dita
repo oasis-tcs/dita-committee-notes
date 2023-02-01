@@ -39,16 +39,13 @@
       <title>Rendered output</title><p>The following screen captures show
         the rendered output for the troubleshooting topic that contains
         diagnostic information:</p><image
-        href="../images/diagnostics-output-1.png"/>
-      <image href="../images/diagnostics-output-2.png"/>
-      <image href="../images/diagnostics-output-3.png"/>
-      <image href="../images/diagnostics-output-4.png"/>
-      <image href="../images/diagnostics-output-5.png"/>
-      <image href="../images/diagnostics-output-6.png"/>
+        href="../images/diagnostics-output-1.png" scale="80"/>
+      <image href="../images/diagnostics-flow-chart.png" scale="80"/>
+      <image placement="break" href="../images/diagnostic-steps.png"
+        scale="80"/>
       <image href="../images/diagnostics-output-7.png"/>
       <image href="../images/diagnostics-output-8.png"/>
-      <image href="../images/diagnostics-output-9.png"
-        placement="break"/>
+      <image href="../images/diagnostics-output-9.png" placement="break"/>
     </section>
     <section>
       <title>XML source</title>

@@ -52,7 +52,7 @@
       <p>The following screen capture shows the rendered output for the
         troubleshooting topic that contains multiple solutions:</p>
       <image placement="break"
-        href="../images/multiple-solutions-output.png"/>
+        href="../images/multiple-solutions-output.png" scale="80"/>
     </section>
     <section>
       <title>XML source</title>
@@ -80,32 +80,22 @@
         <strow>
           <stentry><xmlelement>shortdesc</xmlelement></stentry>
           <stentry>Provide additional information or context.</stentry>
-          <stentry>The user cannot log into the system. Multiple solutions
-            exist for the problem, which the user should try in
-            sequence.</stentry>
+          <stentry>You cannot log into the system. Multiple solutions exist
+            for the problem, which you should try in sequence.</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>condition</xmlelement></stentry>
           <stentry>Do not use. All pertinent information about the
             condition is provided in the topic title and short
-              description.<draft-comment author="Kristen J Eberlein"
-              time="02 September 2021">Do we want instead to say "Only use
-              if all pertinent information about the condition cannot be
-              provided in the topic title and short description? If we do
-              make that recommemdation, how would it affect
-              stylesheets?</draft-comment></stentry>
+            description.<!--<draft-comment author="Kristen J Eberlein" time="02 September 2021">Do we want instead to say "Only use if all pertinent information about the condition cannot be provided in the topic title and short description? If we do make that recommemdation, how would it affect stylesheets?</draft-comment>--></stentry>
           <stentry/>
         </strow>
-        <strow>
-          <stentry><xmlelement>cause</xmlelement>/<xmlelement>title</xmlelement></stentry>
-          <stentry>Briefly describe the cause.</stentry>
-          <stentry><b>Forgotten user ID or password</b></stentry>
-        </strow>
+        <!--<strow><stentry><xmlelement>cause</xmlelement>/<xmlelement>title</xmlelement></stentry><stentry>Briefly describe the cause.</stentry><stentry><b>Forgotten user ID or password</b></stentry></strow>-->
         <strow>
           <stentry><xmlelement>cause</xmlelement></stentry>
           <stentry>Describe only the origin of the problem that is resolved
             by the remedy.</stentry>
-          <stentry>Forgotten user IDs or passwords can be reset.</stentry>
+          <stentry>You have forgotten your user ID or password.</stentry>
         </strow>
         <strow>
           <stentry><xmlelement>remedy</xmlelement></stentry>

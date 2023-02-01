@@ -2,23 +2,16 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="introduction">
     <title>Introduction</title>
+  <shortdesc>The troubleshooting features were introduced in DITA 1.3 and
+    later enhanced in DITA 2.0.</shortdesc>
     <body>
-    <draft-comment author="Kristen J Eberlein" time="02 September 2021">
-      <p>At a minimum, I think that this topic should contain the following
-        information:</p>
-      <ul>
-        <li>Information that troubleshooting features were introduced in
-          DITA 1.3 and enhanced in DITA 2.0</li>
-        <li>Fact that this is an update of a white paper produced by the
-          Adoption TC in 2014</li>
-        <li>Thanks to Bob Thomas, for championing the DITA 1.3 features and
-          authoring the white paper</li>
-        <li>Acknowledgement of Dawn Steven's effort in picking up on work
-          that Bob Thomas was unable to complete and championing the DITA
-          2.0 feature of a <xmlelement>diagnostics</xmlelement>
-          element</li>
-      </ul>
-    </draft-comment>
-    <p> </p>
+    <p>This publication focuses on DITA 2.0. It is an update to a white
+      paper authored by Bob Thomas and published by the OASIS DITA Adoption
+      Committee in 2014: <cite>DITA 1.3 Feature Article: Using DITA 1.3
+        Troubleshooting</cite>.</p>
+    <p>For DITA 2.0, the DITA Technical Committee added elements to the
+      content model of the troubleshooting topic to enable technical
+      communicators to provide diagnostic information.</p>
+    <!--<draft-comment author="Kristen J Eberlein" time="02 September 2021"><p>At a minimum, I think that this topic should contain the following information:</p><ul><li>Information that troubleshooting features were introduced in DITA 1.3 and enhanced in DITA 2.0</li><li>Fact that this is an update of a white paper produced by the Adoption TC in 2014</li><li>Thanks to Bob Thomas, for championing the DITA 1.3 features and authoring the white paper</li><li>Acknowledgement of Dawn Steven's effort in picking up on work that Bob Thomas was unable to complete and championing the DITA 2.0 feature of a <xmlelement>diagnostics</xmlelement> element</li></ul></draft-comment>-->
   </body>
 </topic>

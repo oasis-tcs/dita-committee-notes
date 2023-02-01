@@ -17,7 +17,8 @@
             <title>Rendered output</title>
             <p>The following screen capture shows the step troubleshooting information as
                 rendered:</p>
-            <image placement="break" href="../images/step-tbs-output.png"/>
+            <image placement="break" href="../images/step-tbs-output.png"
+        scale="80"/>
         </section>
         <section>
             <title>XML source</title>
@@ -29,11 +30,11 @@
     &lt;choice>&lt;uicontrol>Stand-alone system&lt;/uicontrol>&lt;/choice>
     &lt;choice>&lt;uicontrol>Networked system&lt;/uicontrol>&lt;/choice>
   &lt;/choices>
-  &lt;steptroubleshooting>
+  <b>&lt;steptroubleshooting></b>
       If an error message is displayed, the system configuration
       setting might be wrong. Click &lt;uicontrol>Back&lt;/uicontrol>, and 
       then select the other configuration setting.
-  &lt;/steptroubleshooting>
+  <b>&lt;/steptroubleshooting></b>
 &lt;/step></codeblock>
         </section>
         <section>

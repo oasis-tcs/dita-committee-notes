@@ -13,14 +13,14 @@
    <!--Specifications: The sequence is Working Draft, Committee Specification Draft, Committee Specification Public Review Draft, Committee Specification, Candidate OASIS Standard, and OASIS Standard-->
    <!--See http://docs.oasis-open.org/specGuidelines/ndr/namingDirectives.html#versioning for more information.-->
    <topicmeta>
-    <linktext>Working Draft 01</linktext>
+    <linktext>Working Draft 02</linktext>
    </topicmeta>
   </keydef>
   <keydef keys="stage-date">
    <!--Date of publication-->
    <!--For all stages but Working Draft, this should be the date that the document was approved by the Technical Committee.-->
    <topicmeta>
-    <linktext>13 September 2021</linktext>
+    <linktext>06 January 2023</linktext>
    </topicmeta>
   </keydef>
  </topichead>

@@ -8,22 +8,27 @@
     <body>
         <section>
             <title>Scenario</title>
-            <p>In this scenario, a user follows the steps in a task for updating Web site content,
-                but the new content is not displayed. This might be due to a stale cache on the Web
-                server. The solution is for the user to restart the Web server.</p>
+            <p>In this scenario, a user follows the steps in a task for
+        updating web site content, but the new content is not displayed.
+        This might be due to a stale cache on the web server. The solution
+        is for the user to restart the web server.</p>
         </section>
         <section>
             <title>Rendered output</title>
             <p>The following screen capture shows the output of the task troubleshooting
                 information:</p>
-            <image placement="break" href="../images/task-troubleshooting-output.png"/>
+            <image placement="break"
+        href="../images/task-troubleshooting-output.png" scale="80"/>
         </section>
         <section>
             <title>XML source</title>
             <p>The following code block shows the markup for the task troubleshooting
                 information:</p>
-            <codeblock>&lt;tasktroubleshooting>If the new content is not displayed on the Web site, the Web server
-            might have a stale cache. To fix this, follow the steps in &lt;xref keyref="restarting-web-server"/>.&lt;/tasktroubleshooting></codeblock>
+            <codeblock>&lt;result>The new content now is displayed on the web site.&lt;/result>
+<b>&lt;tasktroubleshooting></b>If the new content is not displayed on the web site, the web server
+                     might have a stale cache. To fix this, follow the steps in 
+                     &lt;xref keyref="restarting-web-server"/>.<b>
+&lt;/tasktroubleshooting></b></codeblock>
         </section>
         <section>
             <title>Writing best practices</title>
@@ -36,15 +41,18 @@
                 </sthead>
                 <strow>
                     <stentry>Condition</stentry>
-                    <stentry>If the new content is not displayed on the Web site ...</stentry>
+                    <stentry>If the new content is not displayed on the web
+            site ...</stentry>
                 </strow>
                 <strow>
                     <stentry>Cause</stentry>
-                    <stentry>… the Web server might have a stale cache.</stentry>
+                    <stentry>… the web server might have a stale
+            cache.</stentry>
                 </strow>
                 <strow>
                     <stentry>Remedy</stentry>
-                    <stentry>To fix this, follow the steps in "Restarting the Web server."</stentry>
+                    <stentry>To fix this, follow the steps in "Restarting
+            the web server."</stentry>
                 </strow>
             </simpletable>
             <p>Writers should limit the content of the

@@ -94,8 +94,8 @@
                 <dlentry>
                     <dt>[dita-tbs]</dt>
                     <dd><cite>Using DITA 2.0 Troubleshooting</cite> Version
-            1.0. Edited by Kristen James Eberlein, Nancy Harrison, and Dawn
-            Stevens. <keyword keyref="stage-date"/>. <keyword
+            1.0. Edited by Kristen James Eberlein, Dawn Stevens, and Nancy
+            Harrison. <keyword keyref="stage-date"/>. <keyword
               keyref="stage"/>.
             <!--<xref keyref="this-html"/>. Latest version: <xref keyref="latest-html"/>.--></dd>
                 </dlentry>
@@ -103,7 +103,7 @@
         </section>
         <section id="notices">
             <title>Notices</title>
-            <p>Copyright © OASIS Open 2021. All Rights Reserved.</p>
+            <p>Copyright © OASIS Open 2023. All Rights Reserved.</p>
             <p>Distributed under the terms of the OASIS IPR Policy, <xref keyref="oasis-ipr"/>. For
                 complete copyright information, please see the <xref href="../appendices/notices.dita"
                 /> section in the Appendix.</p>
