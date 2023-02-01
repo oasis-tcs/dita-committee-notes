@@ -54,14 +54,7 @@
                     <stentry>Provide additional information or context.</stentry>
                     <stentry>Everything looks right, but the system still does not start.</stentry>
                 </strow>
-                <strow>
-                    <stentry><xmlelement>condition</xmlelement>/<xmlelement>title</xmlelement></stentry>
-                    <stentry>Use "Condition" for the title unless you have good reason to do
-                        something else. Be consistent from one troubleshooting topic to the next.
-                        Considering having your stylesheets add the title for the
-                            <xmlelement>condition</xmlelement> element.</stentry>
-                    <stentry><b>Condition</b></stentry>
-                </strow>
+        <!--<strow><stentry><xmlelement>condition</xmlelement>/<xmlelement>title</xmlelement></stentry><stentry>Use "Condition" for the title unless you have good reason to do something else. Be consistent from one troubleshooting topic to the next. Considering having your stylesheets add the title for the <xmlelement>condition</xmlelement> element.</stentry><stentry><b>Condition</b></stentry></strow>-->
                 <strow>
                     <stentry><xmlelement>condition</xmlelement></stentry>
                     <stentry>Provide simple elaboration on what has already appeared in the topic
@@ -70,12 +63,7 @@
                     <stentry>The system is plugged in, the power switch is on, but the system will
                         not start</stentry>
                 </strow>
-                <strow>
-                    <stentry><xmlelement>cause</xmlelement>/<xmlelement>title</xmlelement></stentry>
-                    <stentry>Use "Cause" for the title unless you have good reason to do
-                        otherwise.</stentry>
-                    <stentry><b>Cause</b></stentry>
-                </strow>
+        <!--<strow><stentry><xmlelement>cause</xmlelement>/<xmlelement>title</xmlelement></stentry><stentry>Use "Cause" for the title unless you have good reason to do otherwise.</stentry><stentry><b>Cause</b></stentry></strow>-->
                 <strow>
                     <stentry><xmlelement>cause</xmlelement></stentry>
                     <stentry>Describe only the origin of the problem that is resolved by the
@@ -84,6 +72,12 @@
                         system through the electrical outlet. Often, a circuit breaker has been
                         tripped so that no power is available at the outlet.</stentry>
                 </strow>
+        <strow>
+          <stentry><xmlelement>remedy</xmlelement></stentry>
+          <stentry>Describe how to resolve the problem.</stentry>
+          <stentry>Step-by-step instructions for resolving the
+            problem.</stentry>
+        </strow>
             </simpletable>
         </section>
     </body>
