@@ -11,41 +11,35 @@
         <p>You must have a user account to access the system.</p>
       </cause>
       <remedy>
-        <title>Remedy</title>
-          <steps>
-            <step><cmd>Have your customer account number available.</cmd></step>
-            <step><cmd>Go to <xref keyref="new-account"/> to set up a new account.</cmd>
-            </step>
-          </steps>
-        </remedy>
-      </troubleSolution>
-      <troubleSolution>
-        <cause>
-          <title>Forgotten user ID or password</title>
-          <p>You have forgotten your user ID or password.</p>
-        </cause>
-        <remedy>
-          <title>Remedy</title>
-            <steps>
-              <step><cmd>Go to <xref keyref="fix-credentials"/> to retrieve your user ID
-                         or reset your password.</cmd>
-              </step>
-            </steps>
-          </remedy>
-        </troubleSolution>
-        <troubleSolution>
-          <cause>
-            <title>Contact support</title>
-            <p>There is an unidentified cause for this solution.</p>
-          </cause>
-          <remedy>
-            <title>Remedy</title>
-            <steps>
-              <step><cmd>Have your customer order number available.</cmd></step>
-              <step><cmd>Contact customer support at <keyword keyref="support"/>.</cmd>
-              </step>
-            </steps>
-          </remedy>
-        </troubleSolution>
-    </troublebody>
+        <steps>
+          <step><cmd>Have your customer account number available.</cmd></step>
+          <step><cmd>Go to <xref keyref="new-account"/> to set up a new account.</cmd></step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <cause>
+        <title>Forgotten user ID or password</title>
+        <p>You have forgotten your user ID or password.</p>
+      </cause>
+      <remedy>
+        <steps>
+          <step><cmd>Go to <xref keyref="fix-credentials"/> to retrieve your user ID
+                     or reset your password.</cmd></step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <cause>
+        <title>Contact support</title>
+        <p>There is an unidentified cause for this solution.</p>
+      </cause>
+      <remedy>
+        <steps>
+          <step><cmd>Have your customer order number available.</cmd></step>
+          <step><cmd>Contact customer support at <keyword keyref="support"/>.</cmd></step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+  </troublebody>
 </troubleshooting>

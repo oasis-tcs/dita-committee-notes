@@ -10,13 +10,10 @@
     </condition>
     <troubleSolution>
       <cause>
-        <title>Cause</title>
         <p>The problem is usually caused due to power not being supplied through the 
            electrical outlet. Often, a circuit breaker has been tripped.</p>
       </cause>
       <remedy>
-        <title>Remedy</title>
-        <responsibleParty>IT technical support</responsibleParty>
         <steps>
           <step><cmd>Turn the system power switch to <uicontrol>Off</uicontrol>.</cmd></step>
           <step><cmd>Reset the circuit breaker.</cmd></step>
